@@ -1,0 +1,659 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>|</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MATRICULA_SUL.CSV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_OUTRO_LOCAL_AULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSPORTE_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_VANS_KOMBI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_MICRO_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_BICICLETA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TR_ANIMAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_OUTRO_VEICULO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_ATE5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_5A15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_15A35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TREM_METRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_SINDROME_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_SINDROME_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_TRANSTORNO_DI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LEDOR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_TRANSCRICAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_INTERPRETE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LABIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_RECURSO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_INGRESSO_FEDERAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID_MATRICULA" selected="True" type="Int32" size="4" />
+            <SelectField field="NU_IDADE_REFERENCIA" selected="True" type="Int32" size="4" />
+            <SelectField field="NU_IDADE" selected="True" type="Int32" size="4" />
+            <SelectField field="TP_ETAPA_ENSINO" selected="True" type="Int32" size="4" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="522" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">ID_MATRICULA=False,NU_IDADE_REFERENCIA=True,NU_IDADE=True,TP_ETAPA_ENSINO=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_c77e3965db2c427b863c76ea2fb1222d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_6c8995e527754d6da04c7e3ffa57ab99_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="522" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="FrequencyFields">&lt;Field field="NU_IDADE_REFERENCIA" selected="True" /&gt;&lt;Field field="NU_IDADE" selected="True" /&gt;&lt;Field field="TP_ETAPA_ENSINO" selected="True" /&gt;&lt;Field field="*Unknown" selected="False" /&gt;</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Frequency.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_ab01e110658141638cf3c5ed6b862f59_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_ea7be7f5b9564050b07be0015eeccfad_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NU_ANO_CENSO" selected="False" />
+            <SelectField field="CO_PESSOA_FISICA" selected="False" />
+            <SelectField field="NU_DIA" selected="False" />
+            <SelectField field="NU_MES" selected="False" />
+            <SelectField field="NU_ANO" selected="False" />
+            <SelectField field="NU_DURACAO_TURMA" selected="False" />
+            <SelectField field="NU_DUR_ATIV_COMP_MESMA_REDE" selected="False" />
+            <SelectField field="NU_DUR_ATIV_COMP_OUTRAS_REDES" selected="False" />
+            <SelectField field="NU_DUR_AEE_MESMA_REDE" selected="False" />
+            <SelectField field="NU_DUR_AEE_OUTRAS_REDES" selected="False" />
+            <SelectField field="NU_DIAS_ATIVIDADE" selected="False" />
+            <SelectField field="TP_SEXO" selected="False" />
+            <SelectField field="TP_COR_RACA" selected="False" />
+            <SelectField field="TP_NACIONALIDADE" selected="False" />
+            <SelectField field="CO_PAIS_ORIGEM" selected="False" />
+            <SelectField field="CO_UF_NASC" selected="False" />
+            <SelectField field="CO_MUNICIPIO_NASC" selected="False" />
+            <SelectField field="CO_UF_END" selected="False" />
+            <SelectField field="CO_MUNICIPIO_END" selected="False" />
+            <SelectField field="TP_ZONA_RESIDENCIAL" selected="False" />
+            <SelectField field="TP_OUTRO_LOCAL_AULA" selected="False" />
+            <SelectField field="IN_TRANSPORTE_PUBLICO" selected="False" />
+            <SelectField field="TP_RESPONSAVEL_TRANSPORTE" selected="False" />
+            <SelectField field="IN_TRANSP_VANS_KOMBI" selected="False" />
+            <SelectField field="IN_TRANSP_MICRO_ONIBUS" selected="False" />
+            <SelectField field="IN_TRANSP_ONIBUS" selected="False" />
+            <SelectField field="IN_TRANSP_BICICLETA" selected="False" />
+            <SelectField field="IN_TRANSP_TR_ANIMAL" selected="False" />
+            <SelectField field="IN_TRANSP_OUTRO_VEICULO" selected="False" />
+            <SelectField field="IN_TRANSP_EMBAR_ATE5" selected="False" />
+            <SelectField field="IN_TRANSP_EMBAR_5A15" selected="False" />
+            <SelectField field="IN_TRANSP_EMBAR_15A35" selected="False" />
+            <SelectField field="IN_TRANSP_EMBAR_35" selected="False" />
+            <SelectField field="IN_TRANSP_TREM_METRO" selected="False" />
+            <SelectField field="IN_NECESSIDADE_ESPECIAL" selected="False" />
+            <SelectField field="IN_CEGUEIRA" selected="False" />
+            <SelectField field="IN_BAIXA_VISAO" selected="False" />
+            <SelectField field="IN_SURDEZ" selected="False" />
+            <SelectField field="IN_DEF_AUDITIVA" selected="False" />
+            <SelectField field="IN_SURDOCEGUEIRA" selected="False" />
+            <SelectField field="IN_DEF_FISICA" selected="False" />
+            <SelectField field="IN_DEF_INTELECTUAL" selected="False" />
+            <SelectField field="IN_DEF_MULTIPLA" selected="False" />
+            <SelectField field="IN_AUTISMO" selected="False" />
+            <SelectField field="IN_SINDROME_ASPERGER" selected="False" />
+            <SelectField field="IN_SINDROME_RETT" selected="False" />
+            <SelectField field="IN_TRANSTORNO_DI" selected="False" />
+            <SelectField field="IN_SUPERDOTACAO" selected="False" />
+            <SelectField field="IN_RECURSO_LEDOR" selected="False" />
+            <SelectField field="IN_RECURSO_TRANSCRICAO" selected="False" />
+            <SelectField field="IN_RECURSO_INTERPRETE" selected="False" />
+            <SelectField field="IN_RECURSO_LIBRAS" selected="False" />
+            <SelectField field="IN_RECURSO_LABIAL" selected="False" />
+            <SelectField field="IN_RECURSO_BRAILLE" selected="False" />
+            <SelectField field="IN_RECURSO_AMPLIADA_16" selected="False" />
+            <SelectField field="IN_RECURSO_AMPLIADA_20" selected="False" />
+            <SelectField field="IN_RECURSO_AMPLIADA_24" selected="False" />
+            <SelectField field="IN_RECURSO_NENHUM" selected="False" />
+            <SelectField field="TP_INGRESSO_FEDERAIS" selected="False" />
+            <SelectField field="TP_MEDIACAO_DIDATICO_PEDAGO" selected="False" />
+            <SelectField field="IN_ESPECIAL_EXCLUSIVA" selected="False" />
+            <SelectField field="IN_REGULAR" selected="False" />
+            <SelectField field="IN_EJA" selected="False" />
+            <SelectField field="IN_PROFISSIONALIZANTE" selected="False" />
+            <SelectField field="ID_TURMA" selected="False" />
+            <SelectField field="CO_CURSO_EDUC_PROFISSIONAL" selected="False" />
+            <SelectField field="TP_UNIFICADA" selected="False" />
+            <SelectField field="TP_TIPO_TURMA" selected="False" />
+            <SelectField field="CO_ENTIDADE" selected="False" />
+            <SelectField field="CO_REGIAO" selected="False" />
+            <SelectField field="CO_MESORREGIAO" selected="False" />
+            <SelectField field="CO_MICRORREGIAO" selected="False" />
+            <SelectField field="CO_UF" selected="False" />
+            <SelectField field="CO_MUNICIPIO" selected="False" />
+            <SelectField field="CO_DISTRITO" selected="False" />
+            <SelectField field="TP_DEPENDENCIA" selected="False" />
+            <SelectField field="TP_LOCALIZACAO" selected="False" />
+            <SelectField field="TP_CATEGORIA_ESCOLA_PRIVADA" selected="False" />
+            <SelectField field="IN_CONVENIADA_PP" selected="False" />
+            <SelectField field="TP_CONVENIO_PODER_PUBLICO" selected="False" />
+            <SelectField field="IN_MANT_ESCOLA_PRIVADA_EMP" selected="False" />
+            <SelectField field="IN_MANT_ESCOLA_PRIVADA_ONG" selected="False" />
+            <SelectField field="IN_MANT_ESCOLA_PRIVADA_SIND" selected="False" />
+            <SelectField field="IN_MANT_ESCOLA_PRIVADA_SIST_S" selected="False" />
+            <SelectField field="IN_MANT_ESCOLA_PRIVADA_S_FINS" selected="False" />
+            <SelectField field="TP_REGULAMENTACAO" selected="False" />
+            <SelectField field="TP_LOCALIZACAO_DIFERENCIADA" selected="False" />
+            <SelectField field="IN_EDUCACAO_INDIGENA" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="234" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[TP_ETAPA_ENSINO] = 4 OR
+[TP_ETAPA_ENSINO] = 5 OR
+[TP_ETAPA_ENSINO] = 6 OR
+[TP_ETAPA_ENSINO] = 7 OR
+[TP_ETAPA_ENSINO] = 8 OR
+[TP_ETAPA_ENSINO] = 9 OR
+[TP_ETAPA_ENSINO] = 10 OR
+[TP_ETAPA_ENSINO] = 11 OR
+[TP_ETAPA_ENSINO] = 14 OR
+[TP_ETAPA_ENSINO] = 15 OR
+[TP_ETAPA_ENSINO] = 16 OR
+[TP_ETAPA_ENSINO] = 17 OR
+[TP_ETAPA_ENSINO] = 18 OR
+[TP_ETAPA_ENSINO] = 19 OR
+[TP_ETAPA_ENSINO] = 20 OR
+[TP_ETAPA_ENSINO] = 21 OR
+[TP_ETAPA_ENSINO] = 41 OR
+[TP_ETAPA_ENSINO] = 65 OR
+[TP_ETAPA_ENSINO] = 69 OR
+[TP_ETAPA_ENSINO] = 70 OR
+[TP_ETAPA_ENSINO] = 73</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-08-15 21:23:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-08-15 21:23:02</StartDate>
+              <EndDate>2018-08-15 21:23:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TP_ETAPA_ENSINO] = 4 OR
+[TP_ETAPA_ENSINO] = 5 OR
+[TP_ETAPA_ENSINO] = 6 OR
+[TP_E...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="414" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings>
+        <Position x="414" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="726" y="6" width="360" height="384" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>4	Ensino Fundamental de 8 anos - 1ª Série
+5	Ensino Fundamental de 8 anos - 2ª Série
+6	Ensino Fundamental de 8 anos - 3ª Série
+7	Ensino Fundamental de 8 anos - 4ª Série
+8	Ensino Fundamental de 8 anos - 5ª Série
+9	Ensino Fundamental de 8 anos - 6ª Série
+10	Ensino Fundamental de 8 anos - 7ª Série
+11	Ensino Fundamental de 8 anos - 8ª Série
+12	Ensino Fundamental de 8 anos - Multi
+13	Ensino Fundamental de 8 anos - Correção de Fluxo
+14	Ensino Fundamental de 9 anos - 1º Ano
+15	Ensino Fundamental de 9 anos - 2º Ano
+16	Ensino Fundamental de 9 anos - 3º Ano
+17	Ensino Fundamental de 9 anos - 4º Ano
+18	Ensino Fundamental de 9 anos - 5º Ano
+19	Ensino Fundamental de 9 anos - 6º Ano
+20	Ensino Fundamental de 9 anos - 7º Ano
+21	Ensino Fundamental de 9 anos - 8º Ano
+22	Ensino Fundamental de 9 anos - Multi
+23	Ensino Fundamental de 9 anos - Correção de Fluxo
+24	Ensino Fundamental de 8 e 9 anos - Multi 8 e 9 anos
+41	Ensino Fundamental de 9 anos - 9º Ano
+65	EJA - Ensino Fundamental - Projovem Urbano
+69	EJA - Ensino Fundamental -  Anos iniciais
+70	EJA - Ensino Fundamental -  Anos finais
+72	EJA - Ensino Fundamental  - Anos iniciais e Anos finais1
+73	Curso FIC integrado na modalidade EJA – Nível Fundamental (EJA integrada à Educação Profissional de Nível Fundamental)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="6" y="6" width="720" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Filtrando por TP_ETAPA_ENSINO para pegar as matriculas referentes ao Ensino Fundamental, usamos os dados de MATRICULAS_SUL_2017</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Interactive" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Report" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="15" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="False" />
+      <Destination ToolID="16" Connection="Input8" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>MATRICULAS-PESQUISA</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
