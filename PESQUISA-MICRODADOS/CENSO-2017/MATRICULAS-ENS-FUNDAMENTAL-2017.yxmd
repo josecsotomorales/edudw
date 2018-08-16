@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="30" y="54" />
+        <Position x="30" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>MATRICULA_SUL.CSV</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUL.CSV" type="V_String" />
@@ -129,7 +126,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="366" y="66" />
+        <Position x="198" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -151,89 +148,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="4">
-      <GuiSettings>
-        <Position x="522" y="174" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Select Fields">ID_MATRICULA=False,NU_IDADE_REFERENCIA=True,NU_IDADE=True,TP_ETAPA_ENSINO=True</Value>
-          <Value name="Sample Data">False</Value>
-          <Value name="Number">True</Value>
-          <Value name="NNumber">5000</Value>
-          <Value name="Percent">False</Value>
-          <Value name="NPercent">10</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
-    </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="618" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_c77e3965db2c427b863c76ea2fb1222d_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="618" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_6c8995e527754d6da04c7e3ffa57ab99_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
     <Node ToolID="7">
       <GuiSettings>
-        <Position x="522" y="54" />
+        <Position x="462" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -244,19 +161,16 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Frequency.yxmc" />
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="618" y="54" />
+        <Position x="558" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_ab01e110658141638cf3c5ed6b862f59_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8824_cc2ed5ba078b4067b4099c1e8e094711_\Engine_8540_4e7bb379854a413ab3449f62554e38ba_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -280,11 +194,11 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="618" y="114" />
+        <Position x="558" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4920_538d34d48f134c65be70691b0aab64bf_\Engine_8648_ea7be7f5b9564050b07be0015eeccfad_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8824_cc2ed5ba078b4067b4099c1e8e094711_\Engine_8540_9fdafd6e3d8b4998ab9a7e7170b98987_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -308,7 +222,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="198" y="150" />
+        <Position x="186" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -416,7 +330,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="234" y="282" />
+        <Position x="318" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -436,11 +350,7 @@
 [TP_ETAPA_ENSINO] = 19 OR
 [TP_ETAPA_ENSINO] = 20 OR
 [TP_ETAPA_ENSINO] = 21 OR
-[TP_ETAPA_ENSINO] = 41 OR
-[TP_ETAPA_ENSINO] = 65 OR
-[TP_ETAPA_ENSINO] = 69 OR
-[TP_ETAPA_ENSINO] = 70 OR
-[TP_ETAPA_ENSINO] = 73</Expression>
+[TP_ETAPA_ENSINO] = 41</Expression>
           <Mode>Custom</Mode>
           <Simple>
             <Operator>=</Operator>
@@ -473,7 +383,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings>
-        <Position x="414" y="234" />
+        <Position x="558" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -482,15 +392,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="16">
       <GuiSettings>
-        <Position x="414" y="330" />
+        <Position x="558" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -499,15 +406,12 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="726" y="6" width="360" height="384" />
+        <Position x="774" y="54" width="360" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -532,12 +436,7 @@
 22	Ensino Fundamental de 9 anos - Multi
 23	Ensino Fundamental de 9 anos - Correção de Fluxo
 24	Ensino Fundamental de 8 e 9 anos - Multi 8 e 9 anos
-41	Ensino Fundamental de 9 anos - 9º Ano
-65	EJA - Ensino Fundamental - Projovem Urbano
-69	EJA - Ensino Fundamental -  Anos iniciais
-70	EJA - Ensino Fundamental -  Anos finais
-72	EJA - Ensino Fundamental  - Anos iniciais e Anos finais1
-73	Curso FIC integrado na modalidade EJA – Nível Fundamental (EJA integrada à Educação Profissional de Nível Fundamental)</Text>
+41	Ensino Fundamental de 9 anos - 9º Ano</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -553,7 +452,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="6" y="6" width="720" height="40" />
+        <Position x="54" y="54" width="720" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -579,23 +478,7 @@
     </Connection>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="4" Connection="Field Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="14" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="4" Connection="Interactive" />
-      <Destination ToolID="5" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="4" Connection="Reports" />
-      <Destination ToolID="6" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="7" Connection="Report" />
@@ -616,6 +499,10 @@
     <Connection>
       <Origin ToolID="14" Connection="False" />
       <Destination ToolID="16" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
