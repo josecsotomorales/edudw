@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>|</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOCENTES_CO.CSV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ESCOLARIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_NORMAL_MAGISTERIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_FRANCES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_PEDAGOGICAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_OUTRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MESTRADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DOUTORADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_POS_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_CRECHE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_PRE_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ANOS_INICIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ANOS_FINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ENS_MEDIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ED_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ED_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_CAMPO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_AMBIENTAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIR_HUMANOS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIV_SEXUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIR_ADOLESC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_AFRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_CONTRATACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[TP_ETAPA_ENSINO] = 4 OR
+[TP_ETAPA_ENSINO] = 5 OR
+[TP_ETAPA_ENSINO] = 6 OR
+[TP_ETAPA_ENSINO] = 7 OR
+[TP_ETAPA_ENSINO] = 8 OR
+[TP_ETAPA_ENSINO] = 9 OR
+[TP_ETAPA_ENSINO] = 10 OR
+[TP_ETAPA_ENSINO] = 11 OR
+[TP_ETAPA_ENSINO] = 14 OR
+[TP_ETAPA_ENSINO] = 15 OR
+[TP_ETAPA_ENSINO] = 16 OR
+[TP_ETAPA_ENSINO] = 17 OR
+[TP_ETAPA_ENSINO] = 18 OR
+[TP_ETAPA_ENSINO] = 19 OR
+[TP_ETAPA_ENSINO] = 20 OR
+[TP_ETAPA_ENSINO] = 21 OR
+[TP_ETAPA_ENSINO] = 41</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-08-15 21:23:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-08-15 21:23:02</StartDate>
+              <EndDate>2018-08-15 21:23:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[TP_ETAPA_ENSINO] = 4 OR
+[TP_ETAPA_ENSINO] = 5 OR
+[TP_ETAPA_ENSINO] = 6 OR
+[TP_E...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NU_ANO_CENSO" selected="True" />
+            <Field field="CO_PESSOA_FISICA" selected="True" />
+            <Field field="NU_DIA" selected="True" />
+            <Field field="NU_MES" selected="True" />
+            <Field field="NU_ANO" selected="True" />
+            <Field field="NU_IDADE_REFERENCIA" selected="True" />
+            <Field field="NU_IDADE" selected="True" />
+            <Field field="TP_SEXO" selected="True" />
+            <Field field="TP_COR_RACA" selected="True" />
+            <Field field="TP_NACIONALIDADE" selected="True" />
+            <Field field="CO_PAIS_ORIGEM" selected="True" />
+            <Field field="CO_UF_NASC" selected="True" />
+            <Field field="CO_MUNICIPIO_NASC" selected="True" />
+            <Field field="CO_UF_END" selected="True" />
+            <Field field="CO_MUNICIPIO_END" selected="True" />
+            <Field field="TP_ZONA_RESIDENCIAL" selected="True" />
+            <Field field="IN_NECESSIDADE_ESPECIAL" selected="True" />
+            <Field field="IN_CEGUEIRA" selected="True" />
+            <Field field="IN_BAIXA_VISAO" selected="True" />
+            <Field field="IN_SURDEZ" selected="True" />
+            <Field field="IN_DEF_AUDITIVA" selected="True" />
+            <Field field="IN_SURDOCEGUEIRA" selected="True" />
+            <Field field="IN_DEF_FISICA" selected="True" />
+            <Field field="IN_DEF_INTELECTUAL" selected="True" />
+            <Field field="IN_DEF_MULTIPLA" selected="True" />
+            <Field field="TP_ESCOLARIDADE" selected="True" />
+            <Field field="TP_NORMAL_MAGISTERIO" selected="True" />
+            <Field field="TP_SITUACAO_CURSO_1" selected="True" />
+            <Field field="CO_AREA_CURSO_1" selected="True" />
+            <Field field="CO_CURSO_1" selected="True" />
+            <Field field="IN_LICENCIATURA_1" selected="True" />
+            <Field field="IN_COM_PEDAGOGICA_1" selected="True" />
+            <Field field="NU_ANO_INICIO_1" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_1" selected="True" />
+            <Field field="TP_TIPO_IES_1" selected="True" />
+            <Field field="CO_IES_1" selected="True" />
+            <Field field="TP_SITUACAO_CURSO_2" selected="True" />
+            <Field field="CO_AREA_CURSO_2" selected="True" />
+            <Field field="CO_CURSO_2" selected="True" />
+            <Field field="IN_LICENCIATURA_2" selected="True" />
+            <Field field="IN_COM_PEDAGOGICA_2" selected="True" />
+            <Field field="NU_ANO_INICIO_2" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_2" selected="True" />
+            <Field field="TP_TIPO_IES_2" selected="True" />
+            <Field field="CO_IES_2" selected="True" />
+            <Field field="TP_SITUACAO_CURSO_3" selected="True" />
+            <Field field="CO_AREA_CURSO_3" selected="True" />
+            <Field field="CO_CURSO_3" selected="True" />
+            <Field field="IN_LICENCIATURA_3" selected="True" />
+            <Field field="IN_COM_PEDAGOGICA_3" selected="True" />
+            <Field field="NU_ANO_INICIO_3" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_3" selected="True" />
+            <Field field="TP_TIPO_IES_3" selected="True" />
+            <Field field="CO_IES_3" selected="True" />
+            <Field field="IN_DISC_QUIMICA" selected="True" />
+            <Field field="IN_DISC_FISICA" selected="True" />
+            <Field field="IN_DISC_MATEMATICA" selected="True" />
+            <Field field="IN_DISC_BIOLOGIA" selected="True" />
+            <Field field="IN_DISC_CIENCIAS" selected="True" />
+            <Field field="IN_DISC_LINGUA_PORTUGUESA" selected="True" />
+            <Field field="IN_DISC_LINGUA_INGLES" selected="True" />
+            <Field field="IN_DISC_LINGUA_ESPANHOL" selected="True" />
+            <Field field="IN_DISC_LINGUA_FRANCES" selected="True" />
+            <Field field="IN_DISC_LINGUA_OUTRA" selected="True" />
+            <Field field="IN_DISC_LINGUA_INDIGENA" selected="True" />
+            <Field field="IN_DISC_ARTES" selected="True" />
+            <Field field="IN_DISC_EDUCACAO_FISICA" selected="True" />
+            <Field field="IN_DISC_HISTORIA" selected="True" />
+            <Field field="IN_DISC_GEOGRAFIA" selected="True" />
+            <Field field="IN_DISC_FILOSOFIA" selected="True" />
+            <Field field="IN_DISC_ENSINO_RELIGIOSO" selected="True" />
+            <Field field="IN_DISC_ESTUDOS_SOCIAIS" selected="True" />
+            <Field field="IN_DISC_SOCIOLOGIA" selected="True" />
+            <Field field="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" selected="True" />
+            <Field field="IN_DISC_INFORMATICA_COMPUTACAO" selected="True" />
+            <Field field="IN_DISC_PROFISSIONALIZANTE" selected="True" />
+            <Field field="IN_DISC_ATENDIMENTO_ESPECIAIS" selected="True" />
+            <Field field="IN_DISC_DIVER_SOCIO_CULTURAL" selected="True" />
+            <Field field="IN_DISC_LIBRAS" selected="True" />
+            <Field field="IN_DISC_PEDAGOGICAS" selected="True" />
+            <Field field="IN_DISC_OUTRAS" selected="True" />
+            <Field field="IN_ESPECIALIZACAO" selected="True" />
+            <Field field="IN_MESTRADO" selected="True" />
+            <Field field="IN_DOUTORADO" selected="True" />
+            <Field field="IN_POS_NENHUM" selected="True" />
+            <Field field="IN_ESPECIFICO_CRECHE" selected="True" />
+            <Field field="IN_ESPECIFICO_PRE_ESCOLA" selected="True" />
+            <Field field="IN_ESPECIFICO_ANOS_INICIAIS" selected="True" />
+            <Field field="IN_ESPECIFICO_ANOS_FINAIS" selected="True" />
+            <Field field="IN_ESPECIFICO_ENS_MEDIO" selected="True" />
+            <Field field="IN_ESPECIFICO_EJA" selected="True" />
+            <Field field="IN_ESPECIFICO_ED_ESPECIAL" selected="True" />
+            <Field field="IN_ESPECIFICO_ED_INDIGENA" selected="True" />
+            <Field field="IN_ESPECIFICO_CAMPO" selected="True" />
+            <Field field="IN_ESPECIFICO_AMBIENTAL" selected="True" />
+            <Field field="IN_ESPECIFICO_DIR_HUMANOS" selected="True" />
+            <Field field="IN_ESPECIFICO_DIV_SEXUAL" selected="True" />
+            <Field field="IN_ESPECIFICO_DIR_ADOLESC" selected="True" />
+            <Field field="IN_ESPECIFICO_AFRO" selected="True" />
+            <Field field="IN_ESPECIFICO_OUTROS" selected="True" />
+            <Field field="IN_ESPECIFICO_NENHUM" selected="True" />
+            <Field field="TP_TIPO_DOCENTE" selected="True" />
+            <Field field="TP_TIPO_CONTRATACAO" selected="True" />
+            <Field field="ID_TURMA" selected="True" />
+            <Field field="TP_TIPO_TURMA" selected="True" />
+            <Field field="TP_MEDIACAO_DIDATICO_PEDAGO" selected="True" />
+            <Field field="IN_ESPECIAL_EXCLUSIVA" selected="True" />
+            <Field field="IN_REGULAR" selected="True" />
+            <Field field="IN_EJA" selected="True" />
+            <Field field="IN_PROFISSIONALIZANTE" selected="True" />
+            <Field field="TP_ETAPA_ENSINO" selected="True" />
+            <Field field="CO_CURSO_EDUC_PROFISSIONAL" selected="True" />
+            <Field field="CO_REGIAO" selected="True" />
+            <Field field="CO_MESORREGIAO" selected="True" />
+            <Field field="CO_MICRORREGIAO" selected="True" />
+            <Field field="CO_ENTIDADE" selected="True" />
+            <Field field="CO_UF" selected="True" />
+            <Field field="CO_MUNICIPIO" selected="True" />
+            <Field field="CO_DISTRITO" selected="True" />
+            <Field field="TP_DEPENDENCIA" selected="True" />
+            <Field field="TP_LOCALIZACAO" selected="True" />
+            <Field field="TP_CATEGORIA_ESCOLA_PRIVADA" selected="True" />
+            <Field field="IN_CONVENIADA_PP" selected="True" />
+            <Field field="TP_CONVENIO_PODER_PUBLICO" selected="True" />
+            <Field field="IN_MANT_ESCOLA_PRIVADA_EMP" selected="True" />
+            <Field field="IN_MANT_ESCOLA_PRIVADA_ONG" selected="True" />
+            <Field field="IN_MANT_ESCOLA_PRIVADA_SIND" selected="True" />
+            <Field field="IN_MANT_ESCOLA_PRIVADA_SIST_S" selected="True" />
+            <Field field="IN_MANT_ESCOLA_PRIVADA_S_FINS" selected="True" />
+            <Field field="TP_REGULAMENTACAO" selected="True" />
+            <Field field="TP_LOCALIZACAO_DIFERENCIADA" selected="True" />
+            <Field field="IN_EDUCACAO_INDIGENA" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ESCOLARIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_NORMAL_MAGISTERIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_SITUACAO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_AREA_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_LICENCIATURA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_COM_PEDAGOGICA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_FRANCES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_PEDAGOGICAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DISC_OUTRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MESTRADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_DOUTORADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_POS_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_CRECHE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_PRE_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ANOS_INICIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ANOS_FINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ENS_MEDIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ED_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_ED_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_CAMPO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_AMBIENTAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIR_HUMANOS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIV_SEXUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_DIR_ADOLESC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_AFRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIFICO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_CONTRATACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_CO.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="858" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_DOCENTES_CENTRO_OESTE_2017</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=STG_DOCENTES_CENTRO_OESTE_2017</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="606" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="222" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="342" y="90" width="396" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FILTRANDO TP_ETAPA_ENSINO &amp; INSERINDO CHAVE UNICA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[TRANSFORMA METADADOS ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="774" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="462" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ID_DOCENTE</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="24" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output2" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="23" Connection="Input8" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DOCENTES-CO-2017-TO-STG</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
