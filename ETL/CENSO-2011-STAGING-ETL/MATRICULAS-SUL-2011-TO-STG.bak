@@ -1,0 +1,635 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>|</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MATRICULA_SUL.CSV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="PK_COD_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_ALUNO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NUM_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_ESCOLARIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="SGL_UF_NASCIMENTO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="SIGLA_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_ATENDIMENTO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_N_T_E_P" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_POSSUI_NEC_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_SURDO_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_MENTAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_MULTIPLAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_TDI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_NEC_ESP_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_MOD_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="PK_COD_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_CURSO_PROF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="COD_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="PK_COD_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="SIGLA_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="COD_MUNICIPIO_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="FK_CODIGO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO_ESC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_DEPENDENCIA_ADM_ESC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="DESC_CATA_ESCOLA_PRIV" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_CONVENIADA_PP_ESC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_TIPO_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_DOCUMENTO_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+            <Field name="ID_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[FK_COD_ETAPA_ENSINO] = 4 OR
+[FK_COD_ETAPA_ENSINO] = 5 OR
+[FK_COD_ETAPA_ENSINO] = 6 OR
+[FK_COD_ETAPA_ENSINO] = 7 OR
+[FK_COD_ETAPA_ENSINO] = 8 OR
+[FK_COD_ETAPA_ENSINO] = 9 OR
+[FK_COD_ETAPA_ENSINO] = 10 OR
+[FK_COD_ETAPA_ENSINO] = 11 OR
+[FK_COD_ETAPA_ENSINO] = 14 OR
+[FK_COD_ETAPA_ENSINO] = 15 OR
+[FK_COD_ETAPA_ENSINO] = 16 OR
+[FK_COD_ETAPA_ENSINO] = 17 OR
+[FK_COD_ETAPA_ENSINO] = 18 OR
+[FK_COD_ETAPA_ENSINO] = 19 OR
+[FK_COD_ETAPA_ENSINO] = 20 OR
+[FK_COD_ETAPA_ENSINO] = 21 OR
+[FK_COD_ETAPA_ENSINO] = 41</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-08-15 21:23:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-08-15 21:23:02</StartDate>
+              <EndDate>2018-08-15 21:23:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[FK_COD_ETAPA_ENSINO] = 4 OR
+[FK_COD_ETAPA_ENSINO] = 5 OR
+[FK_COD_ETAPA_ENSINO] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="342" y="90" width="396" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FILTRANDO TP_ETAPA_ENSINO &amp; VERIFICANDO MATRICULAS UNICAS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ANO_CENSO" selected="True" />
+            <Field field="PK_COD_MATRICULA" selected="True" />
+            <Field field="FK_COD_ALUNO" selected="True" />
+            <Field field="NU_DIA" selected="True" />
+            <Field field="NU_MES" selected="True" />
+            <Field field="NU_ANO" selected="True" />
+            <Field field="NUM_IDADE" selected="True" />
+            <Field field="NU_DUR_ESCOLARIZACAO" selected="True" />
+            <Field field="NU_DUR_ATIV_COMP_MESMA_REDE" selected="True" />
+            <Field field="NU_DUR_ATIV_COMP_OUTRAS_REDES" selected="True" />
+            <Field field="TP_SEXO" selected="True" />
+            <Field field="TP_COR_RACA" selected="True" />
+            <Field field="TP_NACIONALIDADE" selected="True" />
+            <Field field="FK_COD_PAIS_ORIGEM" selected="True" />
+            <Field field="FK_COD_ESTADO_NASC" selected="True" />
+            <Field field="SGL_UF_NASCIMENTO" selected="True" />
+            <Field field="FK_COD_MUNICIPIO_DNASC" selected="True" />
+            <Field field="FK_COD_ESTADO_END" selected="True" />
+            <Field field="SIGLA_END" selected="True" />
+            <Field field="FK_COD_MUNICIPIO_END" selected="True" />
+            <Field field="ID_ZONA_RESIDENCIAL" selected="True" />
+            <Field field="ID_TIPO_ATENDIMENTO" selected="True" />
+            <Field field="ID_N_T_E_P" selected="True" />
+            <Field field="ID_RESPONSAVEL_TRANSPORTE" selected="True" />
+            <Field field="ID_POSSUI_NEC_ESPECIAL" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_CEGUEIRA" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_BAIXA_VISAO" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_SURDEZ" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_DEF_AUDITIVA" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_SURDO_CEGUEIRA" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_DEF_FISICA" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_DEF_MENTAL" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_DEF_MULTIPLAS" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_AUTISMO" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_ASPERGER" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_RETT" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_TDI" selected="True" />
+            <Field field="ID_TIPO_NEC_ESP_SUPERDOTACAO" selected="True" />
+            <Field field="FK_COD_MOD_ENSINO" selected="True" />
+            <Field field="FK_COD_ETAPA_ENSINO" selected="True" />
+            <Field field="PK_COD_TURMA" selected="True" />
+            <Field field="FK_COD_CURSO_PROF" selected="True" />
+            <Field field="COD_UNIFICADA" selected="True" />
+            <Field field="FK_COD_TIPO_TURMA" selected="True" />
+            <Field field="PK_COD_ENTIDADE" selected="True" />
+            <Field field="FK_COD_ESTADO_ESCOLA" selected="True" />
+            <Field field="SIGLA_ESCOLA" selected="True" />
+            <Field field="COD_MUNICIPIO_ESCOLA" selected="True" />
+            <Field field="FK_CODIGO_DISTRITO" selected="True" />
+            <Field field="ID_LOCALIZACAO_ESC" selected="True" />
+            <Field field="ID_DEPENDENCIA_ADM_ESC" selected="True" />
+            <Field field="DESC_CATA_ESCOLA_PRIV" selected="True" />
+            <Field field="ID_CONVENIADA_PP_ESC" selected="True" />
+            <Field field="ID_TIPO_CONVENIO_PODER_PUBLICO" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_EMP" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_ONG" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_SIND" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_S_FINS" selected="True" />
+            <Field field="ID_DOCUMENTO_REGULAMENTACAO" selected="True" />
+            <Field field="ID_LOCALIZACAO_DIFERENCIADA" selected="True" />
+            <Field field="ID_EDUCACAO_INDIGENA" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO_CENSO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="PK_COD_MATRICULA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="FK_COD_ALUNO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int64" />
+            <Field name="NU_DIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="NU_MES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="NU_ANO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="NUM_IDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="NU_DUR_ESCOLARIZACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="TP_SEXO" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="String" />
+            <Field name="TP_COR_RACA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="TP_NACIONALIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="FK_COD_PAIS_ORIGEM" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="FK_COD_ESTADO_NASC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="SGL_UF_NASCIMENTO" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="String" />
+            <Field name="FK_COD_MUNICIPIO_DNASC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="FK_COD_ESTADO_END" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="SIGLA_END" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="String" />
+            <Field name="FK_COD_MUNICIPIO_END" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="ID_ZONA_RESIDENCIAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_ATENDIMENTO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_N_T_E_P" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_RESPONSAVEL_TRANSPORTE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_POSSUI_NEC_ESPECIAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_CEGUEIRA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_BAIXA_VISAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_SURDEZ" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_AUDITIVA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_SURDO_CEGUEIRA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_FISICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_MENTAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_DEF_MULTIPLAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_AUTISMO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_ASPERGER" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_RETT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_TDI" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_NEC_ESP_SUPERDOTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="FK_COD_MOD_ENSINO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="FK_COD_ETAPA_ENSINO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="PK_COD_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="FK_COD_CURSO_PROF" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int16" />
+            <Field name="COD_UNIFICADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="FK_COD_TIPO_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="PK_COD_ENTIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="FK_COD_ESTADO_ESCOLA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="SIGLA_ESCOLA" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="String" />
+            <Field name="COD_MUNICIPIO_ESCOLA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Int32" />
+            <Field name="FK_CODIGO_DISTRITO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_LOCALIZACAO_ESC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_DEPENDENCIA_ADM_ESC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="DESC_CATA_ESCOLA_PRIV" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_CONVENIADA_PP_ESC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_TIPO_CONVENIO_PODER_PUBLICO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_EMP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_ONG" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_SIND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_S_FINS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_DOCUMENTO_REGULAMENTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_LOCALIZACAO_DIFERENCIADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+            <Field name="ID_EDUCACAO_INDIGENA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\MATRICULA_SUL.CSV" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="486" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="PK_COD_MATRICULA" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Unique: PK_COD_MATRICULA</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="858" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_SUL_2011</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=STG_MATRICULA_SUL_2011</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="630" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="222" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="762" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[TRANSFORMA METADADOS ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="762" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="24" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Unique" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Duplicates" />
+      <Destination ToolID="23" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output2" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>MATRICULAS-SUL-2011-TO-STG</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
