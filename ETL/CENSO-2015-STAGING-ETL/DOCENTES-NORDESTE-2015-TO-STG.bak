@@ -25,9 +25,6 @@
           <DefaultAnnotationText>DOCENTES_NORDESTE.CSV</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\DOCENTES_NORDESTE.CSV" type="V_String" />
@@ -532,7 +529,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_DOCENTES_NORDESTE_2017</File>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_DOCENTES_NORDESTE_2015</File>
           <Passwords />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
@@ -549,7 +546,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:EDUDW
-Table=STG_DOCENTES_NORDESTE_2017</DefaultAnnotationText>
+Table=STG_DOCENTES_NORDESTE_2015</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -831,7 +828,7 @@ Table=STG_DOCENTES_NORDESTE_2017</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>DOCENTES-NORDESTE-2017-TO-STG</Name>
+      <Name>DOCENTES-NORDESTE-2015-TO-STG</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

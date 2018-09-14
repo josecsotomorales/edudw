@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="102" />
+        <Position x="78" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>|</Delimeter>
@@ -30,98 +30,99 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="ID_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_AEE_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_AEE_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_OUTRO_LOCAL_AULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSPORTE_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_VANS_KOMBI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_MICRO_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_BICICLETA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_TR_ANIMAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_OUTRO_VEICULO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_ATE5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_5A15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_15A35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_TREM_METRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SINDROME_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SINDROME_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSTORNO_DI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LEDOR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_TRANSCRICAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_INTERPRETE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LABIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_INGRESSO_FEDERAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_OUTRO_LOCAL_AULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSPORTE_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_VANS_KOMBI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_MICRO_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_BICICLETA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TR_ANIMAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_OUTRO_VEICULO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_ATE5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_5A15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_15A35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TREM_METRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SINDROME_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SINDROME_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSTORNO_DI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LEDOR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_TRANSCRICAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_INTERPRETE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LABIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_INGRESSO_FEDERAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ETAPA_AGREGADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -129,7 +130,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="330" y="102" />
+        <Position x="342" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -182,7 +183,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="330" y="54" width="396" height="24" />
+        <Position x="342" y="90" width="396" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -202,7 +203,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="210" y="102" />
+        <Position x="222" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -309,98 +310,99 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="ID_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_AEE_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DUR_AEE_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_OUTRO_LOCAL_AULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSPORTE_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_VANS_KOMBI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_MICRO_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_BICICLETA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_TR_ANIMAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_OUTRO_VEICULO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_ATE5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_5A15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_15A35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_EMBAR_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSP_TREM_METRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SINDROME_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SINDROME_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_TRANSTORNO_DI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LEDOR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_TRANSCRICAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_INTERPRETE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_LABIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_AMPLIADA_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_RECURSO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_INGRESSO_FEDERAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
-            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MATRICULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_PESSOA_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_IDADE_REFERENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_ATIV_COMP_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_MESMA_REDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DUR_AEE_OUTRAS_REDES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_NASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO_END" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ZONA_RESIDENCIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_OUTRO_LOCAL_AULA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSPORTE_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_RESPONSAVEL_TRANSPORTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_VANS_KOMBI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_MICRO_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_ONIBUS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_BICICLETA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TR_ANIMAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_OUTRO_VEICULO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_ATE5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_5A15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_15A35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_EMBAR_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSP_TREM_METRO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_NECESSIDADE_ESPECIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_AUDITIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SURDOCEGUEIRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_INTELECTUAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_DEF_MULTIPLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_AUTISMO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SINDROME_ASPERGER" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SINDROME_RETT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_TRANSTORNO_DI" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_SUPERDOTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LEDOR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_TRANSCRICAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_INTERPRETE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_LABIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_AMPLIADA_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_RECURSO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_INGRESSO_FEDERAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_ETAPA_AGREGADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_UNIFICADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\MATRICULA_SUDESTE.CSV" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -408,7 +410,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="474" y="90" />
+        <Position x="486" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -426,7 +428,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="582" y="78" />
+        <Position x="594" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -446,11 +448,11 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="846" y="78" />
+        <Position x="858" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_SUDESTE_2017</File>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_SUDESTE_2015</File>
           <Passwords />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
@@ -467,18 +469,15 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:EDUDW
-Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
+Table=STG_MATRICULA_SUDESTE_2015</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="23">
       <GuiSettings>
-        <Position x="618" y="210" />
+        <Position x="630" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -487,15 +486,12 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="24">
       <GuiSettings>
-        <Position x="210" y="210" />
+        <Position x="222" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -504,15 +500,12 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="25">
       <GuiSettings>
-        <Position x="750" y="210" />
+        <Position x="762" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -521,15 +514,12 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="54" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -549,7 +539,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="54" width="168" height="24" />
+        <Position x="162" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -569,7 +559,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="738" y="54" width="168" height="24" />
+        <Position x="750" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -589,7 +579,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="18" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -609,7 +599,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="18" width="576" height="24" />
+        <Position x="162" y="54" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -629,7 +619,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="738" y="18" width="168" height="24" />
+        <Position x="750" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -649,7 +639,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="750" y="78" />
+        <Position x="762" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -718,7 +708,7 @@ Table=STG_MATRICULA_SUDESTE_2017</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>MATRICULAS-SUDESTE-2017-TO-STG</Name>
+      <Name>MATRICULAS-SUDESTE-2015-TO-STG</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

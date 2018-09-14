@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV</File>
           <FormatSpecificOptions>
             <CodePage>28591</CodePage>
             <Delimeter>|</Delimeter>
@@ -30,94 +30,94 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="NO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TX_HR_INICIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TX_MI_INICIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="NU_MATRICULAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MAIS_EDUCACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_DOMINGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_SEGUNDA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_TERCA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_QUARTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_QUINTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_SEXTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DIA_SEMANA_SABADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_4" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_TIPO_ATIVIDADE_6" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_RECURSOS_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_PROCESSOS_MENTAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_ORIENTACAO_MOBILIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_SINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_COMUNICACAO_ALT_AUMENT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_ENRIQ_CURRICULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_SOROBAN" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_INFORMATICA_ACESSIVEL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_PORT_ESCRITA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_AUTONOMIA_ESCOLAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_FRANCES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LINGUA_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_PEDAGOGICAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_DISC_OUTRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="ID_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="NO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TX_HR_INICIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TX_MI_INICIAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="NU_DURACAO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="NU_MATRICULAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_REGULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MAIS_EDUCACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="NU_DIAS_ATIVIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_DOMINGO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_SEGUNDA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_TERCA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_QUARTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_QUINTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_SEXTA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DIA_SEMANA_SABADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_4" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_TIPO_ATIVIDADE_6" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_BRAILLE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_RECURSOS_BAIXA_VISAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_PROCESSOS_MENTAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_ORIENTACAO_MOBILIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_SINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_COMUNICACAO_ALT_AUMENT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_ENRIQ_CURRICULAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_SOROBAN" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_INFORMATICA_ACESSIVEL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_PORT_ESCRITA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_AUTONOMIA_ESCOLAR" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_FRANCES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LINGUA_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_PEDAGOGICAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_DISC_OUTRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_REGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_MESORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_MICRORREGIAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="CO_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_DEPENDENCIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="IN_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -281,94 +281,94 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NU_ANO_CENSO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int16" />
-            <Field name="ID_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="NO_TURMA" size="80" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="V_String" />
-            <Field name="TX_HR_INICIAL" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="String" />
-            <Field name="TX_MI_INICIAL" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="String" />
-            <Field name="NU_DURACAO_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int16" />
-            <Field name="NU_MATRICULAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_ESPECIAL_EXCLUSIVA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_REGULAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_EJA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_PROFISSIONALIZANTE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_ETAPA_ENSINO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="CO_CURSO_EDUC_PROFISSIONAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int16" />
-            <Field name="TP_TIPO_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MAIS_EDUCACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="NU_DIAS_ATIVIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_DOMINGO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_SEGUNDA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_TERCA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_QUARTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_QUINTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_SEXTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DIA_SEMANA_SABADO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="CO_TIPO_ATIVIDADE_1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_TIPO_ATIVIDADE_2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_TIPO_ATIVIDADE_3" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_TIPO_ATIVIDADE_4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_TIPO_ATIVIDADE_5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_TIPO_ATIVIDADE_6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="IN_BRAILLE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_RECURSOS_BAIXA_VISAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_PROCESSOS_MENTAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_ORIENTACAO_MOBILIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_SINAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_COMUNICACAO_ALT_AUMENT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_ENRIQ_CURRICULAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_SOROBAN" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_INFORMATICA_ACESSIVEL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_PORT_ESCRITA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_AUTONOMIA_ESCOLAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_QUIMICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_FISICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_MATEMATICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_BIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_CIENCIAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_PORTUGUESA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_INGLES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_ESPANHOL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_FRANCES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_OUTRA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LINGUA_INDIGENA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_ARTES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_EDUCACAO_FISICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_HISTORIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_GEOGRAFIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_FILOSOFIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_ENSINO_RELIGIOSO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_ESTUDOS_SOCIAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_SOCIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_PROFISSIONALIZANTE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_LIBRAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_PEDAGOGICAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_DISC_OUTRAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="CO_ENTIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_REGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="CO_MESORREGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int16" />
-            <Field name="CO_MICRORREGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_UF" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="CO_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="CO_DISTRITO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Int32" />
-            <Field name="TP_DEPENDENCIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_LOCALIZACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_CONVENIADA_PP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_CONVENIO_PODER_PUBLICO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_REGULAMENTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="TP_LOCALIZACAO_DIFERENCIADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
-            <Field name="IN_EDUCACAO_INDIGENA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="NU_ANO_CENSO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int16" />
+            <Field name="ID_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="NO_TURMA" size="80" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="V_String" />
+            <Field name="TX_HR_INICIAL" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="String" />
+            <Field name="TX_MI_INICIAL" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="String" />
+            <Field name="NU_DURACAO_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int16" />
+            <Field name="NU_MATRICULAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int16" />
+            <Field name="TP_MEDIACAO_DIDATICO_PEDAGO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_ESPECIAL_EXCLUSIVA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_REGULAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_EJA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_PROFISSIONALIZANTE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_ETAPA_ENSINO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="CO_CURSO_EDUC_PROFISSIONAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int16" />
+            <Field name="TP_TIPO_TURMA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MAIS_EDUCACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="NU_DIAS_ATIVIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_DOMINGO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_SEGUNDA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_TERCA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_QUARTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_QUINTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_SEXTA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DIA_SEMANA_SABADO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="CO_TIPO_ATIVIDADE_1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_TIPO_ATIVIDADE_2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_TIPO_ATIVIDADE_3" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_TIPO_ATIVIDADE_4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_TIPO_ATIVIDADE_5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_TIPO_ATIVIDADE_6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="IN_BRAILLE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_RECURSOS_BAIXA_VISAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_PROCESSOS_MENTAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_ORIENTACAO_MOBILIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_SINAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_COMUNICACAO_ALT_AUMENT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_ENRIQ_CURRICULAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_SOROBAN" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_INFORMATICA_ACESSIVEL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_PORT_ESCRITA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_AUTONOMIA_ESCOLAR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_QUIMICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_FISICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_MATEMATICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_BIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_CIENCIAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_PORTUGUESA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_INGLES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_ESPANHOL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_FRANCES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_INDIGENA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LINGUA_OUTRA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_ARTES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_EDUCACAO_FISICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_HISTORIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_GEOGRAFIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_FILOSOFIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_ENSINO_RELIGIOSO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_ESTUDOS_SOCIAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_SOCIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_EST_SOCIAIS_SOCIOLOGIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_INFORMATICA_COMPUTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_PROFISSIONALIZANTE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_ATENDIMENTO_ESPECIAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_DIVER_SOCIO_CULTURAL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_LIBRAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_PEDAGOGICAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_DISC_OUTRAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="CO_ENTIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_REGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="CO_MESORREGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int16" />
+            <Field name="CO_MICRORREGIAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_UF" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="CO_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="CO_DISTRITO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Int32" />
+            <Field name="TP_DEPENDENCIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_LOCALIZACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_CATEGORIA_ESCOLA_PRIVADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_CONVENIADA_PP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_CONVENIO_PODER_PUBLICO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_EMP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_ONG" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_SIST_S" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_MANT_ESCOLA_PRIVADA_S_FINS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_REGULAMENTACAO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="TP_LOCALIZACAO_DIFERENCIADA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
+            <Field name="IN_EDUCACAO_INDIGENA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2015\DADOS\TURMAS.CSV" type="Byte" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -400,7 +400,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_TURMAS_2017</File>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_TURMAS_2015</File>
           <Passwords />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
@@ -417,12 +417,9 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:EDUDW
-Table=STG_TURMAS_2017</DefaultAnnotationText>
+Table=STG_TURMAS_2015</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -697,7 +694,7 @@ Table=STG_TURMAS_2017</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>TURMAS-2017-TO-STG</Name>
+      <Name>TURMAS-2015-TO-STG</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

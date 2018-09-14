@@ -427,9 +427,8 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_SUL_2017</File>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_SUL_2015</File>
           <Passwords />
-          <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
             <TransactionSize>10000</TransactionSize>
@@ -445,7 +444,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:EDUDW
-Table=STG_MATRICULA_SUL_2017</DefaultAnnotationText>
+Table=STG_MATRICULA_SUL_2015</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -707,7 +706,7 @@ Table=STG_MATRICULA_SUL_2017</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>MATRICULAS-2017-TO-STG</Name>
+      <Name>MATRICULAS-2015-TO-STG</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

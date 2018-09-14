@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="102" />
+        <Position x="78" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>MATRICULA_CO.CSV</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NU_ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\Microdados_Censo_Escolar_2017\DADOS\MATRICULA_CO.CSV" type="V_String" />
@@ -129,7 +126,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="330" y="102" />
+        <Position x="342" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -182,7 +179,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="330" y="54" width="396" height="24" />
+        <Position x="342" y="90" width="396" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -202,7 +199,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="210" y="102" />
+        <Position x="222" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -408,7 +405,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="474" y="90" />
+        <Position x="486" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -426,7 +423,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="582" y="78" />
+        <Position x="594" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -446,11 +443,11 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="846" y="78" />
+        <Position x="858" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_CENTRO_OESTE_2017</File>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_MATRICULA_CENTRO_OESTE_2015</File>
           <Passwords />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
@@ -467,7 +464,7 @@
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>aka:EDUDW
-Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
+Table=STG_MATRICULA_CENTRO_OESTE_2015</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
         <Dependencies>
@@ -478,7 +475,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings>
-        <Position x="618" y="210" />
+        <Position x="630" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -487,15 +484,12 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="24">
       <GuiSettings>
-        <Position x="210" y="210" />
+        <Position x="222" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -504,15 +498,12 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="25">
       <GuiSettings>
-        <Position x="750" y="210" />
+        <Position x="762" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -521,15 +512,12 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="CountRecords.yxmc" />
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="54" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -549,7 +537,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="54" width="168" height="24" />
+        <Position x="162" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -569,7 +557,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="738" y="54" width="168" height="24" />
+        <Position x="750" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -589,7 +577,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="42" y="18" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -609,7 +597,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="18" width="576" height="24" />
+        <Position x="162" y="54" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -629,7 +617,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="738" y="18" width="168" height="24" />
+        <Position x="750" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -649,7 +637,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="750" y="78" />
+        <Position x="762" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -718,7 +706,7 @@ Table=STG_MATRICULA_CENTRO_OESTE_2017</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>MATRICULAS-CO-2017-TO-STG</Name>
+      <Name>MATRICULAS-CO-2015-TO-STG</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
