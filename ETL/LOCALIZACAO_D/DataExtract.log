@@ -1,0 +1,159 @@
+2018-09-24 13:01:34.071 (8908): -----------------------------------------------------------------------------
+2018-09-24 13:01:34.071 (8908): Initializing fault reporting
+2018-09-24 13:01:34.071 (8908): Fault reporting log pathname: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\tdeserver64-error_1192_18-0924-130134.log
+2018-09-24 13:01:34.072 (8908): Initializing MiniDump
+2018-09-24 13:01:34.072 (8908): Loading 'DbgHelp.dll'
+2018-09-24 13:01:34.072 (8908): Loaded 'C:\WINDOWS\SYSTEM32\dbghelp.dll'
+2018-09-24 13:01:34.073 (8908):   Product Name: Microsoft® Windows® Operating System
+2018-09-24 13:01:34.073 (8908):   File Version: 10.0.17134.1 (WinBuild.160101.0800)
+2018-09-24 13:01:34.073 (8908):   Product Version: 10.0.17134.1
+2018-09-24 13:01:34.073 (8908): Finding function 'MiniDumpWriteDump'
+2018-09-24 13:01:34.073 (8908): Success
+2018-09-24 13:01:34.073 (8908): Registering unhandled exception filter
+2018-09-24 13:01:34.073 (8908): -----------------------------------------------------------------------------
+2018-09-24 13:01:34.073 (8908): argv[0]="C:\Program Files\Alteryx\bin\Tableau\tde\tdeserver64.exe"
+2018-09-24 13:01:34.073 (8908): argv[1]="--callback"
+2018-09-24 13:01:34.073 (8908): argv[2]="tab.pipe://./pipe/{4373D528-828C-4611-A059-8945B4383525}"
+2018-09-24 13:01:34.073 (8908): argv[3]="--listen"
+2018-09-24 13:01:34.073 (8908): argv[4]="tab.pipe://./pipe/auto"
+2018-09-24 13:01:34.073 (8908): argv[5]="--desktop"
+2018-09-24 13:01:34.073 (8908): argv[6]="--log"
+2018-09-24 13:01:34.073 (8908): argv[7]="\\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\DataExtract.log"
+2018-09-24 13:01:34.073 (8908): pid=1192
+2018-09-24 13:01:34.073 (8908): Machine Configuration
+2018-09-24 13:01:34.073 (8908):   Max Descriptors: -1
+2018-09-24 13:01:34.073 (8908): Vectorization Support
+2018-09-24 13:01:34.073 (8908):   Supports SSE:    Yes
+2018-09-24 13:01:34.073 (8908):   Supports SSE2:   Yes
+2018-09-24 13:01:34.073 (8908):   Supports SSE3:   Yes
+2018-09-24 13:01:34.073 (8908):   Supports SSE4.1: Yes
+2018-09-24 13:01:34.073 (8908):   Supports SSE4.2: Yes
+2018-09-24 13:01:34.073 (8908):   Supports AVX:    Yes
+2018-09-24 13:01:34.073 (8908):   Supports AVX2:   Yes
+2018-09-24 13:01:34.073 (8908): Adjusted Values
+2018-09-24 13:01:34.073 (8908):   Physical RAM:              4272443392
+2018-09-24 13:01:34.073 (8908):   CPUs available to process: 2
+2018-09-24 13:01:34.073 (8908):   worker-threads:            2
+2018-09-24 13:01:34.073 (8908):   max-concurrency:           2
+2018-09-24 13:01:34.073 (8908):   query-parallelism:         2
+2018-09-24 13:01:34.073 (8908):   min-query-parallelism:     2
+2018-09-24 13:01:34.073 (8908):   work-buffer-size:          64
+2018-09-24 13:01:34.073 (8908):   TrackingMappedFiles :      1
+2018-09-24 13:01:34.073 (8908):   MemoryMapEntireFile:       1
+2018-09-24 13:01:34.073 (8908):   use-openfile-cache:        1
+2018-09-24 13:01:34.074 (8908): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}
+2018-09-24 13:01:34.074 (8908): tdeserver: new connection, connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}
+2018-09-24 13:01:34.076 (5076): tdeserver: open session1, connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}
+2018-09-24 13:01:34.076 (3820): Session1: QueryExecute:
+2018-09-24 13:01:34.076 (3820): (create database "\\\\Mac\\Home\\Documents\\GitHub\\EDUDW\\ETL\\LOCALIZACAO_D\\LOCALIZACAO_D.tde")
+2018-09-24 13:01:35.997 (3820): Compiling query with Memory Budget=1990615040 MemoryAvailable=1990615040
+2018-09-24 13:01:35.997 (3820): Session1: QueryExecute: OK, Elapsed time:1.919s, Compilation time:1.918s, Execution time:0.001s
+2018-09-24 13:01:35.998 (4452): Session1: QueryExecute:
+2018-09-24 13:01:35.998 (4452): (create schema [Extract])
+2018-09-24 13:01:35.998 (4452): Compiling query with Memory Budget=1990623232 MemoryAvailable=1990623232
+2018-09-24 13:01:36.032 (4452): Session1: QueryExecute: OK, Elapsed time:0.035s, Compilation time:0.000s, Execution time:0.034s
+2018-09-24 13:01:36.033 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.033 (3820): (create table [Extract].[Extract])
+2018-09-24 13:01:36.033 (3820): Compiling query with Memory Budget=1990529024 MemoryAvailable=1990529024
+2018-09-24 13:01:36.089 (3820): Session1: QueryExecute: OK, Elapsed time:0.056s, Compilation time:0.000s, Execution time:0.056s
+2018-09-24 13:01:36.089 (4452): Session1: QueryExecute:
+2018-09-24 13:01:36.089 (4452): (create column [Extract].[Extract].[NOME_ESTADO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "0" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2018-09-24 13:01:36.103 (4452): Compiling query with Memory Budget=1989070848 MemoryAvailable=1989070848
+2018-09-24 13:01:36.208 (4452): Session1: QueryExecute: OK, Elapsed time:0.119s, Compilation time:0.014s, Execution time:0.105s
+2018-09-24 13:01:36.208 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.208 (3820): (create column [Extract].[Extract].[SIGLA_ESTADO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "1" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2018-09-24 13:01:36.209 (3820): Compiling query with Memory Budget=1986912256 MemoryAvailable=1986912256
+2018-09-24 13:01:36.283 (3820): Session1: QueryExecute: OK, Elapsed time:0.075s, Compilation time:0.000s, Execution time:0.075s
+2018-09-24 13:01:36.284 (4452): Session1: QueryExecute:
+2018-09-24 13:01:36.284 (4452): (create column [Extract].[Extract].[CAPITAL_ESTADO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "2" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2018-09-24 13:01:36.284 (4452): Compiling query with Memory Budget=1986121728 MemoryAvailable=1986121728
+2018-09-24 13:01:36.343 (4452): Session1: QueryExecute: OK, Elapsed time:0.059s, Compilation time:0.000s, Execution time:0.059s
+2018-09-24 13:01:36.343 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.343 (3820): (create column [Extract].[Extract].[REGIAO_ESTADO] ( ( "collation" "binary" ) ( "compression" "heap" ) ( "factory" "varchar" ) ( "ordinal" "3" ) ( "scale" "2" ) ( "storagewidth" "8" ) ))
+2018-09-24 13:01:36.343 (3820): Compiling query with Memory Budget=1985761280 MemoryAvailable=1985761280
+2018-09-24 13:01:36.423 (3820): Session1: QueryExecute: OK, Elapsed time:0.080s, Compilation time:0.000s, Execution time:0.080s
+2018-09-24 13:01:36.424 (4452): Session1: QueryExecute:
+2018-09-24 13:01:36.424 (4452): (create column [Extract].[Extract].[SpatialObj] ( ( "compression" "heap" ) ( "factory" "spatial" ) ( "ordinal" "4" ) ( "storagewidth" "8" ) ))
+2018-09-24 13:01:36.424 (4452): Compiling query with Memory Budget=1986138112 MemoryAvailable=1986138112
+2018-09-24 13:01:36.486 (4452): Session1: QueryExecute: OK, Elapsed time:0.062s, Compilation time:0.000s, Execution time:0.062s
+2018-09-24 13:01:36.547 (3820): Session1: InsertOpen: table="Extract" schema="Extract"
+2018-09-24 13:01:36.547 (3820):   column[0]="NOME_ESTADO"
+2018-09-24 13:01:36.547 (3820):   column[1]="SIGLA_ESTADO"
+2018-09-24 13:01:36.547 (3820):   column[2]="CAPITAL_ESTADO"
+2018-09-24 13:01:36.547 (3820):   column[3]="REGIAO_ESTADO"
+2018-09-24 13:01:36.547 (3820):   column[4]="SpatialObj"
+2018-09-24 13:01:36.549 (4452): Session1: InsertPutValues: total_calls=1 total_message_size=3503
+2018-09-24 13:01:36.780 (3820): Session1: InsertCommit: insert_guid=1 total_calls=1 total_message_size=3503
+2018-09-24 13:01:36.780 (3820): Session1: InsertCommit: OK
+2018-09-24 13:01:36.780 (4452): Session1: InsertClose: insert_guid=1
+2018-09-24 13:01:36.780 (4452): Session1: InsertClose: OK
+2018-09-24 13:01:36.780 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.780 (3820): (package)
+2018-09-24 13:01:36.780 (3820): Compiling query with Memory Budget=1983459328 MemoryAvailable=1983459328
+2018-09-24 13:01:36.780 (3820): PackageDatabase: in-place package of "\\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\LOCALIZACAO_D.tde"
+2018-09-24 13:01:36.910 (3820): PackageDatabase: finished
+2018-09-24 13:01:36.910 (3820): Session1: QueryExecute: OK, Elapsed time:0.130s, Compilation time:0.000s, Execution time:0.130s
+2018-09-24 13:01:36.910 (4452): Session1: QueryExecute:
+2018-09-24 13:01:36.910 (4452): (database "\\\\Mac\\Home\\Documents\\GitHub\\EDUDW\\ETL\\LOCALIZACAO_D\\LOCALIZACAO_D.tde")
+2018-09-24 13:01:36.912 (4452): Compiling query with Memory Budget=1984466944 MemoryAvailable=1984466944
+2018-09-24 13:01:36.912 (4452): Session1: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2018-09-24 13:01:36.912 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.912 (3820): (show schemas)
+2018-09-24 13:01:36.912 (3820): Compiling query with Memory Budget=1984454656 MemoryAvailable=1984454656
+2018-09-24 13:01:36.913 (3820): Session1: QueryExecute: OK rowset_guid=2 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2018-09-24 13:01:36.913 (4452): Session1: RowsetGetValues: rowset_guid=2
+2018-09-24 13:01:36.913 (3820): Session1: RowsetGetValues: rowset_guid=2
+2018-09-24 13:01:36.914 (4452): Session1: RowsetClose: rowset_guid=2
+2018-09-24 13:01:36.914 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.914 (3820): (show tables [Extract])
+2018-09-24 13:01:36.914 (3820): Compiling query with Memory Budget=1984438272 MemoryAvailable=1984438272
+2018-09-24 13:01:36.915 (3820): Session1: QueryExecute: OK rowset_guid=3 n_columns=1, Elapsed time:0.001s, Compilation time:0.000s, Execution time:0.001s
+2018-09-24 13:01:36.915 (4452): Session1: RowsetGetValues: rowset_guid=3
+2018-09-24 13:01:36.915 (3820): Session1: RowsetGetValues: rowset_guid=3
+2018-09-24 13:01:36.915 (4452): Session1: RowsetClose: rowset_guid=3
+2018-09-24 13:01:36.915 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.915 (3820): (top (table [Extract].[Extract]) () 0)
+2018-09-24 13:01:36.936 (3820): Compiling query with DOP=2
+2018-09-24 13:01:36.937 (3820): Compiling query with Memory Budget=1984712704 MemoryAvailable=1984712704
+2018-09-24 13:01:36.937 (3820): Session1: QueryExecute: OK rowset_guid=4 n_columns=5, Elapsed time:0.022s, Compilation time:0.022s, Execution time:0.000s
+2018-09-24 13:01:36.938 (4452): Session1: RowsetClose: rowset_guid=4
+2018-09-24 13:01:36.938 (3820): Session1: QueryExecute:
+2018-09-24 13:01:36.938 (3820): (alter column [Extract].[Extract].[NOME_ESTADO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-09-24 13:01:36.939 (3820): Compiling query with Memory Budget=1984733184 MemoryAvailable=1984733184
+2018-09-24 13:01:36.969 (3820): Session1: QueryExecute: OK, Elapsed time:0.030s, Compilation time:0.000s, Execution time:0.030s
+2018-09-24 13:01:36.969 (4452): Session1: QueryExecute:
+2018-09-24 13:01:36.969 (4452): (alter column [Extract].[Extract].[SIGLA_ESTADO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-09-24 13:01:36.969 (4452): Compiling query with Memory Budget=1984716800 MemoryAvailable=1984716800
+2018-09-24 13:01:37.016 (4452): Session1: QueryExecute: OK, Elapsed time:0.047s, Compilation time:0.000s, Execution time:0.047s
+2018-09-24 13:01:37.016 (3820): Session1: QueryExecute:
+2018-09-24 13:01:37.016 (3820): (alter column [Extract].[Extract].[CAPITAL_ESTADO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-09-24 13:01:37.016 (3820): Compiling query with Memory Budget=1984692224 MemoryAvailable=1984692224
+2018-09-24 13:01:37.080 (3820): Session1: QueryExecute: OK, Elapsed time:0.064s, Compilation time:0.000s, Execution time:0.064s
+2018-09-24 13:01:37.080 (4452): Session1: QueryExecute:
+2018-09-24 13:01:37.080 (4452): (alter column [Extract].[Extract].[REGIAO_ESTADO] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-09-24 13:01:37.081 (4452): Compiling query with Memory Budget=1984688128 MemoryAvailable=1984688128
+2018-09-24 13:01:37.127 (4452): Session1: QueryExecute: OK, Elapsed time:0.047s, Compilation time:0.000s, Execution time:0.047s
+2018-09-24 13:01:37.127 (3820): Session1: QueryExecute:
+2018-09-24 13:01:37.127 (3820): (alter column [Extract].[Extract].[SpatialObj] ( ( "comparable" "comparable" ) ( "compression" "array" ) ( "storagewidth" "0" ) ) )
+2018-09-24 13:01:37.127 (3820): Compiling query with Memory Budget=1985376256 MemoryAvailable=1985376256
+2018-09-24 13:01:37.175 (3820): Session1: QueryExecute: OK, Elapsed time:0.047s, Compilation time:0.000s, Execution time:0.047s
+2018-09-24 13:01:37.175 (4452): Session1: QueryExecute:
+2018-09-24 13:01:37.175 (4452): (top (table [Extract].[Extract]) () 0)
+2018-09-24 13:01:37.175 (4452): Compiling query with DOP=2
+2018-09-24 13:01:37.176 (4452): Compiling query with Memory Budget=1986244608 MemoryAvailable=1986244608
+2018-09-24 13:01:37.177 (4452): Session1: QueryExecute: OK rowset_guid=5 n_columns=5, Elapsed time:0.001s, Compilation time:0.001s, Execution time:0.001s
+2018-09-24 13:01:37.177 (3820): Session1: RowsetClose: rowset_guid=5
+2018-09-24 13:01:37.177 (4452): Session1: QueryExecute:
+2018-09-24 13:01:37.177 (4452): (sort [Extract].[Extract] ( ( [REGIAO_ESTADO] asc) ( [NOME_ESTADO] asc) ( [SIGLA_ESTADO] asc) ( [CAPITAL_ESTADO] asc) ( [SpatialObj] asc) ) )
+2018-09-24 13:01:37.177 (4452): Compiling query with Memory Budget=1986240512 MemoryAvailable=1986240512
+2018-09-24 13:01:37.403 (4452): Session1: QueryExecute: OK, Elapsed time:0.226s, Compilation time:0.000s, Execution time:0.226s
+2018-09-24 13:01:37.403 (3820): Session1: QueryExecute:
+2018-09-24 13:01:37.403 (3820): (package)
+2018-09-24 13:01:37.403 (3820): Compiling query with Memory Budget=1984970752 MemoryAvailable=1984970752
+2018-09-24 13:01:37.404 (3820): PackageDatabase: in-place package of "\\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\LOCALIZACAO_D.tde"
+2018-09-24 13:01:37.461 (3820): PackageDatabase: finished
+2018-09-24 13:01:37.461 (3820): Session1: QueryExecute: OK, Elapsed time:0.058s, Compilation time:0.000s, Execution time:0.058s
+2018-09-24 13:01:37.461 (5076): tdeserver: close session1, connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}
+2018-09-24 13:01:37.462 (8908): tdeserver: closing connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}
+2018-09-24 13:01:37.465 (5076): tdeserver: disconnected connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{5EA316DC-BFDA-4C47-BEDE-AA11D58C0690}): The pipe has been ended.
+2018-09-24 13:01:37.465 (8908): tdeserver: exit (0)

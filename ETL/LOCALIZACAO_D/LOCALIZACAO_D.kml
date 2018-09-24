@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LOCALIZACAO_D</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Distrito Federal</name>
+      <description><![CDATA[descrição: DF<br>CAPITAL: Brasília]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>DF</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Brasília</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -47.8644715,-15.7997654,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Acre</name>
+      <description><![CDATA[descrição: AC<br>CAPITAL: Rio Branco]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>AC</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Rio Branco</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -70.8119953,-9.0237964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alagoas</name>
+      <description><![CDATA[descrição: AL<br>CAPITAL: Maceió]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>AL</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Maceió</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -36.7819505,-9.5713058,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amapá</name>
+      <description><![CDATA[descrição: AP<br>CAPITAL: Macapá]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>AP</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Macapá</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -52.0029565,0.9019925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amazonas</name>
+      <description><![CDATA[descrição: AM<br>CAPITAL: Manaus]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>AM</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Manaus</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -65.8560646,-3.4168427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bahia</name>
+      <description><![CDATA[descrição: BA<br>CAPITAL: Salvador]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>BA</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Salvador</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -41.7007272,-12.579738,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ceará</name>
+      <description><![CDATA[descrição: CE<br>CAPITAL: Fortaleza]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>CE</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Fortaleza</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -39.3206241,-5.4983977,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Espírito Santo</name>
+      <description><![CDATA[descrição: ES<br>CAPITAL: Vitória]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>ES</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Vitória</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -40.3088626,-19.1834229,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Goiás</name>
+      <description><![CDATA[descrição: GO<br>CAPITAL: Goiânia]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>GO</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Goiânia</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -49.8362237,-15.8270369,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Maranhão</name>
+      <description><![CDATA[descrição: MA<br>CAPITAL: São Luís]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>MA</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>São Luís</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -45.2744159,-4.9609498,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mato Grosso</name>
+      <description><![CDATA[descrição: MT<br>CAPITAL: Cuiabá]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>MT</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Cuiabá</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -56.921099,-12.6818712,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mato Grosso do Sul</name>
+      <description><![CDATA[descrição: MS<br>CAPITAL: Campo Grande]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>MS</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Campo Grande</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -54.7851531,-20.7722295,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Minas Gerais</name>
+      <description><![CDATA[descrição: MG<br>CAPITAL: Belo Horizonte]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>MG</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Belo Horizonte</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -44.5550308,-18.512178,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pará</name>
+      <description><![CDATA[descrição: PA<br>CAPITAL: Belém]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>PA</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Belém</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -54.9306152,-1.9981271,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paraíba</name>
+      <description><![CDATA[descrição: PB<br>CAPITAL: João Pessoa]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>PB</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>João Pessoa</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -36.7819505,-7.2399609,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paraná</name>
+      <description><![CDATA[descrição: PR<br>CAPITAL: Curitiba]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>PR</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Curitiba</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -52.0215415,-25.2520888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pernambuco</name>
+      <description><![CDATA[descrição: PE<br>CAPITAL: Recife]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>PE</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Recife</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -36.954107,-8.8137173,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Piauí</name>
+      <description><![CDATA[descrição: PI<br>CAPITAL: Teresina]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>PI</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Teresina</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -42.7289236,-7.7183401,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rio de Janeiro</name>
+      <description><![CDATA[descrição: RJ<br>CAPITAL: Rio de Janeiro]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>RJ</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Rio de Janeiro</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -43.2094971,-22.9098755,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rio Grande do Norte</name>
+      <description><![CDATA[descrição: RN<br>CAPITAL: Natal]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>RN</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Natal</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -36.954107,-5.4025803,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rio Grande do Sul</name>
+      <description><![CDATA[descrição: RS<br>CAPITAL: Porto Alegre]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>RS</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Porto Alegre</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -51.2176986,-30.0346316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rondônia</name>
+      <description><![CDATA[descrição: RO<br>CAPITAL: Porto Velho]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>RO</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Porto Velho</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -63.580611,-11.5057341,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roraima</name>
+      <description><![CDATA[descrição: RR<br>CAPITAL: Boa Vista]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>RR</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Boa Vista</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -62.0750998,2.7375971,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Santa Catarina</name>
+      <description><![CDATA[descrição: SC<br>CAPITAL: Florianópolis]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>SC</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Florianópolis</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -50.2188556,-27.2423392,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>São Paulo</name>
+      <description><![CDATA[descrição: SP<br>CAPITAL: São Paulo]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>SP</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>São Paulo</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -46.6291845,-23.5431786,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sergipe</name>
+      <description><![CDATA[descrição: SE<br>CAPITAL: Aracaju]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>SE</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Aracaju</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -37.3856581,-10.5740934,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tocantins</name>
+      <description><![CDATA[descrição: TO<br>CAPITAL: Palmas]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="descrição">
+          <value>TO</value>
+        </Data>
+        <Data name="CAPITAL">
+          <value>Palmas</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -48.2982474,-10.17528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
