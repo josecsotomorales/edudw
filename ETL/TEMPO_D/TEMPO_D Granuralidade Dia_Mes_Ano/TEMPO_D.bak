@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>65001</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TEMPO_D.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TEMPO_ID" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="DIA_SEMANA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="DIA_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="ANO_BISSEXTO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="DIA_UTIL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="FIM_SEMANA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="FERIADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NOME_DIA_SEMANA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NOME_DIA_SEMANA_ABREV" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NOME_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NOME_MES_ABREV" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="QUINZENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="BIMESTRE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="TRIMESTRE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="SEMESTRE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NR_SEMANA_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="NR_SEMANA_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="ESTACAO_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+            <Field name="DATA_POR_EXTENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\TEMPO_D\TEMPO_D.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4904_299876e307fc4403afd6bb676fb44c4e_\Engine_4708_c29b9ee6f5224717b73f44ce3bf845b5_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="450" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">odbc:DSN=EDUDW;UID=edudw;PWD=__EncPwd1__|||TEMPO_D</File>
+          <Passwords>49F3FBB6C3D7D4CBB67520DF0A3F4B4411AE8435B</Passwords>
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="ByName" />
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DSN=EDUDW
+Table=TEMPO_D</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="246" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">TEMPO_ID=True,ANO=True,MES=True,DIA=True,DIA_SEMANA=True,DIA_ANO=True,ANO_BISSEXTO=True,DIA_UTIL=True,FIM_SEMANA=True,FERIADO=True,NOME_DIA_SEMANA=True,NOME_DIA_SEMANA_ABREV=True,NOME_MES=True,NOME_MES_ABREV=True,QUINZENA=True,BIMESTRE=True,TRIMESTRE=True,SEMESTRE=True,NR_SEMANA_MES=True,NR_SEMANA_ANO=True,ESTACAO_ANO=True,DATA_POR_EXTENSO=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="TEMPO_ID" selected="True" type="Date" size="10" />
+            <SelectField field="ANO" selected="True" type="Int32" size="4" />
+            <SelectField field="MES" selected="True" type="Int32" size="4" />
+            <SelectField field="DIA" selected="True" type="Int32" size="4" />
+            <SelectField field="DIA_SEMANA" selected="True" type="Int32" size="4" />
+            <SelectField field="DIA_ANO" selected="True" type="Int32" size="4" />
+            <SelectField field="ANO_BISSEXTO" selected="True" type="Bool" size="1" />
+            <SelectField field="DIA_UTIL" selected="True" type="Bool" size="1" />
+            <SelectField field="FIM_SEMANA" selected="True" type="Bool" size="1" />
+            <SelectField field="FERIADO" selected="True" type="Bool" size="1" />
+            <SelectField field="NOME_DIA_SEMANA" selected="True" size="50" />
+            <SelectField field="NOME_DIA_SEMANA_ABREV" selected="True" size="50" />
+            <SelectField field="NOME_MES" selected="True" size="50" />
+            <SelectField field="NOME_MES_ABREV" selected="True" size="50" />
+            <SelectField field="QUINZENA" selected="True" type="Int32" size="4" />
+            <SelectField field="BIMESTRE" selected="True" type="Int32" size="4" />
+            <SelectField field="TRIMESTRE" selected="True" type="Int32" size="4" />
+            <SelectField field="SEMESTRE" selected="True" type="Int32" size="4" />
+            <SelectField field="NR_SEMANA_MES" selected="True" type="Int32" size="4" />
+            <SelectField field="NR_SEMANA_ANO" selected="True" type="Int32" size="4" />
+            <SelectField field="ESTACAO_ANO" selected="True" size="50" />
+            <SelectField field="DATA_POR_EXTENSO" selected="True" size="50" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="330" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Interactive" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output2" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>TEMPO_D</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
