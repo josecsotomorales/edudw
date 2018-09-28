@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="78" />
+        <Position x="54" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -18,9 +18,6 @@
           <DefaultAnnotationText>LOCALIZACAO_D.kml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="65535" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\LOCALIZACAO_D.kml" type="V_WString" />
@@ -33,11 +30,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="234" y="6" />
+        <Position x="222" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_3252_2e40444ca09843ee9713765f4869b8ef_\Engine_8780_078a23678e394a23b056840d7d8b7a65_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_d88263c9e525439fa9d108d89962a5ec_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -64,7 +61,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="174" />
+        <Position x="54" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -86,9 +83,6 @@
           <DefaultAnnotationText>NOME_ESTADOS.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NOME_ESTADO" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
@@ -102,11 +96,11 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="234" y="246" />
+        <Position x="222" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_3252_2e40444ca09843ee9713765f4869b8ef_\Engine_8780_21da4bd59fa34062aed50f7c1847e9d4_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_f08402c303ca4e938ccae9c3c7af7336_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -130,7 +124,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="78" />
+        <Position x="222" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -151,7 +145,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="234" y="174" />
+        <Position x="222" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -171,7 +165,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="390" y="126" />
+        <Position x="378" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -201,7 +195,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="510" y="126" />
+        <Position x="498" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -213,7 +207,7 @@
             <SelectField field="SIGLA_ESTADO" selected="True" />
             <SelectField field="CAPITAL_ESTADO" selected="True" />
             <SelectField field="REGIAO_ESTADO" selected="True" />
-            <SelectField field="SpatialObj" selected="True" />
+            <SelectField field="SpatialObj" selected="True" rename="GEO_LOC" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -227,11 +221,11 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="618" y="18" />
+        <Position x="606" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_3252_2e40444ca09843ee9713765f4869b8ef_\Engine_8780_e772b2792c2d435ea04f82fa6d9bd764_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_61c8f6bed51a416fb0f359e883786431_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -258,7 +252,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="618" y="126" />
+        <Position x="606" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -279,7 +273,7 @@ CAPITAL_ESTADO = Uppercase([CAPITAL_ESTAD...</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="774" y="126" />
+        <Position x="762" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -288,13 +282,13 @@ CAPITAL_ESTADO = Uppercase([CAPITAL_ESTAD...</DefaultAnnotationText>
           <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
-            <SpatialObjField>SpatialObj</SpatialObjField>
+            <SpatialObjField>GEO_LOC</SpatialObjField>
             <TransactionSize>10000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />
             <TableStyle>Quoted</TableStyle>
             <PreSQL />
-            <TransactionMessages>False</TransactionMessages>
+            <TransactionMessages>True</TransactionMessages>
             <OutputOption>Overwrite</OutputOption>
           </FormatSpecificOptions>
           <MultiFile value="False" />
@@ -305,9 +299,27 @@ CAPITAL_ESTADO = Uppercase([CAPITAL_ESTAD...</DefaultAnnotationText>
 Table=LOCALIZACAO_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">\\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\LOCALIZACAO_D.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LOCALIZACAO_D.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -352,6 +364,10 @@ Table=LOCALIZACAO_D</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

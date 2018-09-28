@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="114" />
+        <Position x="54" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -20,9 +20,6 @@
 Table=`Dados$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ANO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
@@ -100,11 +97,11 @@ Table=`Dados$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="186" y="18" />
+        <Position x="210" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2268_0f1debca8351468fbcaa4a3df24e4937_\Engine_828_deea2f95eeb349cf9ca9020121ba87bf_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4500_b2a32979e750484a9adebd3f99c9e100_\Engine_1652_0061be45d69c43019cc96c72eab2efc6_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -128,13 +125,14 @@ Table=`Dados$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="114" />
+        <Position x="354" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="ANO" selected="True" type="Int16" size="2" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -148,7 +146,7 @@ Table=`Dados$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="258" />
+        <Position x="54" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -165,9 +163,6 @@ Table=`Dados$`</DefaultAnnotationText>
 Table=`Legenda$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="SIGLA" size="255" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Legenda$`" type="V_String" />
@@ -181,11 +176,11 @@ Table=`Legenda$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="186" y="330" />
+        <Position x="198" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2268_0f1debca8351468fbcaa4a3df24e4937_\Engine_828_ac5dc4d3b86842b78b74da40afd56f07_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4500_b2a32979e750484a9adebd3f99c9e100_\Engine_1652_7677829668334d059cddef779931ff9a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -209,7 +204,7 @@ Table=`Legenda$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="294" y="234" />
+        <Position x="462" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -223,7 +218,7 @@ Table=`Legenda$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="294" y="306" />
+        <Position x="462" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -237,7 +232,7 @@ Table=`Legenda$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="258" />
+        <Position x="306" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -257,7 +252,7 @@ Table=`Legenda$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="426" y="210" />
+        <Position x="570" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -282,15 +277,12 @@ Table=`Legenda$`</DefaultAnnotationText>
 Table=RADAR_IDHM_F</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="426" y="306" />
+        <Position x="570" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -315,15 +307,12 @@ Table=RADAR_IDHM_F</DefaultAnnotationText>
 Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="12">
       <GuiSettings>
-        <Position x="402" y="138" />
+        <Position x="462" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -339,19 +328,16 @@ Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="498" y="150" />
+        <Position x="558" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2268_0f1debca8351468fbcaa4a3df24e4937_\Engine_828_6319b2d94cec4b06872db231c49d7aae_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4500_b2a32979e750484a9adebd3f99c9e100_\Engine_1652_50f05898ffe44d52802293c9f57ca797_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -368,167 +354,126 @@ Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="17">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="498" y="78" />
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="318" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2268_0f1debca8351468fbcaa4a3df24e4937_\Engine_828_d3b8f6967f454b08a845749df89411dc_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
+          <Fields>
+            <Field field="SIGLA" selected="True" />
+            <Field field="NOME CURTO" selected="True" />
+            <Field field="NOME LONGO" selected="True" />
+            <Field field="DEFINIÇÃO" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SIGLA" size="255" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Legenda$`" type="V_String" />
+            <Field name="NOME CURTO" size="255" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Legenda$`" type="V_String" />
+            <Field name="NOME LONGO" size="255" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Legenda$`" type="V_String" />
+            <Field name="DEFINIÇÃO" size="746" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Legenda$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
     </Node>
-    <Node ToolID="18">
-      <GuiSettings>
-        <Position x="402" y="6" />
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="210" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="x var">ANO</Value>
-          <Value name="y var">I_ESCOLARIDADE</Value>
-          <Value name="y binary">False</Value>
-          <Value name="y level" />
-          <Value name="reg line">True</Value>
-          <Value name="smooth line">True</Value>
-          <Value name="smooth span">50</Value>
-          <Value name="spread">True</Value>
-          <Value name="boxplots">True</Value>
-          <Value name="jitter x">False</Value>
-          <Value name="jitter y">False</Value>
-          <Value name="log x">False</Value>
-          <Value name="log y">False</Value>
-          <Value name="groups">False</Value>
-          <Value name="group var">NOME_AGREGA</Value>
-          <Value name="group lines">False</Value>
-          <Value name="default">True</Value>
-          <Value name="topleft">False</Value>
-          <Value name="topright">False</Value>
-          <Value name="bottomleft">False</Value>
-          <Value name="bottomright">False</Value>
-          <Value name="x label" />
-          <Value name="y label" />
-          <Value name="pointsize">10</Value>
-          <Value name="point size">1.0</Value>
-          <Value name="axis text size">1.2</Value>
-          <Value name="axis label size">1.3</Value>
-          <Value name="title size">1.4</Value>
-          <Value name="inches">True</Value>
-          <Value name="in.w">5.50</Value>
-          <Value name="in.h">5.50</Value>
-          <Value name="centimeters">False</Value>
-          <Value name="cm.w">13.00</Value>
-          <Value name="cm.h">14.95</Value>
-          <Value name="graph.resolution">1x</Value>
+          <Fields>
+            <Field field="NOME_AGREGA" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="NOME_AGREGA" size="17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="V_String" />
+            <Field name="AGREGA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="ESPVIDA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="MORT1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ENV" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RAZDEP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="ANOSEST" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ANALF15M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ANALF18M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ANALF25M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ATRASO_2_BASICO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_ATRASO_2_FUND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FLBAS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FLFUND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FLMED" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FLSUPER" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FREQ5A6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FREQ6A14" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FREQ15A17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FREQ18A24" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FUND11A13" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FUND15A17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FUND18M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FUND18A24" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_FUND25M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_MED18A20" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_MED25M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="T_SUPER25M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="R1040" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="R2040" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC3" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPC10" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RDPCT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RIND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RMPOB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="RPOB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="PRENTRAB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="PIND" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="PMPOB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="PPOB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="GINI" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="THEIL" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP5A6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP6A14" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP6A17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP11A13" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP15A17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP15M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP18M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP18A20" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP18A24" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP25M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POP65M" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POPT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="POPTOT" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="I_ESCOLARIDADE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="I_FREQ_PROP" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="IDHM_E" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="IDHM_L" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="IDHM_R" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+            <Field name="IDHM" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\IBGE-MICRODADOS\Indicadores Atlas - RADAR IDHM.xlsx|||`Dados$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
-    </Node>
-    <Node ToolID="19">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="498" y="6" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2268_0f1debca8351468fbcaa4a3df24e4937_\Engine_828_99977a8b5bd44a84849afc6941d9329b_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Report</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="20">
-      <GuiSettings>
-        <Position x="402" y="78" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="x var">ANO</Value>
-          <Value name="y var">IDHM</Value>
-          <Value name="y binary">False</Value>
-          <Value name="y level" />
-          <Value name="reg line">True</Value>
-          <Value name="smooth line">True</Value>
-          <Value name="smooth span">50</Value>
-          <Value name="spread">True</Value>
-          <Value name="boxplots">True</Value>
-          <Value name="jitter x">False</Value>
-          <Value name="jitter y">False</Value>
-          <Value name="log x">False</Value>
-          <Value name="log y">False</Value>
-          <Value name="groups">False</Value>
-          <Value name="group var">NOME_AGREGA</Value>
-          <Value name="group lines">False</Value>
-          <Value name="default">True</Value>
-          <Value name="topleft">False</Value>
-          <Value name="topright">False</Value>
-          <Value name="bottomleft">False</Value>
-          <Value name="bottomright">False</Value>
-          <Value name="x label" />
-          <Value name="y label" />
-          <Value name="pointsize">10</Value>
-          <Value name="point size">1.0</Value>
-          <Value name="axis text size">1.2</Value>
-          <Value name="axis label size">1.3</Value>
-          <Value name="title size">1.4</Value>
-          <Value name="inches">True</Value>
-          <Value name="in.w">5.50</Value>
-          <Value name="in.h">5.50</Value>
-          <Value name="centimeters">False</Value>
-          <Value name="cm.w">13.00</Value>
-          <Value name="cm.h">14.95</Value>
-          <Value name="graph.resolution">1x</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
     </Node>
   </Nodes>
   <Connections>
@@ -538,7 +483,7 @@ Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="3" Connection="Input" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="3" Connection="Output" />
@@ -549,20 +494,12 @@ Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
       <Destination ToolID="12" Connection="Field Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="18" Connection="Data Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
-      <Destination ToolID="20" Connection="Data Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="4" Connection="Output" />
       <Destination ToolID="5" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="8" Connection="Input" />
+      <Destination ToolID="15" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="6" Connection="Output2" />
@@ -581,12 +518,12 @@ Table=RADAR_IDHM_LEGENDAS</DefaultAnnotationText>
       <Destination ToolID="13" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="18" Connection="Scater Output" />
-      <Destination ToolID="19" Connection="Input" />
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="20" Connection="Scater Output" />
-      <Destination ToolID="17" Connection="Input" />
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
