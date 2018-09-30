@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2018.2">
+<AlteryxDocument yxmdVer="2018.3">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>avaliacaoEscolas.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Field_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="V_WString" />
@@ -47,7 +44,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9976_89ffff8a842c401ea1c8a01b62c47376_\Engine_1676_002e6f9759084566a494a44620177c50_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9100_70c379bcbfcd485a8de79ae0595c045d_\Engine_5516_e3a238b432684a28816cd1ac0044d3bc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -69,43 +66,9 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="198" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Fields>
-            <Field field="Field_1" selected="True" />
-            <Field field="Field_2" selected="True" />
-            <Field field="Field_3" selected="True" />
-            <Field field="Field_4" selected="True" />
-            <Field field="Field_5" selected="True" />
-            <Field field="Field_6" selected="True" />
-            <Field field="*Unknown" selected="True" />
-          </Fields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Field_1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="Int64" />
-            <Field name="Field_2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="Int32" />
-            <Field name="Field_3" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="Byte" />
-            <Field name="Field_4" size="26" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="V_String" />
-            <Field name="Field_5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="Int16" />
-            <Field name="Field_6" size="4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\avaliacaoEscolas.csv" type="String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
-    </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="318" y="150" />
+        <Position x="186" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -125,7 +88,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
-        <Position x="462" y="102" />
+        <Position x="330" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -143,7 +106,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings>
-        <Position x="462" y="198" />
+        <Position x="330" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -159,19 +122,28 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="102" />
+        <Position x="426" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9976_89ffff8a842c401ea1c8a01b62c47376_\Engine_1676_162a9460ca444226a8f55451bb80a58d_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9100_70c379bcbfcd485a8de79ae0595c045d_\Engine_5516_2b08efefc2df42eba390f67075e2d19e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -183,17 +155,22 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="246" />
+        <Position x="426" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9976_89ffff8a842c401ea1c8a01b62c47376_\Engine_1676_fd32eee8d7d84a358c533b4bd183a119_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_9100_70c379bcbfcd485a8de79ae0595c045d_\Engine_5516_ac91fdd3bb024c3d8997a57b4f6cb89d_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -212,10 +189,6 @@
     </Connection>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="3" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="3" Connection="Output" />
       <Destination ToolID="4" Connection="Input" />
     </Connection>
     <Connection>

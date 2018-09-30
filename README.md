@@ -1,5 +1,11 @@
 # EDUDW
 
+FERRAMENTAS DESENVOLVIMENTO PROJETO:
+
+ALTERYX DESIGNER -> https://www.alteryx.com/
+
+TABLEAU DESKTOP -> https://www.tableau.com/
+
 FONTES MICRODADOS USADOS NO PROJETO: 
 
 http://portal.inep.gov.br/microdados
@@ -7,5 +13,7 @@ http://portal.inep.gov.br/microdados
 http://atlasbrasil.org.br/2013/
 
 http://dados.gov.br/
+
+
 
 
