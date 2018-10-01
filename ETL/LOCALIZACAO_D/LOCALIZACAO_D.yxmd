@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2018.2">
+<AlteryxDocument yxmdVer="2018.3">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
@@ -34,7 +34,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_d88263c9e525439fa9d108d89962a5ec_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_98fbca7ca1b84b458bee81b0a9bd122c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -85,10 +85,12 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="NOME_ESTADO" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
-            <Field name="SIGLA_ESTADO" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
-            <Field name="CAPITAL_ESTADO" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
-            <Field name="REGIAO_ESTADO" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="NOME_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="SIGLA_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="CODIGO_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="CAPITAL_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="REGIAO_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
+            <Field name="CODIGO_REGIAO_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\ETL\LOCALIZACAO_D\NOME_ESTADOS.csv" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -100,7 +102,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_f08402c303ca4e938ccae9c3c7af7336_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_a1449d727e9e4fdaa75c623cf6ac7db3_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -152,6 +154,8 @@
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="CODIGO_UF" selected="True" type="Int16" size="2" />
+            <SelectField field="CODIGO_REGIAO_UF" selected="True" type="Int16" size="2" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -173,7 +177,7 @@
             <Field field="Name" />
           </JoinInfo>
           <JoinInfo connection="Right">
-            <Field field="NOME_ESTADO" />
+            <Field field="NOME_UF" />
           </JoinInfo>
           <SelectConfiguration>
             <Configuration outputConnection="Join">
@@ -203,10 +207,16 @@
           <CommaDecimal value="False" />
           <SelectFields>
             <SelectField field="Name" selected="False" />
-            <SelectField field="NOME_ESTADO" selected="True" />
-            <SelectField field="SIGLA_ESTADO" selected="True" />
-            <SelectField field="CAPITAL_ESTADO" selected="True" />
-            <SelectField field="REGIAO_ESTADO" selected="True" />
+            <SelectField field="NOME_ESTADO" selected="False" />
+            <SelectField field="SIGLA_ESTADO" selected="False" />
+            <SelectField field="CAPITAL_ESTADO" selected="False" />
+            <SelectField field="REGIAO_ESTADO" selected="False" />
+            <SelectField field="NOME_UF" selected="True" />
+            <SelectField field="SIGLA_UF" selected="True" />
+            <SelectField field="CODIGO_UF" selected="True" />
+            <SelectField field="CAPITAL_UF" selected="True" />
+            <SelectField field="REGIAO_UF" selected="True" />
+            <SelectField field="CODIGO_REGIAO_UF" selected="True" />
             <SelectField field="SpatialObj" selected="True" rename="GEO_LOC" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
@@ -225,7 +235,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_652_e3bd7d5c7bbc4d868bc3e100b7da0ff2_\Engine_1652_61c8f6bed51a416fb0f359e883786431_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_3f8f88763fa3450faf0e4c065bc857dc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -257,15 +267,17 @@
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="Uppercase([NOME_ESTADO])" field="NOME_ESTADO" size="254" type="V_WString" />
-            <FormulaField expression="Uppercase([CAPITAL_ESTADO])" field="CAPITAL_ESTADO" size="254" type="V_WString" />
-            <FormulaField expression="Uppercase([REGIAO_ESTADO])" field="REGIAO_ESTADO" size="254" type="V_WString" />
+            <FormulaField expression="Uppercase([NOME_UF])" field="NOME_UF" size="254" type="V_WString" />
+            <FormulaField expression="Uppercase([SIGLA_UF])" field="SIGLA_UF" size="254" type="V_WString" />
+            <FormulaField expression="Uppercase([CAPITAL_UF])" field="CAPITAL_UF" size="254" type="V_WString" />
+            <FormulaField expression="Uppercase([REGIAO_UF])" field="REGIAO_UF" size="254" type="V_WString" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>NOME_ESTADO = Uppercase([NOME_ESTADO])
-CAPITAL_ESTADO = Uppercase([CAPITAL_ESTAD...</DefaultAnnotationText>
+          <DefaultAnnotationText>NOME_UF = Uppercase([NOME_UF])
+SIGLA_UF = Uppercase([SIGLA_UF])
+CAPITAL_UF = Upp...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -363,11 +375,11 @@ Table=LOCALIZACAO_D</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
-      <Destination ToolID="13" Connection="Input" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
-      <Destination ToolID="14" Connection="Input" />
+      <Destination ToolID="13" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

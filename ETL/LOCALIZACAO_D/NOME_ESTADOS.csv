@@ -1,28 +1,28 @@
-NOME_ESTADO	SIGLA_ESTADO	CAPITAL_ESTADO	REGIAO_ESTADO
-Distrito Federal	DF	Brasília	Centro-Oeste
-Acre	AC	Rio Branco	Norte
-Alagoas	AL	Maceió	Nordeste
-Amapá	AP	Macapá	Norte
-Amazonas	AM	Manaus	Norte
-Bahia	BA	Salvador	Nordeste
-Ceará	CE	Fortaleza	Nordeste
-Espírito Santo	ES	Vitória	Sudeste
-Goiás	GO	Goiânia	Centro-Oeste
-Maranhão	MA	São Luís	Nordeste
-Mato Grosso	MT	Cuiabá	Centro-Oeste
-Mato Grosso do Sul	MS	Campo Grande	Centro-Oeste
-Minas Gerais	MG	Belo Horizonte	Sudeste
-Pará	PA	Belém	Norte
-Paraíba	PB	João Pessoa	Nordeste
-Paraná	PR	Curitiba	Sul
-Pernambuco	PE	Recife	Nordeste
-Piauí	PI	Teresina	Nordeste
-Rio de Janeiro	RJ	Rio de Janeiro	Sudeste
-Rio Grande do Norte	RN	Natal	Nordeste
-Rio Grande do Sul	RS	Porto Alegre	Sul
-Rondônia	RO	Porto Velho	Norte
-Roraima	RR	Boa Vista	Norte
-Santa Catarina	SC	Florianópolis	Sul
-São Paulo	SP	São Paulo	Sudeste
-Sergipe	SE	Aracaju	Nordeste
-Tocantins	TO	Palmas	Norte
+NOME_UF	SIGLA_UF	CODIGO_UF	CAPITAL_UF	REGIAO_UF	CODIGO_REGIAO_UF
+Distrito Federal	DF	53	Brasília	Centro-Oeste	5
+Acre	AC	12	Rio Branco	Norte	1
+Alagoas	AL	27	Maceió	Nordeste	2
+Amapá	AP	16	Macapá	Norte	1
+Amazonas	AM	13	Manaus	Norte	1
+Bahia	BA	29	Salvador	Nordeste	2
+Ceará	CE	23	Fortaleza	Nordeste	2
+Espírito Santo	ES	32	Vitória	Sudeste	3
+Goiás	GO	52	Goiânia	Centro-Oeste	5
+Maranhão	MA	21	São Luís	Nordeste	2
+Mato Grosso	MT	51	Cuiabá	Centro-Oeste	5
+Mato Grosso do Sul	MS	50	Campo Grande	Centro-Oeste	5
+Minas Gerais	MG	31	Belo Horizonte	Sudeste	3
+Pará	PA	15	Belém	Norte	1
+Paraíba	PB	25	João Pessoa	Nordeste	2
+Paraná	PR	41	Curitiba	Sul	4
+Pernambuco	PE	26	Recife	Nordeste	2
+Piauí	PI	22	Teresina	Nordeste	2
+Rio de Janeiro	RJ	33	Rio de Janeiro	Sudeste	3
+Rio Grande do Norte	RN	24	Natal	Nordeste	2
+Rio Grande do Sul	RS	43	Porto Alegre	Sul	4
+Rondônia	RO	11	Porto Velho	Norte	1
+Roraima	RR	14	Boa Vista	Norte	1
+Santa Catarina	SC	42	Florianópolis	Sul	4
+São Paulo	SP	35	São Paulo	Sudeste	3
+Sergipe	SE	28	Aracaju	Nordeste	2
+Tocantins	TO	17	Palmas	Norte	1
