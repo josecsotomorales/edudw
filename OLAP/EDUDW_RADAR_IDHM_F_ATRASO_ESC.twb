@@ -1,0 +1,1498 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.0627.2230                               -->
+<workbook original-version='18.1' source-build='2018.2.0 (20182.18.0627.2230)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='EDUDW_RADAR_IDHM_F_ATRASO_ESC' inline='true' name='federated.0e1qazm06mlxh71bwpdw50asigtu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='edudw.c4rtgtp5t3d4.sa-east-1.rds.amazonaws.com' name='mysql.19f5bp41n7l58r1d3o3f91oa9zkb'>
+            <connection class='mysql' dbname='EDUDW' odbc-native-protocol='' one-time-sql='' port='3306' server='edudw.c4rtgtp5t3d4.sa-east-1.rds.amazonaws.com' source-charset='' username='edudw' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[RADAR_IDHM_F].[ANO]' />
+              <expression op='[TEMPO_D].[NO_ANO]' />
+            </expression>
+          </clause>
+          <relation join='inner' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[RADAR_IDHM_F].[UF]' />
+                <expression op='[LOCALIZACAO_D].[SIGLA_UF]' />
+              </expression>
+            </clause>
+            <relation connection='mysql.19f5bp41n7l58r1d3o3f91oa9zkb' name='RADAR_IDHM_F' table='[RADAR_IDHM_F]' type='table' />
+            <relation connection='mysql.19f5bp41n7l58r1d3o3f91oa9zkb' name='LOCALIZACAO_D' table='[LOCALIZACAO_D]' type='table' />
+          </relation>
+          <relation connection='mysql.19f5bp41n7l58r1d3o3f91oa9zkb' name='TEMPO_D' table='[TEMPO_D]' type='table' />
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ANO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>ANO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEDIA_ANOS_ESTUDO_MAIORES_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESPERANCA_VIDA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ESPERANCA_VIDA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>ESPERANCA_VIDA</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_GINI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_GINI]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>INDICE_GINI</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_ESCOLARIDADE_IDHM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_ESCOLARIDADE_IDHM]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>INDICE_ESCOLARIDADE_IDHM</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_FREQUENCIA_ESCOLAR_IDHM]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_GERAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_GERAL]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>IDH_GERAL</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_EDUCACAO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_EDUCACAO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_EDUCACAO</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_LONGEVIDADE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_LONGEVIDADE]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_LONGEVIDADE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_RENDA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_RENDA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_RENDA</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MORTALIDADE_INFANTIL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MORTALIDADE_INFANTIL]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>MORTALIDADE_INFANTIL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UF</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UF]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>UF</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>17</width>
+            <contains-null>true</contains-null>
+            <collation charset='280' flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_EXTREMA_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_EXTREMA_POBREZA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_EXTREMA_POBREZA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_POBREZA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_POBREZA</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POP_TOTAL_DOMICILIOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POP_TOTAL_DOMICILIOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POP_TOTAL_DOMICILIOS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_11_13_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_11_13_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_11_13_ANOS</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_15_17_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_15_17_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_15_17_ANOS</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_15]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_15</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_18_20_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_18_20_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_18_20_ANOS</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_18_24_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_18_24_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_18_24_ANOS</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_18]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_18</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_25</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_25</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_5_6_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_5_6_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_5_6_ANOS</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_65</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_65]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_65</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_6_14_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_6_14_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_6_14_ANOS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_6_17_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_6_17_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_6_17_ANOS</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_TOTAL_DOMICILIOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_TOTAL_DOMICILIOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_TOTAL_DOMICILIOS</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_TOTAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_TOTAL]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>POPULACAO_TOTAL</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_VULNERAVEIS_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_VULNERAVEIS_POBREZA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_VULNERAVEIS_POBREZA</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_RENDA_TRABALHO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_RENDA_TRABALHO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_RENDA_TRABALHO</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_10_RICOS_40_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_10_RICOS_40_POBRES]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RAZAO_10_RICOS_40_POBRES</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_20_RICOS_40_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_20_RICOS_40_POBRES]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RAZAO_20_RICOS_40_POBRES</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_DEPENDENCIA_M15_M65</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_DEPENDENCIA_M15_M65]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RAZAO_DEPENDENCIA_M15_M65</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_1QUINTO_POBRE]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_DECIMO_RICOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_DECIMO_RICOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_DECIMO_RICOS</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_2QUINTO_POBRE]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_3QUINTO_POBRE]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_4QUINTO_POBRE]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_5QUINTO_RICOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_MENOS_NULO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_MENOS_NULO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_MENOS_NULO</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_EXT_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_EXT_POBRES]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_EXT_POBRES</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_POBRES]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_POBRES</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_VULN_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_VULN_POBRES]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_VULN_POBRES</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_15]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_15</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_18]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_18</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_25</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_ATRASO_ENS_BASICO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_ATRASO_ENS_BASICO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_ATRASO_ENS_BASICO</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_ATRASO_ENS_FUNDAMENTAL]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ENVELHECIMENTO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ENVELHECIMENTO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_ENVELHECIMENTO</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_BASICO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_BASICO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_BASICO</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_MEDIO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_MEDIO]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_MEDIO</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_SUPERIOR]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_15_17_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_15_17_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_15_17_ANOS</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_18_24_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_18_24_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_18_24_ANOS</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_5_6_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_5_6_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_5_6_ANOS</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_6_14_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_6_14_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_6_14_ANOS</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_11_13_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_15_17_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_18_24_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_MAIOR_18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_MAIOR_18]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_18</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_MEDIO_COMPLETO_18_20_ANOS]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_MEDIO_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_SUP_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_SUP_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>PERCENT_SUP_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_THEIL_L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_THEIL_L]</local-name>
+            <parent-name>[RADAR_IDHM_F]</parent-name>
+            <remote-alias>INDICE_THEIL_L</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOME_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NOME_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>NOME_UF</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SIGLA_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SIGLA_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>SIGLA_UF</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO_UF</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[CODIGO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>CODIGO_UF</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CAPITAL_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CAPITAL_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>CAPITAL_UF</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGIAO_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[REGIAO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>REGIAO_UF</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO_REGIAO_UF</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[CODIGO_REGIAO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>CODIGO_REGIAO_UF</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO_LOC</remote-name>
+            <remote-type>128</remote-type>
+            <local-name>[GEO_LOC]</local-name>
+            <parent-name>[LOCALIZACAO_D]</parent-name>
+            <remote-alias>GEO_LOC</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8589934590</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_LONGVARBINARY&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BINARY&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_ANO</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ID_ANO]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>ID_ANO</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO_STRING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ANO_STRING]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>ANO_STRING</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='280' flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_ANO</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_ANO]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_ANO</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_MES</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_MES]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_MES</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_DIA</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_DIA]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_DIA</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[ANO]' role='dimension' type='quantitative' />
+      <column caption='Ano String' datatype='string' name='[ANO_STRING]' role='dimension' type='nominal' />
+      <column caption='Capital Uf' datatype='string' name='[CAPITAL_UF]' role='dimension' type='nominal' />
+      <column caption='Codigo Regiao Uf' datatype='integer' name='[CODIGO_REGIAO_UF]' role='dimension' type='ordinal' />
+      <column caption='Codigo Uf' datatype='integer' name='[CODIGO_UF]' role='dimension' type='ordinal' />
+      <column caption='Esperanca Vida' datatype='real' name='[ESPERANCA_VIDA]' role='measure' type='quantitative' />
+      <column caption='Geo Loc' datatype='string' name='[GEO_LOC]' role='dimension' type='nominal' />
+      <column caption='Idh Dimensao Educacao' datatype='real' name='[IDH_DIMENSAO_EDUCACAO]' role='measure' type='quantitative' />
+      <column caption='Idh Dimensao Longevidade' datatype='real' name='[IDH_DIMENSAO_LONGEVIDADE]' role='measure' type='quantitative' />
+      <column caption='Idh Dimensao Renda' datatype='real' name='[IDH_DIMENSAO_RENDA]' role='measure' type='quantitative' />
+      <column caption='Idh Geral' datatype='real' name='[IDH_GERAL]' role='measure' type='quantitative' />
+      <column datatype='real' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Id Ano' datatype='datetime' name='[ID_ANO]' role='dimension' type='ordinal' />
+      <column caption='Indice Escolaridade Idhm' datatype='real' name='[INDICE_ESCOLARIDADE_IDHM]' role='measure' type='quantitative' />
+      <column caption='Indice Frequencia Escolar Idhm' datatype='real' name='[INDICE_FREQUENCIA_ESCOLAR_IDHM]' role='measure' type='quantitative' />
+      <column caption='Indice Gini' datatype='real' name='[INDICE_GINI]' role='measure' type='quantitative' />
+      <column caption='Indice Theil L' datatype='real' name='[INDICE_THEIL_L]' role='measure' type='quantitative' />
+      <column caption='Media Anos Estudo Maiores 25' datatype='real' name='[MEDIA_ANOS_ESTUDO_MAIORES_25]' role='measure' type='quantitative' />
+      <column caption='Mortalidade Infantil' datatype='real' name='[MORTALIDADE_INFANTIL]' role='measure' type='quantitative' />
+      <column caption='Nome Uf' datatype='string' name='[NOME_UF]' role='dimension' type='nominal' />
+      <column caption='No Ano' datatype='integer' name='[NO_ANO]' role='dimension' type='quantitative' />
+      <column caption='No Dia' datatype='integer' name='[NO_DIA]' role='dimension' type='quantitative' />
+      <column caption='No Mes' datatype='integer' name='[NO_MES]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Percent Atraso Ens Basico' datatype='real' name='[PERCENT_ATRASO_ENS_BASICO]' role='measure' type='quantitative' />
+      <column caption='Percent Atraso Ens Fundamental' datatype='real' name='[PERCENT_ATRASO_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+      <column caption='Percent Extrema Pobreza' datatype='real' name='[PERCENT_EXTREMA_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 15 17 Anos' datatype='real' name='[PERCENT_FREQUENCIA_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 18 24 Anos' datatype='real' name='[PERCENT_FREQUENCIA_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 5 6 Anos' datatype='real' name='[PERCENT_FREQUENCIA_5_6_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 6 14 Anos' datatype='real' name='[PERCENT_FREQUENCIA_6_14_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 11 13 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_11_13_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 15 17 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 18 24 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo Maior 18' datatype='real' name='[PERCENT_FUND_COMPLETO_MAIOR_18]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo Maior 25' datatype='real' name='[PERCENT_FUND_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Medio Completo 18 20 Anos' datatype='real' name='[PERCENT_MEDIO_COMPLETO_18_20_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Medio Completo Maior 25' datatype='real' name='[PERCENT_MEDIO_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Pobreza' datatype='real' name='[PERCENT_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Percent Renda Trabalho' datatype='real' name='[PERCENT_RENDA_TRABALHO]' role='measure' type='quantitative' />
+      <column caption='Percent Sup Completo Maior 25' datatype='real' name='[PERCENT_SUP_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Vulneraveis Pobreza' datatype='real' name='[PERCENT_VULNERAVEIS_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Populacao 11 13 Anos' datatype='integer' name='[POPULACAO_11_13_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 15 17 Anos' datatype='integer' name='[POPULACAO_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 18 20 Anos' datatype='integer' name='[POPULACAO_18_20_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 18 24 Anos' datatype='integer' name='[POPULACAO_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 5 6 Anos' datatype='integer' name='[POPULACAO_5_6_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 6 17 Anos' datatype='integer' name='[POPULACAO_6_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 15' datatype='integer' name='[POPULACAO_MAIOR_15]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 18' datatype='integer' name='[POPULACAO_MAIOR_18]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 25' datatype='integer' name='[POPULACAO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 65' datatype='integer' name='[POPULACAO_MAIOR_65]' role='measure' type='quantitative' />
+      <column caption='Populacao Total' datatype='integer' name='[POPULACAO_TOTAL]' role='measure' type='quantitative' />
+      <column caption='Populacao Total Domicilios' datatype='integer' name='[POPULACAO_TOTAL_DOMICILIOS]' role='measure' type='quantitative' />
+      <column caption='Pop Total Domicilios' datatype='integer' name='[POP_TOTAL_DOMICILIOS]' role='measure' type='quantitative' />
+      <column caption='Razao 10 Ricos 40 Pobres' datatype='real' name='[RAZAO_10_RICOS_40_POBRES]' role='measure' type='quantitative' />
+      <column caption='Razao 20 Ricos 40 Pobres' datatype='real' name='[RAZAO_20_RICOS_40_POBRES]' role='measure' type='quantitative' />
+      <column caption='Razao Dependencia M15 M65' datatype='real' name='[RAZAO_DEPENDENCIA_M15_M65]' role='measure' type='quantitative' />
+      <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+      <column caption='Renda Per Capita' datatype='real' name='[RENDA_PER_CAPITA]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 1Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_1QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 2Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_2QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 3Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_3QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 4Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_4QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 5Quinto Ricos' datatype='real' name='[RENDA_PER_CAPITA_5QUINTO_RICOS]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Decimo Ricos' datatype='real' name='[RENDA_PER_CAPITA_DECIMO_RICOS]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Ext Pobres' datatype='real' name='[RENDA_PER_CAPITA_EXT_POBRES]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Menos Nulo' datatype='real' name='[RENDA_PER_CAPITA_MENOS_NULO]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Pobres' datatype='real' name='[RENDA_PER_CAPITA_POBRES]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Vuln Pobres' datatype='real' name='[RENDA_PER_CAPITA_VULN_POBRES]' role='measure' type='quantitative' />
+      <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
+      <column caption='Taxa Analf Maiores 15' datatype='real' name='[TAXA_ANALF_MAIORES_15]' role='measure' type='quantitative' />
+      <column caption='Taxa Analf Maiores 18' datatype='real' name='[TAXA_ANALF_MAIORES_18]' role='measure' type='quantitative' />
+      <column caption='Taxa Analf Maiores 25' datatype='real' name='[TAXA_ANALF_MAIORES_25]' role='measure' type='quantitative' />
+      <column caption='Taxa Envelhecimento' datatype='real' name='[TAXA_ENVELHECIMENTO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Basico' datatype='real' name='[TAXA_FREQUENCIA_ENS_BASICO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Medio' datatype='real' name='[TAXA_FREQUENCIA_ENS_MEDIO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Superior' datatype='real' name='[TAXA_FREQUENCIA_ENS_SUPERIOR]' role='measure' type='quantitative' />
+      <column datatype='string' name='[UF]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.31738' measure-ordering='alphabetic' measure-percentage='0.68262' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Planilha 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
