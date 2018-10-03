@@ -1419,9 +1419,93 @@
       <column caption='Taxa Frequencia Ens Superior' datatype='real' name='[TAXA_FREQUENCIA_ENS_SUPERIOR]' role='measure' type='quantitative' />
       <column datatype='string' name='[UF]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
       <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+      <column-instance column='[SIGLA_UF]' derivation='None' name='[none:SIGLA_UF:nk]' pivot='key' type='nominal' />
       <layout dim-ordering='alphabetic' dim-percentage='0.644283' measure-ordering='alphabetic' measure-percentage='0.355717' show-structure='true' user-set-layout='true' />
       <style>
         <style-rule element='mark'>
+          <encoding attr='color' field='[none:SIGLA_UF:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;GO&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;AC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;RO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BA&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SE&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MT&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SP&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;RJ&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;AL&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;RR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;PI&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DF&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TO&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PB&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;PR&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;RN&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;MG&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;ES&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;AM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;RS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;PE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;AP&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SC&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:REGIAO_UF:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;CENTRO-OESTE&quot;</bucket>
@@ -1464,10 +1548,12 @@
           <datasource-dependencies datasource='federated.1v40qk01daki5a1e0azj305tas50'>
             <column caption='Idh Dimensao Educacao' datatype='real' name='[IDH_DIMENSAO_EDUCACAO]' role='measure' type='quantitative' />
             <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
             <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
             <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
             <column-instance column='[IDH_DIMENSAO_EDUCACAO]' derivation='Avg' name='[avg:IDH_DIMENSAO_EDUCACAO:qk]' pivot='key' type='quantitative' />
             <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
             <column-instance column='[SIGLA_UF]' derivation='None' name='[none:SIGLA_UF:nk]' pivot='key' type='nominal' />
             <column-instance column='[POPULACAO_6_14_ANOS]' derivation='Sum' name='[sum:POPULACAO_6_14_ANOS:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
@@ -1477,6 +1563,8 @@
           <style-rule element='axis'>
             <encoding attr='space' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' field-type='quantitative' max='100.0' min='90.0' range-type='fixed' scope='rows' type='space' />
             <encoding attr='space' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:IDH_DIMENSAO_EDUCACAO:qk]' field-type='quantitative' max='0.85305372591006434' min='0.40000000000000002' range-type='fixed' scope='cols' type='space' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' scope='rows' value='Frequência média' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:IDH_DIMENSAO_EDUCACAO:qk]' scope='cols' value='IDH médio na Dimensão Educação' />
           </style-rule>
         </style>
         <panes>
@@ -1489,6 +1577,7 @@
             <encodings>
               <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' />
               <size column='[federated.1v40qk01daki5a1e0azj305tas50].[sum:POPULACAO_6_14_ANOS:qk]' />
+              <lod column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
             </encodings>
             <customized-tooltip>
               <formatted-text>
@@ -1540,6 +1629,9 @@
           <aggregation value='true' />
         </view>
         <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' scope='rows' value='Frequência média' />
+          </style-rule>
           <style-rule element='cell'>
             <format attr='width' field='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' value='124' />
           </style-rule>
@@ -1553,6 +1645,15 @@
             <encodings>
               <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Unidade da Federaçãp:&#9;</run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Taxa Frequência média ao Ens. Fundamental:&#9;</run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]&gt;%</run>
+              </formatted-text>
+            </customized-tooltip>
             <style>
               <style-rule element='pane'>
                 <format attr='minwidth' value='-1' />
@@ -1591,6 +1692,8 @@
         <style>
           <style-rule element='axis'>
             <encoding attr='space' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' field-type='quantitative' max='100.0' min='90.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' scope='rows' value='Frequência média' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:RENDA_PER_CAPITA:qk]' scope='cols' value='Renda per Capita média' />
           </style-rule>
         </style>
         <panes>
@@ -1608,10 +1711,11 @@
                 <run fontcolor='#787878'>Unidade da Federação:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]&gt;</run>
                 <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Renda Per Capita média:&#9;R$</run>
+                <run fontcolor='#787878'>Renda Per Capita média:&#9;</run>
+                <run>R$</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:RENDA_PER_CAPITA:qk]&gt;</run>
                 <run>Æ&#10;</run>
-                <run fontcolor='#787878'>Taxa Frequencia média ao Ens. Fundamental:&#9;</run>
+                <run fontcolor='#787878'>Taxa Frequência média ao Ens. Fundamental:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]&gt;%</run>
               </formatted-text>
             </customized-tooltip>
@@ -1625,6 +1729,71 @@
         </panes>
         <rows>[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
         <cols>[federated.1v40qk01daki5a1e0azj305tas50].[avg:RENDA_PER_CAPITA:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Frequência escolar X UF'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Frequência escolar X UF</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EDUDW_RADAR_IDHM_F_FREQ_ESC' name='federated.1v40qk01daki5a1e0azj305tas50' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1v40qk01daki5a1e0azj305tas50'>
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+            <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
+            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SIGLA_UF]' derivation='None' name='[none:SIGLA_UF:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' direction='DESC' using='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' scope='rows' value='Frequência média' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' value='28' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Região:&#9;</run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Unidadeda Federação:&#9;</run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Taxa Frequência média ao Ens. Fundamental:&#9;</run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]&gt;%</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
+        <cols>[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]</cols>
       </table>
     </worksheet>
     <worksheet name='Frequência escolar X Vulnerabilidade à pobreza'>
@@ -1658,6 +1827,8 @@
         <style>
           <style-rule element='axis'>
             <encoding attr='space' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' field-type='quantitative' max='100.0' min='90.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' scope='rows' value='Frequência média' />
+            <format attr='title' class='0' field='[federated.1v40qk01daki5a1e0azj305tas50].[sum:Calculation_1382675502866374656:qk]' scope='cols' value='População Vulnerável à Pobreza' />
           </style-rule>
         </style>
         <panes>
@@ -1666,77 +1837,90 @@
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
             <encodings>
               <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
               <tooltip column='[federated.1v40qk01daki5a1e0azj305tas50].[avg:PERCENT_VULNERAVEIS_POBREZA:qk]' />
             </encodings>
             <customized-tooltip>
               <formatted-text>
-                <run fontcolor='#787878'>Unidade da Federação:&#9;</run>
+                <run fontcolor='#787878'>Região:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]&gt;</run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#787878'>Populacao Vulneravel Pobreza:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[sum:Calculation_1382675502866374656:qk]&gt;</run>
                 <run>Æ&#10;</run>
-                <run bold='true' fontcolor='#555555'>Taxa de Vulneráveis à pobreza:</run>
-                <run bold='true'>Æ </run>
-                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:PERCENT_VULNERAVEIS_POBREZA:qk]&gt;</run>
-                <run bold='true'>%</run>
+                <run bold='true' fontcolor='#666666'>Taxa de Vulneráveis à pobreza:</run>
+                <run bold='true'> &lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:PERCENT_VULNERAVEIS_POBREZA:qk]&gt;%</run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#787878'>Taxa Frequência média ao Ens. Fundamental:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]&gt;%</run>
               </formatted-text>
             </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
         <rows>[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
         <cols>[federated.1v40qk01daki5a1e0azj305tas50].[sum:Calculation_1382675502866374656:qk]</cols>
       </table>
     </worksheet>
-    <worksheet name='Planilha 5'>
-      <table>
-        <view>
-          <datasources>
-            <datasource caption='EDUDW_RADAR_IDHM_F_FREQ_ESC' name='federated.1v40qk01daki5a1e0azj305tas50' />
-          </datasources>
-          <datasource-dependencies datasource='federated.1v40qk01daki5a1e0azj305tas50'>
-            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
-            <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
-            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
-            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
-            <column-instance column='[SIGLA_UF]' derivation='None' name='[none:SIGLA_UF:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <computed-sort column='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' direction='ASC' using='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' />
-          <aggregation value='true' />
-        </view>
-        <style>
-          <style-rule element='cell'>
-            <format attr='width' field='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' value='28' />
-          </style-rule>
-        </style>
-        <panes>
-          <pane selection-relaxation-option='selection-relaxation-allow'>
-            <view>
-              <breakdown value='auto' />
-            </view>
-            <mark class='Automatic' />
-            <encodings>
-              <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
-            </encodings>
-            <style>
-              <style-rule element='pane'>
-                <format attr='minwidth' value='-1' />
-                <format attr='maxwidth' value='-1' />
-              </style-rule>
-            </style>
-          </pane>
-        </panes>
-        <rows>[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
-        <cols>[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]</cols>
-      </table>
-    </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard name='Frequência escolar'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97586' id='15' param='horz' type='layout-flow' w='98468' x='766' y='1207'>
+            <zone h='97586' id='13' type='layout-basic' w='98468' x='766' y='1207'>
+              <zone h='48793' id='9' param='horz' type='layout-flow' w='98468' x='766' y='1207'>
+                <zone h='48793' id='5' param='horz' type='layout-flow' w='98468' x='766' y='1207'>
+                  <zone h='48793' id='3' type='layout-basic' w='98468' x='766' y='1207'>
+                    <zone h='48793' id='7' name='Frequência escolar X UF' show-title='false' w='98468' x='766' y='1207'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='48793' id='11' name='Frequência escolar X Região' show-title='false' w='49234' x='766' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48793' id='12' name='Frequência escolar X  IDH' show-title='false' w='49234' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='12971' id='10' name='Frequência escolar X UF' pane-specification-id='0' param='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' type='color' w='24521' x='74713' y='603' />
+      </zones>
+    </dashboard>
+  </dashboards>
   <windows source-height='30'>
     <window class='worksheet' name='Frequência escolar X Região'>
       <cards>
@@ -1765,7 +1949,7 @@
         </edge>
       </cards>
     </window>
-    <window class='worksheet' maximized='true' name='Planilha 5'>
+    <window class='worksheet' name='Frequência escolar X UF'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1873,6 +2057,20 @@
           </strip>
         </edge>
       </cards>
+    </window>
+    <window class='dashboard' maximized='true' name='Frequência escolar'>
+      <viewpoints>
+        <viewpoint name='Frequência escolar X  IDH'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Frequência escolar X Região'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Frequência escolar X UF'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='10' />
     </window>
   </windows>
 </workbook>
