@@ -1627,7 +1627,14 @@
         <cols>[federated.1v40qk01daki5a1e0azj305tas50].[avg:RENDA_PER_CAPITA:qk]</cols>
       </table>
     </worksheet>
-    <worksheet name='Planilha 4'>
+    <worksheet name='Frequência escolar X Vulnerabilidade à pobreza'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Frequência escolar X Vulnerabilidade à pobreza</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -1641,10 +1648,10 @@
             <column caption='Populacao Total' datatype='integer' name='[POPULACAO_TOTAL]' role='measure' type='quantitative' />
             <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
             <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[PERCENT_VULNERAVEIS_POBREZA]' derivation='Avg' name='[avg:PERCENT_VULNERAVEIS_POBREZA:qk]' pivot='key' type='quantitative' />
             <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
             <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_1382675502866374656]' derivation='Sum' name='[sum:Calculation_1382675502866374656:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[PERCENT_VULNERAVEIS_POBREZA]' derivation='Sum' name='[sum:PERCENT_VULNERAVEIS_POBREZA:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
@@ -1661,7 +1668,7 @@
             <mark class='Automatic' />
             <encodings>
               <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
-              <tooltip column='[federated.1v40qk01daki5a1e0azj305tas50].[sum:PERCENT_VULNERAVEIS_POBREZA:qk]' />
+              <tooltip column='[federated.1v40qk01daki5a1e0azj305tas50].[avg:PERCENT_VULNERAVEIS_POBREZA:qk]' />
             </encodings>
             <customized-tooltip>
               <formatted-text>
@@ -1672,7 +1679,9 @@
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[sum:Calculation_1382675502866374656:qk]&gt;</run>
                 <run>Æ&#10;</run>
                 <run bold='true' fontcolor='#555555'>Taxa de Vulneráveis à pobreza:</run>
-                <run bold='true'> &lt;[federated.1v40qk01daki5a1e0azj305tas50].[sum:PERCENT_VULNERAVEIS_POBREZA:qk]&gt;%</run>
+                <run bold='true'>Æ </run>
+                <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:PERCENT_VULNERAVEIS_POBREZA:qk]&gt;</run>
+                <run bold='true'>%</run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#787878'>Taxa Frequência média ao Ens. Fundamental:&#9;</run>
                 <run bold='true'>&lt;[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]&gt;%</run>
@@ -1684,8 +1693,105 @@
         <cols>[federated.1v40qk01daki5a1e0azj305tas50].[sum:Calculation_1382675502866374656:qk]</cols>
       </table>
     </worksheet>
+    <worksheet name='Planilha 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EDUDW_RADAR_IDHM_F_FREQ_ESC' name='federated.1v40qk01daki5a1e0azj305tas50' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1v40qk01daki5a1e0azj305tas50'>
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+            <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
+            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SIGLA_UF]' derivation='None' name='[none:SIGLA_UF:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' direction='ASC' using='[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]' value='28' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1v40qk01daki5a1e0azj305tas50].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
+        <cols>[federated.1v40qk01daki5a1e0azj305tas50].[none:SIGLA_UF:nk]</cols>
+      </table>
+    </worksheet>
   </worksheets>
   <windows source-height='30'>
+    <window class='worksheet' name='Frequência escolar X Região'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' maximized='true' name='Planilha 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
     <window class='worksheet' name='Frequência escolar X Renda per capita'>
       <cards>
         <edge name='left'>
@@ -1741,34 +1847,7 @@
         </edge>
       </cards>
     </window>
-    <window class='worksheet' name='Frequência escolar X Região'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='170'>
-            <card pane-specification-id='0' param='[federated.1v40qk01daki5a1e0azj305tas50].[none:REGIAO_UF:nk]' type='color' />
-          </strip>
-        </edge>
-      </cards>
-    </window>
-    <window class='worksheet' maximized='true' name='Planilha 4'>
+    <window class='worksheet' name='Frequência escolar X Vulnerabilidade à pobreza'>
       <cards>
         <edge name='left'>
           <strip size='160'>
