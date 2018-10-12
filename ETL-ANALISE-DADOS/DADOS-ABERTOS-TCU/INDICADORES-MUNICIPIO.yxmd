@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<AlteryxDocument yxmdVer="2018.2">
+<AlteryxDocument yxmdVer="2018.3">
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="102" />
+        <Position x="18" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>indicadoresMunicipio.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="OBJECTID" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
@@ -83,12 +80,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="174" y="54" />
+        <Position x="138" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>
-          </TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6228_b93d1da8a5674ab6bad7b782b88377fa_\Engine_3836_59d0cd19284f45d1af53d0c8a556dbb1_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -112,7 +108,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="198" y="150" />
+        <Position x="138" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -173,52 +169,52 @@
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="OBJECTID" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="id" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="estado_id" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="Shape" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="GDB_GEOMATTR_DATA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="COD_IBGE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="NOME_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="UF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="POP_ESTIMADA_2012" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="POP_ESTIMADA_2015" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="PIB_PER_CAPITA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="PIB" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="QTD_BOLSA_FAMILIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_1991" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_2000" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_2010" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_RENDA_1991" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_RENDA_2000" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_RENDA_2010" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_LONGEVIDADE_1991" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_LONGEVIDADE_2000" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_LONGEVIDADE_2010" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_EDUCACAO_1991" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_EDUCACAO_2000" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="IDHM_EDUCACAO_2010" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_ENSINO_SUPERIOR_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_DESENV_CIENTIFICO_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_ALIMENTAC_NUTRICAO_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_ENSINO_PROFISSIONAL_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_ADMINIST_ESCOLAR_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_EDUCACAO_BASICA_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_DESPORTO_COMUNIT_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_EDUC_JOVENS_ADULTOS_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_EDUCACAO_INFANTIL_2016" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_EDUCACAO_2016_PER_CAPITA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="QTD_ALUNOS_REDE_PUBLICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="TRANSF_EDUCACAO_2016_POR_ALUNO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="SALARIO_MEDIO_PROF_1A4_ANO_PUB" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="SALARIO_MEDIO_PROF_5A8_ANO_PUB" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="QTD_PROFESSOR_1A4_SERIE_PUBLICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="QTD_PROFESSOR_5A8_SERIE_PUBLICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="PROP_PROF_BACHAREL_1A4_PUBLICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="PROP_PROF_BACHAREL_5A8_PUBLICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="LATITUDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="LONGITUDE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
-            <Field name="AREA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_WString" />
+            <Field name="OBJECTID" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
+            <Field name="id" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
+            <Field name="estado_id" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Byte" />
+            <Field name="Shape" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="GDB_GEOMATTR_DATA" size="4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="COD_IBGE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="NOME_MUNICIPIO" size="32" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="UF" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="POP_ESTIMADA_2012" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="POP_ESTIMADA_2015" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="PIB_PER_CAPITA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="PIB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int64" />
+            <Field name="QTD_BOLSA_FAMILIA" size="6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_1991" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_2000" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_RENDA_1991" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_RENDA_2000" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_RENDA_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_1991" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_LONGEVIDADE_2000" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_LONGEVIDADE_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_EDUCACAO_1991" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_EDUCACAO_2000" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="IDHM_EDUCACAO_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="TRANSF_ENSINO_SUPERIOR_2016" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_DESENV_CIENTIFICO_2016" size="9" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="TRANSF_ALIMENTAC_NUTRICAO_2016" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_ENSINO_PROFISSIONAL_2016" size="12" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_ADMINIST_ESCOLAR_2016" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_EDUCACAO_BASICA_2016" size="12" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="TRANSF_DESPORTO_COMUNIT_2016" size="9" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="TRANSF_EDUC_JOVENS_ADULTOS_2016" size="10" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_EDUCACAO_INFANTIL_2016" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="TRANSF_EDUCACAO_2016_PER_CAPITA" size="17" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="QTD_ALUNOS_REDE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="TRANSF_EDUCACAO_2016_POR_ALUNO" size="16" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="SALARIO_MEDIO_PROF_1A4_ANO_PUB" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="SALARIO_MEDIO_PROF_5A8_ANO_PUB" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="QTD_PROFESSOR_1A4_SERIE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
+            <Field name="QTD_PROFESSOR_5A8_SERIE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
+            <Field name="PROP_PROF_BACHAREL_1A4_PUBLICA" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="PROP_PROF_BACHAREL_5A8_PUBLICA" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="LATITUDE" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="LONGITUDE" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="AREA" size="10" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -226,13 +222,27 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="318" y="150" />
+        <Position x="270" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="OBJECTID" selected="False" />
+            <SelectField field="id" selected="True" rename="ID" />
+            <SelectField field="estado_id" selected="True" rename="ESTADO_ID" />
+            <SelectField field="Shape" selected="False" />
+            <SelectField field="GDB_GEOMATTR_DATA" selected="False" />
+            <SelectField field="QTD_BOLSA_FAMILIA" selected="True" type="Int64" size="8" />
+            <SelectField field="IDHM_1991" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_2000" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_RENDA_1991" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_RENDA_2000" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_LONGEVIDADE_1991" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_LONGEVIDADE_2000" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_EDUCACAO_1991" selected="True" type="Double" size="8" />
+            <SelectField field="IDHM_EDUCACAO_2000" selected="True" type="Double" size="8" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -245,55 +255,12 @@
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
     <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
-        <Position x="462" y="102" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Limit_UniqueCount>10000</Limit_UniqueCount>
-          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
-          <IsMetric value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
-    </Node>
-    <Node ToolID="6">
-      <GuiSettings>
-        <Position x="462" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Value name="Select Fields">OBJECTID=True,id=True,estado_id=True,Shape=True,GDB_GEOMATTR_DATA=True,COD_IBGE=True,NOME_MUNICIPIO=True,UF=True,POP_ESTIMADA_2012=True,POP_ESTIMADA_2015=True,PIB_PER_CAPITA=True,PIB=True,QTD_BOLSA_FAMILIA=True,IDHM_1991=True,IDHM_2000=True,IDHM_2010=True,IDHM_RENDA_1991=True,IDHM_RENDA_2000=True,IDHM_RENDA_2010=True,IDHM_LONGEVIDADE_1991=True,IDHM_LONGEVIDADE_2000=True,IDHM_LONGEVIDADE_2010=True,IDHM_EDUCACAO_1991=True,IDHM_EDUCACAO_2000=True,IDHM_EDUCACAO_2010=True,TRANSF_ENSINO_SUPERIOR_2016=True,TRANSF_DESENV_CIENTIFICO_2016=True,TRANSF_ALIMENTAC_NUTRICAO_2016=True,TRANSF_ENSINO_PROFISSIONAL_2016=True,TRANSF_ADMINIST_ESCOLAR_2016=True,TRANSF_EDUCACAO_BASICA_2016=True,TRANSF_DESPORTO_COMUNIT_2016=True,TRANSF_EDUC_JOVENS_ADULTOS_2016=True,TRANSF_EDUCACAO_INFANTIL_2016=True,TRANSF_EDUCACAO_2016_PER_CAPITA=True,QTD_ALUNOS_REDE_PUBLICA=True,TRANSF_EDUCACAO_2016_POR_ALUNO=True,SALARIO_MEDIO_PROF_1A4_ANO_PUB=True,SALARIO_MEDIO_PROF_5A8_ANO_PUB=True,QTD_PROFESSOR_1A4_SERIE_PUBLICA=True,QTD_PROFESSOR_5A8_SERIE_PUBLICA=True,PROP_PROF_BACHAREL_1A4_PUBLICA=True,PROP_PROF_BACHAREL_5A8_PUBLICA=True,LATITUDE=True,LONGITUDE=True,AREA=True</Value>
-          <Value name="Sample Data">False</Value>
-          <Value name="Number">True</Value>
-          <Value name="NNumber">5000</Value>
-          <Value name="Percent">False</Value>
-          <Value name="NPercent">10</Value>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
-    </Node>
-    <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="102" />
+        <Position x="270" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>
-          </TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6228_b93d1da8a5674ab6bad7b782b88377fa_\Engine_3836_52d418f684b4431c8d5c9358464e8cb5_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -315,21 +282,114 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="8">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="246" />
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>
-          </TempFile>
+          <FormulaFields>
+            <FormulaField expression="Replace([TRANSF_ENSINO_SUPERIOR_2016],&quot;,&quot;,'.')" field="TRANSF_ENSINO_SUPERIOR_2016" size="11" type="V_String" />
+            <FormulaField expression="Replace([TRANSF_DESENV_CIENTIFICO_2016],&quot;,&quot;,'.')" field="TRANSF_DESENV_CIENTIFICO_2016" size="9" type="String" />
+            <FormulaField expression="Replace([TRANSF_ALIMENTAC_NUTRICAO_2016],&quot;,&quot;,'.')" field="TRANSF_ALIMENTAC_NUTRICAO_2016" size="11" type="V_String" />
+            <FormulaField expression="Replace([TRANSF_ENSINO_PROFISSIONAL_2016],&quot;,&quot;,'.')" field="TRANSF_ENSINO_PROFISSIONAL_2016" size="12" type="V_String" />
+            <FormulaField expression="Replace([TRANSF_ADMINIST_ESCOLAR_2016],&quot;,&quot;,'.')" field="TRANSF_ADMINIST_ESCOLAR_2016" size="11" type="V_String" />
+            <FormulaField expression="Replace([TRANSF_EDUCACAO_BASICA_2016],&quot;,&quot;,'.')" field="TRANSF_EDUCACAO_BASICA_2016" size="12" type="String" />
+            <FormulaField expression="Replace([TRANSF_DESPORTO_COMUNIT_2016],&quot;,&quot;,'.')" field="TRANSF_DESPORTO_COMUNIT_2016" size="9" type="String" />
+            <FormulaField expression="Replace([TRANSF_EDUCACAO_INFANTIL_2016],&quot;,&quot;,'.')" field="TRANSF_EDUCACAO_INFANTIL_2016" size="11" type="V_String" />
+            <FormulaField expression="Replace([TRANSF_EDUCACAO_2016_PER_CAPITA],&quot;,&quot;,'.')" field="TRANSF_EDUCACAO_2016_PER_CAPITA" size="17" type="String" />
+            <FormulaField expression="Replace([TRANSF_EDUCACAO_2016_POR_ALUNO],&quot;,&quot;,'.')" field="TRANSF_EDUCACAO_2016_POR_ALUNO" size="16" type="String" />
+            <FormulaField expression="Replace([PROP_PROF_BACHAREL_1A4_PUBLICA],&quot;,&quot;,'.')" field="PROP_PROF_BACHAREL_1A4_PUBLICA" size="11" type="V_String" />
+            <FormulaField expression="Replace([PROP_PROF_BACHAREL_5A8_PUBLICA],&quot;,&quot;,'.')" field="PROP_PROF_BACHAREL_5A8_PUBLICA" size="11" type="V_String" />
+            <FormulaField expression="Replace([LATITUDE],&quot;,&quot;,'.')" field="LATITUDE" size="8" type="String" />
+            <FormulaField expression="Replace([LONGITUDE],&quot;,&quot;,'.')" field="LONGITUDE" size="8" type="String" />
+            <FormulaField expression="Replace([AREA],&quot;,&quot;,'.')" field="AREA" size="10" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TRANSF_ENSINO_SUPERIOR_2016 = Replace([TRANSF_ENSINO_SUPERIOR_2016],",",'.')
+TRA...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ESTADO_ID" selected="True" type="Int32" size="4" />
+            <SelectField field="TRANSF_ENSINO_SUPERIOR_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_DESENV_CIENTIFICO_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_ENSINO_PROFISSIONAL_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_ADMINIST_ESCOLAR_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_EDUCACAO_BASICA_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_DESPORTO_COMUNIT_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_EDUCACAO_INFANTIL_2016" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_EDUCACAO_2016_PER_CAPITA" selected="True" type="Double" size="8" />
+            <SelectField field="TRANSF_EDUCACAO_2016_POR_ALUNO" selected="True" type="Double" size="8" />
+            <SelectField field="SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" type="Double" size="8" />
+            <SelectField field="SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" type="Double" size="8" />
+            <SelectField field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" type="Int32" size="4" />
+            <SelectField field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" type="Int32" size="4" />
+            <SelectField field="PROP_PROF_BACHAREL_1A4_PUBLICA" selected="True" type="Double" size="8" />
+            <SelectField field="PROP_PROF_BACHAREL_5A8_PUBLICA" selected="True" type="Double" size="8" />
+            <SelectField field="LATITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="LONGITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="AREA" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="642" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="LONGITUDE" fieldY="LATITUDE" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6228_b93d1da8a5674ab6bad7b782b88377fa_\Engine_3836_559710e8a5b840da90646208311da403_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
             <View1>
-              <DefaultTab>Report</DefaultTab>
+              <DefaultTab>Map</DefaultTab>
               <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
                 <Table />
               </Hints>
             </View1>
@@ -364,15 +424,19 @@
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="6" Connection="Field Input" />
+      <Destination ToolID="6" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
+      <Origin ToolID="6" Connection="Output" />
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="Interactive" />
+      <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

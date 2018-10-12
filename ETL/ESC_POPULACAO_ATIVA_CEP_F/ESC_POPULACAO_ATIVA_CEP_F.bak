@@ -109,7 +109,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="78" />
+        <Position x="510" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -137,17 +137,22 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="246" />
+        <Position x="510" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1376_02c60848ccfa44b7956316d63270b834_\Engine_3836_633a696d9bfa4b218c6789cc8f37c611_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Profile</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -160,7 +165,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="462" y="174" />
+        <Position x="510" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -171,6 +176,39 @@
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="642" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||ESC_POPULACAO_ATIVA_CEP_F</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>5000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=ESC_POPULACAO_ATIVA_CEP_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -198,6 +236,10 @@
       <Origin ToolID="6" Connection="Unique" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output2" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
   </Connections>
   <Properties>
     <Memory default="True" />
@@ -217,7 +259,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>ESCOLARIDADE-POPULACAO-ATIVA-CEP</Name>
+      <Name>ESC_POPULACAO_ATIVA_CEP_F</Name>
       <Description />
       <RootToolName />
       <ToolVersion />

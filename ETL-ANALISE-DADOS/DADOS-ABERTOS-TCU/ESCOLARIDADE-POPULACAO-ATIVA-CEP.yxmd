@@ -42,7 +42,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile />
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1376_02c60848ccfa44b7956316d63270b834_\Engine_3836_85796f7d98be4df799f08751a7604b97_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -73,6 +73,10 @@
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="Field_1" selected="True" rename="COD_MUNICIPIO" type="Int64" size="8" />
+            <SelectField field="Field_2" selected="True" rename="CEP" type="Int64" size="8" />
+            <SelectField field="Field_3" selected="True" rename="GRAU_ESCOLAR" />
+            <SelectField field="Field_4" selected="True" rename="QUANTIDADE_PESSOAS" type="Int64" size="8" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -84,52 +88,32 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
-        <Position x="366" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Limit_UniqueCount>10000</Limit_UniqueCount>
-          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
-          <IsMetric value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
-    </Node>
     <Node ToolID="6">
-      <GuiSettings>
-        <Position x="366" y="234" />
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="342" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Value name="Select Fields">Field_1=True,Field_2=True,Field_3=True,Field_4=True</Value>
-          <Value name="Sample Data">False</Value>
-          <Value name="Number">True</Value>
-          <Value name="NNumber">5000</Value>
-          <Value name="Percent">False</Value>
-          <Value name="NPercent">10</Value>
+          <UniqueFields>
+            <Field field="CEP" />
+            <Field field="GRAU_ESCOLAR" />
+          </UniqueFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>Unique: CEP, GRAU_ESCOLAR</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="138" />
+        <Position x="462" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile />
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1376_02c60848ccfa44b7956316d63270b834_\Engine_3836_704efefb00aa4a5dae5821963f30e8dd_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -153,23 +137,17 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="282" />
+        <Position x="462" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>
-          </TempFile>
-          <TempFileDataProfiling />
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1376_02c60848ccfa44b7956316d63270b834_\Engine_3836_633a696d9bfa4b218c6789cc8f37c611_.yxdb</TempFile>
           <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
             <View1>
-              <DefaultTab>Report</DefaultTab>
               <Hints>
                 <Table />
               </Hints>
             </View1>
-            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -179,6 +157,20 @@
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="462" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
     </Node>
   </Nodes>
   <Connections>
@@ -192,19 +184,19 @@
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="5" Connection="Input" />
+      <Destination ToolID="6" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="4" Connection="Output" />
-      <Destination ToolID="6" Connection="Field Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="5" Connection="Output" />
+      <Origin ToolID="6" Connection="Unique" />
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="Interactive" />
+      <Origin ToolID="6" Connection="Duplicates" />
       <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>

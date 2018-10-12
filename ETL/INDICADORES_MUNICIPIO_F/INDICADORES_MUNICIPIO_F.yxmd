@@ -80,11 +80,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="198" y="198" />
+        <Position x="138" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2132_a6df84b9c95c4439ae2b28c1c14a0bed_\Engine_3836_2954bc82e97e45369d522b13ffa11e48_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_16be7a1765c74413a2b5016eea7754de_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -108,7 +108,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="186" y="90" />
+        <Position x="126" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -222,7 +222,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="318" y="90" />
+        <Position x="222" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -256,11 +256,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="366" y="210" />
+        <Position x="270" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2132_a6df84b9c95c4439ae2b28c1c14a0bed_\Engine_3836_05e00f53a8e24b45aa0f80254fb9bfdc_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_6487a2db21a54de197dd6dae251ed946_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -284,7 +284,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="462" y="90" />
+        <Position x="342" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -317,7 +317,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="582" y="90" />
+        <Position x="438" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -358,7 +358,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
-        <Position x="702" y="90" />
+        <Position x="534" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -375,16 +375,25 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="702" y="198" />
+        <Position x="522" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_5f0945502eae4df58a71c8d7ce6b43c4_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
             <View1>
+              <DefaultTab>Map</DefaultTab>
               <Hints>
+                <Map>
+                  <BaseMap>CartoLight</BaseMap>
+                </Map>
                 <Table />
               </Hints>
             </View1>
+            <View2 />
           </Layout>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -394,6 +403,195 @@ TRA...</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="18" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="126" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="126" y="18" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="18" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="18" y="18" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="726" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="834" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||INDICADORES_MUNICIPIO_F</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
+            <TransactionSize>5000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Centroid" selected="True" rename="GEO_LOCALIZACAO" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
   </Nodes>
   <Connections>
@@ -429,6 +627,18 @@ TRA...</DefaultAnnotationText>
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output2" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
   </Connections>
   <Properties>
     <Memory default="True" />
@@ -448,7 +658,7 @@ TRA...</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>INDICADORES-MUNICIPIO</Name>
+      <Name>INDICADORES_MUNICIPIO_F</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
