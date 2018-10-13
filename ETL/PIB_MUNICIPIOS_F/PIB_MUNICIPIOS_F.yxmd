@@ -57,7 +57,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7048_f3d9314b2c8f471a9afb72de78c78b62_\Engine_876_283e0127a0cf4feeb26d5bbb128cea86_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7124_eca91950c9bb404cbde723dec55fc0e4_\Engine_876_51e8136ee22f456483f9a10fcf235ce6_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -160,8 +160,8 @@
             <SelectField field="Field_10" selected="True" rename="NOME_MICRORREGIAO" />
             <SelectField field="Field_11" selected="True" rename="VL_ADIC_BRUTO_AGRO_PRECOS_CORRENTES" />
             <SelectField field="Field_12" selected="True" rename="VL_ADIC_BRUTO_INDUS_PRECOS_CORRENTES" />
-            <SelectField field="Field_13" selected="True" rename="VL_ADIC_BRUTO_SERV_PRECOS_CORRENTES_EXCL_ADM_SAUDE_EDUCPUBL_SEGSOC" />
-            <SelectField field="Field_14" selected="True" rename="VL_ADIC_BRUTO_ADM_SAUDE_EDUCPUBL_SEGSOC_PRECOS_CORRENTES" />
+            <SelectField field="Field_13" selected="True" rename="VL_EXCL_ADM_SAUDE_EDUCPUBL_PRECOS_CORRENTES" />
+            <SelectField field="Field_14" selected="True" rename="VL_ADM_SAUDE_EDUCPUBL_SEGSOC_PRECOS_CORRENTES" />
             <SelectField field="Field_15" selected="True" rename="VL_ADIC_BRUTO_TOTAL_PRECOS_CORRENTES" />
             <SelectField field="Field_16" selected="True" rename="IMPOSTO_LIQ_DE_SUBS_SOBRE_PROD_PRECOS_CORRENTES" />
             <SelectField field="Field_17" selected="True" rename="PIB_PRECOS_CORRENTES" />
@@ -184,7 +184,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7048_f3d9314b2c8f471a9afb72de78c78b62_\Engine_876_4274475000d9446996b515488c884692_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7124_eca91950c9bb404cbde723dec55fc0e4_\Engine_876_ca40e846a5a1415cb61e985076ac2552_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -346,6 +346,67 @@
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="666" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7124_eca91950c9bb404cbde723dec55fc0e4_\Engine_876_462679b354424ab79cceb75954776f09_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||PIB_MUNICIPIOS_F</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>5000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=PIB_MUNICIPIOS_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
         <Position x="654" y="102" />
@@ -384,7 +445,15 @@
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output2" />
+      <Destination ToolID="14" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -405,7 +474,7 @@
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>PIB-MUNICIPIOS</Name>
+      <Name>PIB_MUNICIPIOS_F</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
