@@ -34,7 +34,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6060_1ee5f2a8ed834b1c94adce1e6e6b2d39_\Engine_5516_188629a33a16435cbf92b32682662b9d_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_98fbca7ca1b84b458bee81b0a9bd122c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -102,7 +102,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6060_1ee5f2a8ed834b1c94adce1e6e6b2d39_\Engine_5516_ede9983fa7cf45a2bf608e9e486455d2_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_a1449d727e9e4fdaa75c623cf6ac7db3_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -235,7 +235,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6060_1ee5f2a8ed834b1c94adce1e6e6b2d39_\Engine_5516_fc2ff5d87d064c729d8e825bcb4d6d48_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8920_dd3552c7b1864894ba8788659bce9c85_\Engine_5516_3f8f88763fa3450faf0e4c065bc857dc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -372,6 +372,14 @@ Table=LOCALIZACAO_D</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="8" Connection="Output" />
       <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
