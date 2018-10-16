@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="78" />
+        <Position x="78" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -26,9 +26,6 @@
 Table=Select * From LOCALIZACAO_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NOME_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="V_WString" />
@@ -45,7 +42,7 @@ Table=Select * From LOCALIZACAO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="210" />
+        <Position x="78" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -68,9 +65,6 @@ Table=Select * From LOCALIZACAO_D</DefaultAnnotationText>
 Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int16" />
@@ -124,7 +118,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="186" y="210" />
+        <Position x="210" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -181,7 +175,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="282" y="78" />
+        <Position x="306" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -203,7 +197,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="426" y="138" />
+        <Position x="450" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -233,7 +227,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="558" y="138" />
+        <Position x="582" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -242,6 +236,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
           <SelectFields>
             <SelectField field="ESTADO_ID" selected="False" />
             <SelectField field="UF" selected="False" />
+            <SelectField field="GEO_LOCALIZACAO" selected="True" type="SpatialObj" size="536870911" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -255,7 +250,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="726" y="18" width="168" height="24" />
+        <Position x="750" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -275,7 +270,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="726" y="54" width="168" height="24" />
+        <Position x="750" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -295,7 +290,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="138" y="54" width="576" height="24" />
+        <Position x="162" y="90" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -315,7 +310,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="138" y="18" width="576" height="24" />
+        <Position x="162" y="54" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -335,7 +330,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="30" y="54" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -355,7 +350,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="30" y="18" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -375,7 +370,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="654" y="138" />
+        <Position x="678" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -389,7 +384,7 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="282" y="210" />
+        <Position x="306" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -408,21 +403,23 @@ Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="786" y="138" />
+        <Position x="810" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <File MaxRecords="" FileFormat="23">aka:EDUDW|||LOCALIZACAO_MUNICIPIOS_D</File>
           <Passwords />
+          <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
+            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
             <TransactionSize>10000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />
             <TableStyle>Quoted</TableStyle>
             <PreSQL />
-            <TransactionMessages>False</TransactionMessages>
-            <OutputOption>Create</OutputOption>
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
           </FormatSpecificOptions>
           <MultiFile value="False" />
         </Configuration>
@@ -440,7 +437,7 @@ Table=LOCALIZACAO_MUNICIPIOS_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="234" y="318" width="168" height="24" />
+        <Position x="258" y="354" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -457,6 +454,22 @@ Table=LOCALIZACAO_MUNICIPIOS_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1456_9e97fc9977064de4a8462cb2e0fdb8fe_\Engine_5556_b8013f6c91394186adf11f8b527fc273_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -487,6 +500,10 @@ Table=LOCALIZACAO_MUNICIPIOS_D</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="6" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output2" />
