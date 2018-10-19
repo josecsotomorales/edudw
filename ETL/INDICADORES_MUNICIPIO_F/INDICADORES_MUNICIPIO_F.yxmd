@@ -84,7 +84,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4932_8a7e8d1cf32c4477951ee559cf60f588_\Engine_876_c8d221966fc846adbcae5eacaaf882bb_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_dd468b21d9f34b80b95b155900c37886_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -260,7 +260,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4932_8a7e8d1cf32c4477951ee559cf60f588_\Engine_876_3d90fd34d05d44b8ba8e46e80bd9e497_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_9cbb34617d9949faac3b5680b9f1a99a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -375,11 +375,11 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="234" />
+        <Position x="582" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4932_8a7e8d1cf32c4477951ee559cf60f588_\Engine_876_e351719530e5476a95f80c5424f95922_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_8b59cda696ae4180b5fba3f55c08833c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -549,7 +549,6 @@ TRA...</DefaultAnnotationText>
           <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
-            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
             <TransactionSize>5000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />

@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="18" y="90" />
+        <Position x="54" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -80,11 +80,11 @@
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="138" y="198" />
+        <Position x="174" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_16be7a1765c74413a2b5016eea7754de_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_dd468b21d9f34b80b95b155900c37886_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -108,7 +108,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
-        <Position x="126" y="90" />
+        <Position x="162" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -222,7 +222,7 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="90" />
+        <Position x="258" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -256,11 +256,11 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="270" y="198" />
+        <Position x="306" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_6487a2db21a54de197dd6dae251ed946_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_9cbb34617d9949faac3b5680b9f1a99a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -284,7 +284,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="342" y="90" />
+        <Position x="378" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -317,7 +317,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="438" y="90" />
+        <Position x="474" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -358,7 +358,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
-        <Position x="534" y="90" />
+        <Position x="570" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -375,11 +375,11 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="522" y="198" />
+        <Position x="582" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4196_4ac7958395c841f89a1544b24c3ce1cd_\Engine_3836_5f0945502eae4df58a71c8d7ce6b43c4_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5472_7167d86821dc4accb8aed0128f4dfd30_\Engine_2852_8b59cda696ae4180b5fba3f55c08833c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -406,7 +406,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="714" y="18" width="168" height="24" />
+        <Position x="750" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -426,7 +426,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="714" y="54" width="168" height="24" />
+        <Position x="750" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -446,7 +446,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="126" y="54" width="576" height="24" />
+        <Position x="162" y="90" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -466,7 +466,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="126" y="18" width="576" height="24" />
+        <Position x="162" y="54" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -486,7 +486,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="18" y="54" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -506,7 +506,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="18" y="18" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -526,7 +526,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="726" y="90" />
+        <Position x="762" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -540,7 +540,7 @@ TRA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="834" y="90" />
+        <Position x="870" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -549,14 +549,13 @@ TRA...</DefaultAnnotationText>
           <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
-            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
             <TransactionSize>5000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />
             <TableStyle>Quoted</TableStyle>
             <PreSQL />
             <TransactionMessages>True</TransactionMessages>
-            <OutputOption>Create</OutputOption>
+            <OutputOption>Overwrite</OutputOption>
           </FormatSpecificOptions>
           <MultiFile value="False" />
         </Configuration>
@@ -574,7 +573,7 @@ Table=INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="642" y="90" />
+        <Position x="678" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
