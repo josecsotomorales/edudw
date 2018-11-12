@@ -165,9 +165,9 @@
         <Configuration>
           <File MaxRecords="" FileFormat="23">aka:EDUDW|||MUNICIPIOS_D</File>
           <Passwords />
+          <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
-            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
             <TransactionSize>10000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />
@@ -196,7 +196,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5212_26616c5bd56c4bc4ada29eba0f52fa92_\Engine_5112_b6b67dcc945945d38d2151ec61a4b9de_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7416_d73bedae5aae4ea38f09895436d5546b_\Engine_5112_52e950aa9fa1483a843177e7cff2c6be_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -283,7 +283,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_5212_26616c5bd56c4bc4ada29eba0f52fa92_\Engine_5112_5e910b9cd28641f2a01a3297cf79a0cb_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7416_d73bedae5aae4ea38f09895436d5546b_\Engine_5112_4c1485665a4a4e9ba092d128e0420eee_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>

@@ -184,9 +184,6 @@
 Table=MUNICIPIOS_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -196,7 +193,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7416_d73bedae5aae4ea38f09895436d5546b_\Engine_5112_52e950aa9fa1483a843177e7cff2c6be_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8140_615c35202bce4f5c98052abd2fdd3c36_\Engine_5112_a06ddd5e87614c18a59d75cef5c37436_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -233,9 +230,6 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
           <DefaultAnnotationText>LOCALIZACAO_MUNICIPIOS.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NOME_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_UF_D" type="V_WString" />
@@ -247,6 +241,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
             <Field name="LATITUDE" source="File: aka:EDUDW|||Select * From LOCALIZACAO_UF_D" type="Double" />
             <Field name="COD_IBGE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
             <Field name="NOME_MUNICIPIO" size="32" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="V_String" />
+            <Field name="AREA" source="Formula: Replace([AREA],&quot;,&quot;,'.')" type="Double" />
             <Field name="Right_LATITUDE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
             <Field name="Right_LONGITUDE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
             <Field name="GEO_LOCALIZACAO" size="2147483647" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="SpatialObj" />
@@ -283,7 +278,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7416_d73bedae5aae4ea38f09895436d5546b_\Engine_5112_4c1485665a4a4e9ba092d128e0420eee_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8140_615c35202bce4f5c98052abd2fdd3c36_\Engine_5112_433aacfefa76420e8b810857ed289318_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -327,6 +322,7 @@ Table=MUNICIPIOS_D</DefaultAnnotationText>
             <SelectField field="LONGITUDE" selected="False" />
             <SelectField field="LATITUDE" selected="False" />
             <SelectField field="GEO_LOCALIZACAO" selected="False" />
+            <SelectField field="AREA" selected="True" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
