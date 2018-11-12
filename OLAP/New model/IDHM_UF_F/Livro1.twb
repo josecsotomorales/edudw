@@ -1,0 +1,3332 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.1009.2120                               -->
+<workbook original-version='18.1' source-build='2018.2.3 (20182.18.1009.2120)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='IDHM_UF_F' inline='true' name='federated.14eqbzc1jhhcre17w1r1k1emia57' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='edudw.c4rtgtp5t3d4.sa-east-1.rds.amazonaws.com' name='mysql.0vfn2h10t8nfza120gsqc03fzlnj'>
+            <connection class='mysql' dbname='EDUDW' odbc-native-protocol='' one-time-sql='' port='3306' server='edudw.c4rtgtp5t3d4.sa-east-1.rds.amazonaws.com' source-charset='' username='edudw' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[IDHM_UF_F].[ANO]' />
+              <expression op='[TEMPO_D].[ANO_STRING]' />
+            </expression>
+          </clause>
+          <relation join='left' type='join'>
+            <clause type='join'>
+              <expression op='='>
+                <expression op='[IDHM_UF_F].[UF]' />
+                <expression op='[LOCALIZACAO_UF_D].[SIGLA_UF]' />
+              </expression>
+            </clause>
+            <relation connection='mysql.0vfn2h10t8nfza120gsqc03fzlnj' name='IDHM_UF_F' table='[IDHM_UF_F]' type='table' />
+            <relation connection='mysql.0vfn2h10t8nfza120gsqc03fzlnj' name='LOCALIZACAO_UF_D' table='[LOCALIZACAO_UF_D]' type='table' />
+          </relation>
+          <relation connection='mysql.0vfn2h10t8nfza120gsqc03fzlnj' name='TEMPO_D' table='[TEMPO_D]' type='table' />
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>UF</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[UF]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>UF</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>17</width>
+            <contains-null>true</contains-null>
+            <collation charset='280' flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_VARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ANO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>ANO</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MEDIA_ANOS_ESTUDO_MAIORES_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ESPERANCA_VIDA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ESPERANCA_VIDA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>ESPERANCA_VIDA</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_GINI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_GINI]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>INDICE_GINI</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_ESCOLARIDADE_IDHM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_ESCOLARIDADE_IDHM]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>INDICE_ESCOLARIDADE_IDHM</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_FREQUENCIA_ESCOLAR_IDHM]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_GERAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_GERAL]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>IDH_GERAL</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_EDUCACAO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_EDUCACAO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_EDUCACAO</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_LONGEVIDADE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_LONGEVIDADE]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_LONGEVIDADE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IDH_DIMENSAO_RENDA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IDH_DIMENSAO_RENDA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>IDH_DIMENSAO_RENDA</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MORTALIDADE_INFANTIL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MORTALIDADE_INFANTIL]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>MORTALIDADE_INFANTIL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_EXTREMA_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_EXTREMA_POBREZA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_EXTREMA_POBREZA</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_POBREZA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_POBREZA</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POP_TOTAL_DOMICILIOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POP_TOTAL_DOMICILIOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POP_TOTAL_DOMICILIOS</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_11_13_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_11_13_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_11_13_ANOS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_15_17_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_15_17_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_15_17_ANOS</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_15]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_15</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_18_20_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_18_20_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_18_20_ANOS</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_18_24_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_18_24_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_18_24_ANOS</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_18]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_18</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_25</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_25</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_5_6_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_5_6_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_5_6_ANOS</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_MAIOR_65</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_MAIOR_65]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_MAIOR_65</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_6_14_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_6_14_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_6_14_ANOS</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_6_17_ANOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_6_17_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_6_17_ANOS</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_TOTAL_DOMICILIOS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_TOTAL_DOMICILIOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_TOTAL_DOMICILIOS</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POPULACAO_TOTAL</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[POPULACAO_TOTAL]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>POPULACAO_TOTAL</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_VULNERAVEIS_POBREZA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_VULNERAVEIS_POBREZA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_VULNERAVEIS_POBREZA</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_RENDA_TRABALHO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_RENDA_TRABALHO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_RENDA_TRABALHO</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_10_RICOS_40_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_10_RICOS_40_POBRES]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RAZAO_10_RICOS_40_POBRES</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_20_RICOS_40_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_20_RICOS_40_POBRES]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RAZAO_20_RICOS_40_POBRES</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RAZAO_DEPENDENCIA_M15_M65</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RAZAO_DEPENDENCIA_M15_M65]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RAZAO_DEPENDENCIA_M15_M65</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_1QUINTO_POBRE]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_DECIMO_RICOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_DECIMO_RICOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_DECIMO_RICOS</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_2QUINTO_POBRE]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_3QUINTO_POBRE]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_4QUINTO_POBRE]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_5QUINTO_RICOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_MENOS_NULO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_MENOS_NULO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_MENOS_NULO</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_EXT_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_EXT_POBRES]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_EXT_POBRES</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_POBRES]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_POBRES</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RENDA_PER_CAPITA_VULN_POBRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RENDA_PER_CAPITA_VULN_POBRES]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>RENDA_PER_CAPITA_VULN_POBRES</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_15]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_15</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_18]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_18</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ANALF_MAIORES_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ANALF_MAIORES_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_ANALF_MAIORES_25</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_ATRASO_ENS_BASICO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_ATRASO_ENS_BASICO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_ATRASO_ENS_BASICO</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_ATRASO_ENS_FUNDAMENTAL]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_ENVELHECIMENTO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_ENVELHECIMENTO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_ENVELHECIMENTO</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_BASICO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_BASICO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_BASICO</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_MEDIO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_MEDIO]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_MEDIO</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TAXA_FREQUENCIA_ENS_SUPERIOR]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_15_17_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_15_17_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_15_17_ANOS</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_18_24_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_18_24_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_18_24_ANOS</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_5_6_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_5_6_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_5_6_ANOS</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FREQUENCIA_6_14_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FREQUENCIA_6_14_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FREQUENCIA_6_14_ANOS</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_11_13_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_15_17_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_18_24_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_MAIOR_18</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_MAIOR_18]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_18</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_FUND_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_FUND_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_MEDIO_COMPLETO_18_20_ANOS]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_MEDIO_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PERCENT_SUP_COMPLETO_MAIOR_25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PERCENT_SUP_COMPLETO_MAIOR_25]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>PERCENT_SUP_COMPLETO_MAIOR_25</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INDICE_THEIL_L</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[INDICE_THEIL_L]</local-name>
+            <parent-name>[IDHM_UF_F]</parent-name>
+            <remote-alias>INDICE_THEIL_L</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOME_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NOME_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>NOME_UF</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SIGLA_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SIGLA_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>SIGLA_UF</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO_UF</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[CODIGO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>CODIGO_UF</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CAPITAL_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CAPITAL_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>CAPITAL_UF</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>REGIAO_UF</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[REGIAO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>REGIAO_UF</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>254</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CODIGO_REGIAO_UF</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[CODIGO_REGIAO_UF]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>CODIGO_REGIAO_UF</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATITUDE]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>LATITUDE</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GEO_LOC</remote-name>
+            <remote-type>128</remote-type>
+            <local-name>[GEO_LOC]</local-name>
+            <parent-name>[LOCALIZACAO_UF_D]</parent-name>
+            <remote-alias>GEO_LOC</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8589934590</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_LONGVARBINARY&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_BINARY&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID_ANO</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ID_ANO]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>ID_ANO</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO_STRING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ANO_STRING]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>ANO_STRING</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>true</contains-null>
+            <padded-semantics>true</padded-semantics>
+            <collation charset='280' flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_CHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_CHAR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_ANO</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_ANO]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_ANO</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_MES</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_MES]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_MES</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_DIA</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[NO_DIA]</local-name>
+            <parent-name>[TEMPO_D]</parent-name>
+            <remote-alias>NO_DIA</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[ANO]' role='dimension' type='ordinal' />
+      <column caption='Ano String' datatype='string' name='[ANO_STRING]' role='dimension' type='nominal' />
+      <column caption='Capital Uf' datatype='string' name='[CAPITAL_UF]' role='dimension' type='nominal' />
+      <column caption='Codigo Regiao Uf' datatype='integer' name='[CODIGO_REGIAO_UF]' role='dimension' type='ordinal' />
+      <column caption='Codigo Uf' datatype='integer' name='[CODIGO_UF]' role='dimension' type='ordinal' />
+      <column caption='Esperanca Vida' datatype='real' name='[ESPERANCA_VIDA]' role='measure' type='quantitative' />
+      <column caption='Geo Loc' datatype='string' name='[GEO_LOC]' role='dimension' type='nominal' />
+      <column caption='Idh Dimensao Educacao' datatype='real' name='[IDH_DIMENSAO_EDUCACAO]' role='measure' type='quantitative' />
+      <column caption='Idh Dimensao Longevidade' datatype='real' name='[IDH_DIMENSAO_LONGEVIDADE]' role='measure' type='quantitative' />
+      <column caption='Idh Dimensao Renda' datatype='real' name='[IDH_DIMENSAO_RENDA]' role='measure' type='quantitative' />
+      <column caption='Idh Geral' datatype='real' name='[IDH_GERAL]' role='measure' type='quantitative' />
+      <column caption='Id Ano' datatype='datetime' name='[ID_ANO]' role='dimension' type='ordinal' />
+      <column caption='Indice Escolaridade Idhm' datatype='real' name='[INDICE_ESCOLARIDADE_IDHM]' role='measure' type='quantitative' />
+      <column caption='Indice Frequencia Escolar Idhm' datatype='real' name='[INDICE_FREQUENCIA_ESCOLAR_IDHM]' role='measure' type='quantitative' />
+      <column caption='Indice Gini' datatype='real' name='[INDICE_GINI]' role='measure' type='quantitative' />
+      <column caption='Indice Theil L' datatype='real' name='[INDICE_THEIL_L]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Media Anos Estudo Maiores 25' datatype='real' name='[MEDIA_ANOS_ESTUDO_MAIORES_25]' role='measure' type='quantitative' />
+      <column caption='Mortalidade Infantil' datatype='real' name='[MORTALIDADE_INFANTIL]' role='measure' type='quantitative' />
+      <column caption='Nome Uf' datatype='string' name='[NOME_UF]' role='dimension' type='nominal' />
+      <column caption='No Ano' datatype='integer' name='[NO_ANO]' role='dimension' type='quantitative' />
+      <column caption='No Dia' datatype='integer' name='[NO_DIA]' role='dimension' type='quantitative' />
+      <column caption='No Mes' datatype='integer' name='[NO_MES]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Percent Atraso Ens Basico' datatype='real' name='[PERCENT_ATRASO_ENS_BASICO]' role='measure' type='quantitative' />
+      <column caption='Percent Atraso Ens Fundamental' datatype='real' name='[PERCENT_ATRASO_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+      <column caption='Percent Extrema Pobreza' datatype='real' name='[PERCENT_EXTREMA_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 15 17 Anos' datatype='real' name='[PERCENT_FREQUENCIA_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 18 24 Anos' datatype='real' name='[PERCENT_FREQUENCIA_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 5 6 Anos' datatype='real' name='[PERCENT_FREQUENCIA_5_6_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Frequencia 6 14 Anos' datatype='real' name='[PERCENT_FREQUENCIA_6_14_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 11 13 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_11_13_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 15 17 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo 18 24 Anos' datatype='real' name='[PERCENT_FUND_COMPLETO_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo Maior 18' datatype='real' name='[PERCENT_FUND_COMPLETO_MAIOR_18]' role='measure' type='quantitative' />
+      <column caption='Percent Fund Completo Maior 25' datatype='real' name='[PERCENT_FUND_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Medio Completo 18 20 Anos' datatype='real' name='[PERCENT_MEDIO_COMPLETO_18_20_ANOS]' role='measure' type='quantitative' />
+      <column caption='Percent Medio Completo Maior 25' datatype='real' name='[PERCENT_MEDIO_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Pobreza' datatype='real' name='[PERCENT_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Percent Renda Trabalho' datatype='real' name='[PERCENT_RENDA_TRABALHO]' role='measure' type='quantitative' />
+      <column caption='Percent Sup Completo Maior 25' datatype='real' name='[PERCENT_SUP_COMPLETO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Percent Vulneraveis Pobreza' datatype='real' name='[PERCENT_VULNERAVEIS_POBREZA]' role='measure' type='quantitative' />
+      <column caption='Populacao 11 13 Anos' datatype='integer' name='[POPULACAO_11_13_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 15 17 Anos' datatype='integer' name='[POPULACAO_15_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 18 20 Anos' datatype='integer' name='[POPULACAO_18_20_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 18 24 Anos' datatype='integer' name='[POPULACAO_18_24_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 5 6 Anos' datatype='integer' name='[POPULACAO_5_6_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao 6 17 Anos' datatype='integer' name='[POPULACAO_6_17_ANOS]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 15' datatype='integer' name='[POPULACAO_MAIOR_15]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 18' datatype='integer' name='[POPULACAO_MAIOR_18]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 25' datatype='integer' name='[POPULACAO_MAIOR_25]' role='measure' type='quantitative' />
+      <column caption='Populacao Maior 65' datatype='integer' name='[POPULACAO_MAIOR_65]' role='measure' type='quantitative' />
+      <column caption='Populacao Total' datatype='integer' name='[POPULACAO_TOTAL]' role='measure' type='quantitative' />
+      <column caption='Populacao Total Domicilios' datatype='integer' name='[POPULACAO_TOTAL_DOMICILIOS]' role='measure' type='quantitative' />
+      <column caption='Pop Total Domicilios' datatype='integer' name='[POP_TOTAL_DOMICILIOS]' role='measure' type='quantitative' />
+      <column caption='Razao 10 Ricos 40 Pobres' datatype='real' name='[RAZAO_10_RICOS_40_POBRES]' role='measure' type='quantitative' />
+      <column caption='Razao 20 Ricos 40 Pobres' datatype='real' name='[RAZAO_20_RICOS_40_POBRES]' role='measure' type='quantitative' />
+      <column caption='Razao Dependencia M15 M65' datatype='real' name='[RAZAO_DEPENDENCIA_M15_M65]' role='measure' type='quantitative' />
+      <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+      <column caption='Renda Per Capita' datatype='real' name='[RENDA_PER_CAPITA]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 1Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_1QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 2Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_2QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 3Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_3QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 4Quinto Pobre' datatype='real' name='[RENDA_PER_CAPITA_4QUINTO_POBRE]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita 5Quinto Ricos' datatype='real' name='[RENDA_PER_CAPITA_5QUINTO_RICOS]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Decimo Ricos' datatype='real' name='[RENDA_PER_CAPITA_DECIMO_RICOS]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Ext Pobres' datatype='real' name='[RENDA_PER_CAPITA_EXT_POBRES]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Menos Nulo' datatype='real' name='[RENDA_PER_CAPITA_MENOS_NULO]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Pobres' datatype='real' name='[RENDA_PER_CAPITA_POBRES]' role='measure' type='quantitative' />
+      <column caption='Renda Per Capita Vuln Pobres' datatype='real' name='[RENDA_PER_CAPITA_VULN_POBRES]' role='measure' type='quantitative' />
+      <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
+      <column caption='Taxa Analf Maiores 15' datatype='real' name='[TAXA_ANALF_MAIORES_15]' role='measure' type='quantitative' />
+      <column caption='Taxa Analf Maiores 18' datatype='real' name='[TAXA_ANALF_MAIORES_18]' role='measure' type='quantitative' />
+      <column caption='Taxa Analf Maiores 25' datatype='real' name='[TAXA_ANALF_MAIORES_25]' role='measure' type='quantitative' />
+      <column caption='Taxa Envelhecimento' datatype='real' name='[TAXA_ENVELHECIMENTO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Basico' datatype='real' name='[TAXA_FREQUENCIA_ENS_BASICO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Medio' datatype='real' name='[TAXA_FREQUENCIA_ENS_MEDIO]' role='measure' type='quantitative' />
+      <column caption='Taxa Frequencia Ens Superior' datatype='real' name='[TAXA_FREQUENCIA_ENS_SUPERIOR]' role='measure' type='quantitative' />
+      <column datatype='string' name='[UF]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='pt_BR' class='hyper' dbname='/Users/gabriel_reynoso/Desktop/EDUDW/OLAP/New model/IDHM_UF_F/Fontes/IDHM_UF_F.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='11/12/2018 05:43:28 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='190' timestamp-start='2018-11-12 17:43:28.893' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>UF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UF</remote-alias>
+              <ordinal>0</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ANO</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ANO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ANO</remote-alias>
+              <ordinal>1</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MEDIA_ANOS_ESTUDO_MAIORES_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MEDIA_ANOS_ESTUDO_MAIORES_25</remote-alias>
+              <ordinal>2</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ESPERANCA_VIDA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ESPERANCA_VIDA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ESPERANCA_VIDA</remote-alias>
+              <ordinal>3</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDICE_GINI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[INDICE_GINI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>INDICE_GINI</remote-alias>
+              <ordinal>4</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>121</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDICE_ESCOLARIDADE_IDHM</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[INDICE_ESCOLARIDADE_IDHM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>INDICE_ESCOLARIDADE_IDHM</remote-alias>
+              <ordinal>5</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[INDICE_FREQUENCIA_ESCOLAR_IDHM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>INDICE_FREQUENCIA_ESCOLAR_IDHM</remote-alias>
+              <ordinal>6</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IDH_GERAL</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IDH_GERAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IDH_GERAL</remote-alias>
+              <ordinal>7</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>174</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IDH_DIMENSAO_EDUCACAO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IDH_DIMENSAO_EDUCACAO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IDH_DIMENSAO_EDUCACAO</remote-alias>
+              <ordinal>8</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IDH_DIMENSAO_LONGEVIDADE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IDH_DIMENSAO_LONGEVIDADE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IDH_DIMENSAO_LONGEVIDADE</remote-alias>
+              <ordinal>9</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>174</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IDH_DIMENSAO_RENDA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[IDH_DIMENSAO_RENDA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IDH_DIMENSAO_RENDA</remote-alias>
+              <ordinal>10</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>178</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MORTALIDADE_INFANTIL</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[MORTALIDADE_INFANTIL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MORTALIDADE_INFANTIL</remote-alias>
+              <ordinal>11</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_EXTREMA_POBREZA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_EXTREMA_POBREZA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_EXTREMA_POBREZA</remote-alias>
+              <ordinal>12</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_POBREZA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_POBREZA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_POBREZA</remote-alias>
+              <ordinal>13</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POP_TOTAL_DOMICILIOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POP_TOTAL_DOMICILIOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POP_TOTAL_DOMICILIOS</remote-alias>
+              <ordinal>14</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_11_13_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_11_13_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_11_13_ANOS</remote-alias>
+              <ordinal>15</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_15_17_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_15_17_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_15_17_ANOS</remote-alias>
+              <ordinal>16</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_MAIOR_15</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_MAIOR_15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_MAIOR_15</remote-alias>
+              <ordinal>17</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_18_20_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_18_20_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_18_20_ANOS</remote-alias>
+              <ordinal>18</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_18_24_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_18_24_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_18_24_ANOS</remote-alias>
+              <ordinal>19</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_MAIOR_18</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_MAIOR_18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_MAIOR_18</remote-alias>
+              <ordinal>20</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_MAIOR_25</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_MAIOR_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_MAIOR_25</remote-alias>
+              <ordinal>21</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_5_6_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_5_6_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_5_6_ANOS</remote-alias>
+              <ordinal>22</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_MAIOR_65</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_MAIOR_65]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_MAIOR_65</remote-alias>
+              <ordinal>23</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_6_14_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_6_14_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_6_14_ANOS</remote-alias>
+              <ordinal>24</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_6_17_ANOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_6_17_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_6_17_ANOS</remote-alias>
+              <ordinal>25</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_TOTAL_DOMICILIOS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_TOTAL_DOMICILIOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_TOTAL_DOMICILIOS</remote-alias>
+              <ordinal>26</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>POPULACAO_TOTAL</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[POPULACAO_TOTAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>POPULACAO_TOTAL</remote-alias>
+              <ordinal>27</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_VULNERAVEIS_POBREZA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_VULNERAVEIS_POBREZA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_VULNERAVEIS_POBREZA</remote-alias>
+              <ordinal>28</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_RENDA_TRABALHO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_RENDA_TRABALHO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_RENDA_TRABALHO</remote-alias>
+              <ordinal>29</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RAZAO_10_RICOS_40_POBRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RAZAO_10_RICOS_40_POBRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RAZAO_10_RICOS_40_POBRES</remote-alias>
+              <ordinal>30</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RAZAO_20_RICOS_40_POBRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RAZAO_20_RICOS_40_POBRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RAZAO_20_RICOS_40_POBRES</remote-alias>
+              <ordinal>31</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RAZAO_DEPENDENCIA_M15_M65</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RAZAO_DEPENDENCIA_M15_M65]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RAZAO_DEPENDENCIA_M15_M65</remote-alias>
+              <ordinal>32</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA</remote-alias>
+              <ordinal>33</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_1QUINTO_POBRE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_1QUINTO_POBRE</remote-alias>
+              <ordinal>34</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_DECIMO_RICOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_DECIMO_RICOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_DECIMO_RICOS</remote-alias>
+              <ordinal>35</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_2QUINTO_POBRE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_2QUINTO_POBRE</remote-alias>
+              <ordinal>36</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_3QUINTO_POBRE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_3QUINTO_POBRE</remote-alias>
+              <ordinal>37</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_4QUINTO_POBRE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_4QUINTO_POBRE</remote-alias>
+              <ordinal>38</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_5QUINTO_RICOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_5QUINTO_RICOS</remote-alias>
+              <ordinal>39</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_MENOS_NULO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_MENOS_NULO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_MENOS_NULO</remote-alias>
+              <ordinal>40</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_EXT_POBRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_EXT_POBRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_EXT_POBRES</remote-alias>
+              <ordinal>41</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_POBRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_POBRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_POBRES</remote-alias>
+              <ordinal>42</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RENDA_PER_CAPITA_VULN_POBRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[RENDA_PER_CAPITA_VULN_POBRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RENDA_PER_CAPITA_VULN_POBRES</remote-alias>
+              <ordinal>43</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_ANALF_MAIORES_15</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_ANALF_MAIORES_15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_ANALF_MAIORES_15</remote-alias>
+              <ordinal>44</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_ANALF_MAIORES_18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_ANALF_MAIORES_18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_ANALF_MAIORES_18</remote-alias>
+              <ordinal>45</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_ANALF_MAIORES_25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_ANALF_MAIORES_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_ANALF_MAIORES_25</remote-alias>
+              <ordinal>46</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_ATRASO_ENS_BASICO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_ATRASO_ENS_BASICO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_ATRASO_ENS_BASICO</remote-alias>
+              <ordinal>47</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_ATRASO_ENS_FUNDAMENTAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_ATRASO_ENS_FUNDAMENTAL</remote-alias>
+              <ordinal>48</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_ENVELHECIMENTO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_ENVELHECIMENTO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_ENVELHECIMENTO</remote-alias>
+              <ordinal>49</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_FREQUENCIA_ENS_BASICO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_FREQUENCIA_ENS_BASICO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_FREQUENCIA_ENS_BASICO</remote-alias>
+              <ordinal>50</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_FREQUENCIA_ENS_FUNDAMENTAL</remote-alias>
+              <ordinal>51</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_FREQUENCIA_ENS_MEDIO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_FREQUENCIA_ENS_MEDIO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_FREQUENCIA_ENS_MEDIO</remote-alias>
+              <ordinal>52</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TAXA_FREQUENCIA_ENS_SUPERIOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TAXA_FREQUENCIA_ENS_SUPERIOR</remote-alias>
+              <ordinal>53</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FREQUENCIA_15_17_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FREQUENCIA_15_17_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FREQUENCIA_15_17_ANOS</remote-alias>
+              <ordinal>54</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FREQUENCIA_18_24_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FREQUENCIA_18_24_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FREQUENCIA_18_24_ANOS</remote-alias>
+              <ordinal>55</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FREQUENCIA_5_6_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FREQUENCIA_5_6_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FREQUENCIA_5_6_ANOS</remote-alias>
+              <ordinal>56</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FREQUENCIA_6_14_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FREQUENCIA_6_14_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FREQUENCIA_6_14_ANOS</remote-alias>
+              <ordinal>57</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FUND_COMPLETO_11_13_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FUND_COMPLETO_11_13_ANOS</remote-alias>
+              <ordinal>58</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FUND_COMPLETO_15_17_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FUND_COMPLETO_15_17_ANOS</remote-alias>
+              <ordinal>59</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FUND_COMPLETO_18_24_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FUND_COMPLETO_18_24_ANOS</remote-alias>
+              <ordinal>60</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FUND_COMPLETO_MAIOR_18</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FUND_COMPLETO_MAIOR_18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_18</remote-alias>
+              <ordinal>61</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_FUND_COMPLETO_MAIOR_25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_FUND_COMPLETO_MAIOR_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_FUND_COMPLETO_MAIOR_25</remote-alias>
+              <ordinal>62</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_MEDIO_COMPLETO_18_20_ANOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_MEDIO_COMPLETO_18_20_ANOS</remote-alias>
+              <ordinal>63</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_MEDIO_COMPLETO_MAIOR_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_MEDIO_COMPLETO_MAIOR_25</remote-alias>
+              <ordinal>64</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PERCENT_SUP_COMPLETO_MAIOR_25</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PERCENT_SUP_COMPLETO_MAIOR_25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PERCENT_SUP_COMPLETO_MAIOR_25</remote-alias>
+              <ordinal>65</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>INDICE_THEIL_L</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[INDICE_THEIL_L]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>INDICE_THEIL_L</remote-alias>
+              <ordinal>66</ordinal>
+              <family>IDHM_UF_F</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>190</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NOME_UF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NOME_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NOME_UF</remote-alias>
+              <ordinal>67</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SIGLA_UF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SIGLA_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SIGLA_UF</remote-alias>
+              <ordinal>68</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CODIGO_UF</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CODIGO_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CODIGO_UF</remote-alias>
+              <ordinal>69</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CAPITAL_UF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CAPITAL_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CAPITAL_UF</remote-alias>
+              <ordinal>70</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>REGIAO_UF</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[REGIAO_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>REGIAO_UF</remote-alias>
+              <ordinal>71</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LROOT' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CODIGO_REGIAO_UF</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CODIGO_REGIAO_UF]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CODIGO_REGIAO_UF</remote-alias>
+              <ordinal>72</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LONGITUDE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[LONGITUDE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LONGITUDE</remote-alias>
+              <ordinal>73</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LATITUDE</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[LATITUDE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LATITUDE</remote-alias>
+              <ordinal>74</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>28</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>GEO_LOC</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GEO_LOC]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GEO_LOC</remote-alias>
+              <ordinal>75</ordinal>
+              <family>LOCALIZACAO_UF_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ID_ANO</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[ID_ANO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ID_ANO</remote-alias>
+              <ordinal>76</ordinal>
+              <family>TEMPO_D</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ANO_STRING</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ANO_STRING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ANO_STRING</remote-alias>
+              <ordinal>77</ordinal>
+              <family>TEMPO_D</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NO_ANO</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NO_ANO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NO_ANO</remote-alias>
+              <ordinal>78</ordinal>
+              <family>TEMPO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NO_MES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NO_MES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NO_MES</remote-alias>
+              <ordinal>79</ordinal>
+              <family>TEMPO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NO_DIA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NO_DIA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NO_DIA</remote-alias>
+              <ordinal>80</ordinal>
+              <family>TEMPO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.299748' measure-ordering='alphabetic' measure-percentage='0.700252' rowDisplayCount='1000' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:REGIAO_UF:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;SUDESTE&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;NORTE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;NORDESTE&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;SUL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;CENTRO-OESTE&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='EF - Freq. X Reg.'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IDHM_UF_F' name='federated.14eqbzc1jhhcre17w1r1k1emia57' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14eqbzc1jhhcre17w1r1k1emia57'>
+            <column aggregation='Sum' datatype='integer' name='[ANO]' role='dimension' type='ordinal' />
+            <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ANO]' derivation='None' name='[none:ANO:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[POPULACAO_6_14_ANOS]' derivation='Sum' name='[sum:POPULACAO_6_14_ANOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]'>
+            <groupfilter from='2011' function='range' level='[none:ANO:ok]' to='2015' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]'>
+            <groupfilter from='&quot;CENTRO-OESTE&quot;' function='range' level='[none:REGIAO_UF:nk]' to='&quot;SUL&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' direction='DESC' using='[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' />
+          <slices>
+            <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</column>
+            <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' value='97' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' />
+              <lod column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[sum:POPULACAO_6_14_ANOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
+        <cols>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='EF - Freq. X Rnd. per Cpt.'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IDHM_UF_F' name='federated.14eqbzc1jhhcre17w1r1k1emia57' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14eqbzc1jhhcre17w1r1k1emia57'>
+            <column aggregation='Sum' datatype='integer' name='[ANO]' role='dimension' type='ordinal' />
+            <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+            <column caption='Renda Per Capita' datatype='real' name='[RENDA_PER_CAPITA]' role='measure' type='quantitative' />
+            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[RENDA_PER_CAPITA]' derivation='Avg' name='[avg:RENDA_PER_CAPITA:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ANO]' derivation='None' name='[none:ANO:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[POPULACAO_6_14_ANOS]' derivation='Sum' name='[sum:POPULACAO_6_14_ANOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]'>
+            <groupfilter from='&quot;CENTRO-OESTE&quot;' function='range' level='[none:REGIAO_UF:nk]' to='&quot;SUL&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' />
+              <size column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[sum:POPULACAO_6_14_ANOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/circle' />
+                <format attr='size' value='1.4612706899642944' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
+        <cols>[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:RENDA_PER_CAPITA:qk]</cols>
+        <pages>
+          <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</column>
+        </pages>
+      </table>
+    </worksheet>
+    <worksheet name='EF - Freq. X UF'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='IDHM_UF_F' name='federated.14eqbzc1jhhcre17w1r1k1emia57' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14eqbzc1jhhcre17w1r1k1emia57'>
+            <column aggregation='Sum' datatype='integer' name='[ANO]' role='dimension' type='ordinal' />
+            <column caption='Nome Uf' datatype='string' name='[NOME_UF]' role='dimension' type='nominal' />
+            <column caption='Populacao 6 14 Anos' datatype='integer' name='[POPULACAO_6_14_ANOS]' role='measure' type='quantitative' />
+            <column caption='Regiao Uf' datatype='string' name='[REGIAO_UF]' role='dimension' type='nominal' />
+            <column caption='Taxa Frequencia Ens Fundamental' datatype='real' name='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' role='measure' type='quantitative' />
+            <column-instance column='[TAXA_FREQUENCIA_ENS_FUNDAMENTAL]' derivation='Avg' name='[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ANO]' derivation='None' name='[none:ANO:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[NOME_UF]' derivation='None' name='[none:NOME_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[REGIAO_UF]' derivation='None' name='[none:REGIAO_UF:nk]' pivot='key' type='nominal' />
+            <column-instance column='[POPULACAO_6_14_ANOS]' derivation='Sum' name='[sum:POPULACAO_6_14_ANOS:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]'>
+            <groupfilter function='member' level='[none:ANO:ok]' member='2015' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]'>
+            <groupfilter from='&quot;ACRE&quot;' function='range' level='[none:NOME_UF:nk]' to='&quot;TOCANTINS&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]' direction='DESC' using='[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]' />
+          <slices>
+            <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]</column>
+            <column>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]' value='62' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' />
+              <lod column='[federated.14eqbzc1jhhcre17w1r1k1emia57].[sum:POPULACAO_6_14_ANOS:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.14eqbzc1jhhcre17w1r1k1emia57].[avg:TAXA_FREQUENCIA_ENS_FUNDAMENTAL:qk]</rows>
+        <cols>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]</cols>
+        <page-trail-options mark-type='all' />
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='EF - Freq. X Reg.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</field>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' name='EF - Freq. X Rnd. per Cpt.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[sum:POPULACAO_6_14_ANOS:qk]' type='size' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2011</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</field>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='EF - Freq. X UF'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card mode='radiolist' param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]' type='filter' />
+            <card pane-specification-id='0' param='[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2014</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:ANO:ok]</field>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:NOME_UF:nk]</field>
+            <field>[federated.14eqbzc1jhhcre17w1r1k1emia57].[none:REGIAO_UF:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='EF - Freq. X Reg.' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3dWWxc53338d85s3KGQw13iloomVoYSRblUCblVnKbyk5kB7It2YkCZ0OD
+      9K43AYICL/AC7U2TNjfJRWsgL9qiKQojdlM3ce3UkiJ5jeQltmI6olaGWkixkrmI23CWs7wX
+      jpjItmh7ZsQjzvP9AEGskXj0n0cz850558yM5fu+LwCAUSzLsuyghwAABIMAAIChCAAAGIoA
+      AIChCAAAGIoAAIChCAAAGIoAAIChCADwPtlsVmfPntWpU6d07tw5TU1N6eO+XzKTyejIkSOa
+      nJz8RH/nzMyMBgcH5TiOfN/X4OCgJicn5TiODh06pH/8x3/U0NBQMVcHuCECALzP+fPn9a1v
+      fUvf/e539Td/8zf64Q9/qNHR0Y/1s5lMRi+99NInDsA777yjv/u7v9Pk5KRc19X3vvc9vfrq
+      qxocHNQ//MM/KJfLKRQKFXN1gBsKBz0AcKvxPE/pdFrf/va3lc1m9dd//dfauXOnTp8+rf/6
+      r/9SVVWVHn30Ud122236+c9/rldffVXJZFLbtm1TZ2enYrGYPM/ToUOH9MILL8iyLO3evVtb
+      tmzRsWPH9NRTT8nzPO3du1fbtm2b+3sdx5HnefJ9X77va2RkRG+99ZampqY0Ojoqx3ECXBVU
+      Il4BAB+iUCjo/Pnz6uvrU1VVlSzL0ve//321tLTI8zz927/9m1577TX9y7/8i9ra2pTJZPSr
+      X/1KMzMzOn78uKanp+W6rjo6OpTL5fSv//qvOn/+vB577DElk0klk0n9/d//vfL5/A1nSCQS
+      amlpUSqVmgsLUE68AgA+xOTkpB577DFNT0/rW9/6lqqqqjQyMqKBgQG5rqtsNqu3335b69ev
+      19e//nX97Gc/07lz567bhuu6euutt3Tp0iU5jqOrV69qZmZGX/7yl5XP59Xb26vx8XE1NzfP
+      /Xnf9+W6rjzPU1VVlVauXKlXXnlFu3btUk1NTQArgUpGAIAP0djYqL/4i7/Qj370I504cUK3
+      3367YrGYVq1apQ0bNigWiykajerll1/WkSNHNDAwIMuy5n4+k8non//5n7V3717t3LlT//Ef
+      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
+    </thumbnail>
+    <thumbnail height='384' name='EF - Freq. X Rnd. per Cpt.' width='384'>
+      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
+    </thumbnail>
+    <thumbnail height='384' name='EF - Freq. X UF' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
