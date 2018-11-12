@@ -1,0 +1,784 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>|</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DOCENTES_SUDESTE.CSV</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NUM_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA_ESTADO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA_ESTADO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESCOLARIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISC_DIVERSIDADE_SOCIO_CULT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISCIPLINAS_PEDAG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_OUTRAS_DISCIPLINAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MESTRADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DOUTORADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_POS_GRADUACAO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_CRECHE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_PRE_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ANOS_INICIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ANOS_FINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ENS_MEDIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_NEC_ESP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ED_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_INTERCULTURAL_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_CONTRATACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="PK_COD_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MOD_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_CURSO_PROF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="PK_COD_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DEPENDENCIA_ADM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="DESC_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DOCUMENTO_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[FK_COD_ETAPA_ENSINO] = 4 OR
+[FK_COD_ETAPA_ENSINO] = 5 OR
+[FK_COD_ETAPA_ENSINO] = 6 OR
+[FK_COD_ETAPA_ENSINO] = 7 OR
+[FK_COD_ETAPA_ENSINO] = 8 OR
+[FK_COD_ETAPA_ENSINO] = 9 OR
+[FK_COD_ETAPA_ENSINO] = 10 OR
+[FK_COD_ETAPA_ENSINO] = 11 OR
+[FK_COD_ETAPA_ENSINO] = 14 OR
+[FK_COD_ETAPA_ENSINO] = 15 OR
+[FK_COD_ETAPA_ENSINO] = 16 OR
+[FK_COD_ETAPA_ENSINO] = 17 OR
+[FK_COD_ETAPA_ENSINO] = 18 OR
+[FK_COD_ETAPA_ENSINO] = 19 OR
+[FK_COD_ETAPA_ENSINO] = 20 OR
+[FK_COD_ETAPA_ENSINO] = 21 OR
+[FK_COD_ETAPA_ENSINO] = 41</Expression>
+          <Mode>Custom</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>
+            </Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2018-08-15 21:23:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2018-08-15 21:23:02</StartDate>
+              <EndDate>2018-08-15 21:23:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[FK_COD_ETAPA_ENSINO] = 4 OR
+[FK_COD_ETAPA_ENSINO] = 5 OR
+[FK_COD_ETAPA_ENSINO] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ANO_CENSO" selected="True" />
+            <Field field="FK_COD_DOCENTE" selected="True" />
+            <Field field="NU_DIA" selected="True" />
+            <Field field="NU_MES" selected="True" />
+            <Field field="NU_ANO" selected="True" />
+            <Field field="NUM_IDADE" selected="True" />
+            <Field field="TP_SEXO" selected="True" />
+            <Field field="TP_COR_RACA" selected="True" />
+            <Field field="TP_NACIONALIDADE" selected="True" />
+            <Field field="FK_COD_PAIS_ORIGEM" selected="True" />
+            <Field field="FK_COD_ESTADO_DNASC" selected="True" />
+            <Field field="SIGLA_ESTADO_DNASC" selected="True" />
+            <Field field="FK_COD_MUNICIPIO_DNASC" selected="True" />
+            <Field field="FK_COD_ESTADO_DEND" selected="True" />
+            <Field field="SIGLA_ESTADO_DEND" selected="True" />
+            <Field field="FK_COD_MUNICIPIO_DEND" selected="True" />
+            <Field field="FK_COD_ESCOLARIDADE" selected="True" />
+            <Field field="ID_SITUACAO_CURSO_1" selected="True" />
+            <Field field="FK_CLASSE_CURSO_1" selected="True" />
+            <Field field="FK_COD_AREA_OCDE_1" selected="True" />
+            <Field field="ID_LICENCIATURA_1" selected="True" />
+            <Field field="ID_COM_PEDAGOGICA_1" selected="True" />
+            <Field field="NU_ANO_INICIO_1" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_1" selected="True" />
+            <Field field="ID_TIPO_INSTITUICAO_1" selected="True" />
+            <Field field="ID_NOME_INSTITUICAO_1" selected="True" />
+            <Field field="FK_COD_IES_1" selected="True" />
+            <Field field="ID_SITUACAO_CURSO_2" selected="True" />
+            <Field field="FK_CLASSE_CURSO_2" selected="True" />
+            <Field field="FK_COD_AREA_OCDE_2" selected="True" />
+            <Field field="ID_LICENCIATURA_2" selected="True" />
+            <Field field="ID_COM_PEDAGOGICA_2" selected="True" />
+            <Field field="NU_ANO_INICIO_2" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_2" selected="True" />
+            <Field field="ID_TIPO_INSTITUICAO_2" selected="True" />
+            <Field field="ID_NOME_INSTITUICAO_2" selected="True" />
+            <Field field="FK_COD_IES_2" selected="True" />
+            <Field field="ID_SITUACAO_CURSO_3" selected="True" />
+            <Field field="FK_CLASSE_CURSO_3" selected="True" />
+            <Field field="FK_COD_AREA_OCDE_3" selected="True" />
+            <Field field="ID_LICENCIATURA_3" selected="True" />
+            <Field field="ID_COM_PEDAGOGICA_3" selected="True" />
+            <Field field="NU_ANO_INICIO_3" selected="True" />
+            <Field field="NU_ANO_CONCLUSAO_3" selected="True" />
+            <Field field="ID_TIPO_INSTITUICAO_3" selected="True" />
+            <Field field="ID_NOME_INSTITUICAO_3" selected="True" />
+            <Field field="FK_COD_IES_3" selected="True" />
+            <Field field="ID_QUIMICA" selected="True" />
+            <Field field="ID_FISICA" selected="True" />
+            <Field field="ID_MATEMATICA" selected="True" />
+            <Field field="ID_BIOLOGIA" selected="True" />
+            <Field field="ID_CIENCIAS" selected="True" />
+            <Field field="ID_LINGUA_LITERAT_PORTUGUESA" selected="True" />
+            <Field field="ID_LINGUA_LITERAT_INGLES" selected="True" />
+            <Field field="ID_LINGUA_LITERAT_ESPANHOL" selected="True" />
+            <Field field="ID_LINGUA_LITERAT_OUTRA" selected="True" />
+            <Field field="ID_LINGUA_LITERAT_INDIGENA" selected="True" />
+            <Field field="ID_ARTES" selected="True" />
+            <Field field="ID_EDUCACAO_FISICA" selected="True" />
+            <Field field="ID_HISTORIA" selected="True" />
+            <Field field="ID_GEOGRAFIA" selected="True" />
+            <Field field="ID_FILOSOFIA" selected="True" />
+            <Field field="ID_ENSINO_RELIGIOSO" selected="True" />
+            <Field field="ID_ESTUDOS_SOCIAIS" selected="True" />
+            <Field field="ID_INFORMATICA_COMPUTACAO" selected="True" />
+            <Field field="ID_PROFISSIONALIZANTE" selected="True" />
+            <Field field="ID_DISC_ATENDIMENTO_ESPECIAIS" selected="True" />
+            <Field field="ID_DISC_DIVERSIDADE_SOCIO_CULT" selected="True" />
+            <Field field="ID_LIBRAS" selected="True" />
+            <Field field="ID_DISCIPLINAS_PEDAG" selected="True" />
+            <Field field="ID_OUTRAS_DISCIPLINAS" selected="True" />
+            <Field field="ID_ESPECIALIZACAO" selected="True" />
+            <Field field="ID_MESTRADO" selected="True" />
+            <Field field="ID_DOUTORADO" selected="True" />
+            <Field field="ID_POS_GRADUACAO_NENHUM" selected="True" />
+            <Field field="ID_ESPECIFICO_CRECHE" selected="True" />
+            <Field field="ID_ESPECIFICO_PRE_ESCOLA" selected="True" />
+            <Field field="ID_ESPECIFICO_ANOS_INICIAIS" selected="True" />
+            <Field field="ID_ESPECIFICO_ANOS_FINAIS" selected="True" />
+            <Field field="ID_ESPECIFICO_ENS_MEDIO" selected="True" />
+            <Field field="ID_ESPECIFICO_EJA" selected="True" />
+            <Field field="ID_ESPECIFICO_NEC_ESP" selected="True" />
+            <Field field="ID_ESPECIFICO_ED_INDIGENA" selected="True" />
+            <Field field="ID_INTERCULTURAL_OUTROS" selected="True" />
+            <Field field="ID_ESPECIFICO_OUTROS" selected="True" />
+            <Field field="ID_ESPECIFICO_NENHUM" selected="True" />
+            <Field field="ID_TIPO_DOCENTE" selected="True" />
+            <Field field="ID_TIPO_CONTRATACAO" selected="True" />
+            <Field field="PK_COD_TURMA" selected="True" />
+            <Field field="FK_COD_TIPO_TURMA" selected="True" />
+            <Field field="FK_COD_MOD_ENSINO" selected="True" />
+            <Field field="FK_COD_ETAPA_ENSINO" selected="True" />
+            <Field field="FK_COD_CURSO_PROF" selected="True" />
+            <Field field="PK_COD_ENTIDADE" selected="True" />
+            <Field field="FK_COD_ESTADO" selected="True" />
+            <Field field="SIGLA" selected="True" />
+            <Field field="FK_COD_MUNICIPIO" selected="True" />
+            <Field field="FK_COD_DISTRITO" selected="True" />
+            <Field field="ID_LOCALIZACAO" selected="True" />
+            <Field field="ID_DEPENDENCIA_ADM" selected="True" />
+            <Field field="DESC_CATEGORIA_ESCOLA_PRIVADA" selected="True" />
+            <Field field="ID_CONVENIADA_PP" selected="True" />
+            <Field field="ID_TIPO_CONVENIO_PODER_PUBLICO" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_EMP" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_ONG" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_SIND" selected="True" />
+            <Field field="ID_MANT_ESCOLA_PRIVADA_S_FINS" selected="True" />
+            <Field field="ID_DOCUMENTO_REGULAMENTACAO" selected="True" />
+            <Field field="ID_LOCALIZACAO_DIFERENCIADA" selected="True" />
+            <Field field="ID_EDUCACAO_INDIGENA" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO_CENSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_DIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_MES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NUM_IDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_PAIS_ORIGEM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA_ESTADO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_DNASC" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA_ESTADO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO_DEND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESCOLARIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_SITUACAO_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_CLASSE_CURSO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_AREA_OCDE_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LICENCIATURA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_COM_PEDAGOGICA_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_INICIO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="NU_ANO_CONCLUSAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_INSTITUICAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_NOME_INSTITUICAO_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_IES_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_QUIMICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MATEMATICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_BIOLOGIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_CIENCIAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_PORTUGUESA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_INGLES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_ESPANHOL" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_OUTRA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LINGUA_LITERAT_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ARTES" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_EDUCACAO_FISICA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_HISTORIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_GEOGRAFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_FILOSOFIA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ENSINO_RELIGIOSO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESTUDOS_SOCIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_INFORMATICA_COMPUTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_PROFISSIONALIZANTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISC_ATENDIMENTO_ESPECIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISC_DIVERSIDADE_SOCIO_CULT" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LIBRAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DISCIPLINAS_PEDAG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_OUTRAS_DISCIPLINAS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MESTRADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DOUTORADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_POS_GRADUACAO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_CRECHE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_PRE_ESCOLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ANOS_INICIAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ANOS_FINAIS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ENS_MEDIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_EJA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_NEC_ESP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_ED_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_INTERCULTURAL_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_OUTROS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_ESPECIFICO_NENHUM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_DOCENTE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_CONTRATACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="PK_COD_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_TIPO_TURMA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MOD_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ETAPA_ENSINO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_CURSO_PROF" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="PK_COD_ENTIDADE" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_ESTADO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="SIGLA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_MUNICIPIO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="FK_COD_DISTRITO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DEPENDENCIA_ADM" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="DESC_CATEGORIA_ESCOLA_PRIVADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_CONVENIADA_PP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_TIPO_CONVENIO_PODER_PUBLICO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_EMP" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_ONG" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_SIND" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_MANT_ESCOLA_PRIVADA_S_FINS" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_DOCUMENTO_REGULAMENTACAO" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_LOCALIZACAO_DIFERENCIADA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+            <Field name="ID_EDUCACAO_INDIGENA" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS_ABERTOS_INEP\micro_censo_escolar_2011\DADOS\DOCENTES_SUDESTE.CSV" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="594" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="858" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||STG_DOCENTES_SUDESTE_2011</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=STG_DOCENTES_SUDESTE_2011</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings>
+        <Position x="606" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings>
+        <Position x="222" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings>
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="342" y="90" width="396" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>FILTRANDO TP_ETAPA_ENSINO &amp; INSERINDO CHAVE UNICA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[TRANSFORMA METADADOS ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="774" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="462" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>ID_DOCENTE</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="24" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output2" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="23" Connection="Input8" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DOCENTES-SUDESTE-2011-TO-STG</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

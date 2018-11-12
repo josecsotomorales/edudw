@@ -588,13 +588,13 @@
           <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
-            <TransactionSize>10000</TransactionSize>
+            <TransactionSize>5000</TransactionSize>
             <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
             <PostSQL />
             <TableStyle>Quoted</TableStyle>
             <PreSQL />
             <TransactionMessages>False</TransactionMessages>
-            <OutputOption>Create</OutputOption>
+            <OutputOption>Overwrite</OutputOption>
           </FormatSpecificOptions>
           <MultiFile value="False" />
         </Configuration>
@@ -604,6 +604,9 @@
 Table=ESCOLAS_F</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>

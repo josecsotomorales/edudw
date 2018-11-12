@@ -1,0 +1,566 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:EDUDW|||Select * From LOCALIZACAO_D</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=Select * From LOCALIZACAO_D</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NOME_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="V_WString" />
+            <Field name="SIGLA_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="V_WString" />
+            <Field name="CODIGO_UF" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="Int16" />
+            <Field name="CAPITAL_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="V_WString" />
+            <Field name="REGIAO_UF" size="254" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="V_WString" />
+            <Field name="CODIGO_REGIAO_UF" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="Int16" />
+            <Field name="GEO_LOC" size="2147483647" source="File: aka:EDUDW|||Select * From LOCALIZACAO_D" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F</File>
+          <FormatSpecificOptions>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <ReadCentroids>False</ReadCentroids>
+            <NoProgress>True</NoProgress>
+            <ReadUncommitted>False</ReadUncommitted>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=Select * From INDICADORES_MUNICIPIO_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int16" />
+            <Field name="ESTADO_ID" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="COD_IBGE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="NOME_MUNICIPIO" size="32" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="V_String" />
+            <Field name="UF" size="2" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="String" />
+            <Field name="POP_ESTIMADA_2012" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="POP_ESTIMADA_2015" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="PIB_PER_CAPITA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="PIB" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int64" />
+            <Field name="QTD_BOLSA_FAMILIA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int64" />
+            <Field name="IDHM_1991" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_2000" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_2010" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_RENDA_1991" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_RENDA_2000" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_RENDA_2010" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_1991" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_2000" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_2010" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_EDUCACAO_1991" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_EDUCACAO_2000" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="IDHM_EDUCACAO_2010" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_ENSINO_SUPERIOR_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_DESENV_CIENTIFICO_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_ALIMENTAC_NUTRICAO_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_ENSINO_PROFISSIONAL_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_ADMINIST_ESCOLAR_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_EDUCACAO_BASICA_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_DESPORTO_COMUNIT_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_EDUC_JOVENS_ADULTOS_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_EDUCACAO_INFANTIL_2016" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="TRANSF_EDUCACAO_2016_PER_CAPITA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="QTD_ALUNOS_REDE_PUBLICA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="TRANSF_EDUCACAO_2016_POR_ALUNO" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="SALARIO_MEDIO_PROF_1A4_ANO_PUB" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="SALARIO_MEDIO_PROF_5A8_ANO_PUB" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="QTD_PROFESSOR_1A4_SERIE_PUBLICA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="QTD_PROFESSOR_5A8_SERIE_PUBLICA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Int32" />
+            <Field name="PROP_PROF_BACHAREL_1A4_PUBLICA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="PROP_PROF_BACHAREL_5A8_PUBLICA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="LATITUDE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="LONGITUDE" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="AREA" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Double" />
+            <Field name="GEO_LOCALIZACAO" size="2147483647" source="File: aka:EDUDW|||Select * From INDICADORES_MUNICIPIO_F" type="Blob" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="False" />
+            <SelectField field="POP_ESTIMADA_2012" selected="False" />
+            <SelectField field="POP_ESTIMADA_2015" selected="False" />
+            <SelectField field="PIB_PER_CAPITA" selected="False" />
+            <SelectField field="PIB" selected="False" />
+            <SelectField field="QTD_BOLSA_FAMILIA" selected="False" />
+            <SelectField field="IDHM_1991" selected="False" />
+            <SelectField field="IDHM_2000" selected="False" />
+            <SelectField field="IDHM_2010" selected="False" />
+            <SelectField field="IDHM_RENDA_1991" selected="False" />
+            <SelectField field="IDHM_RENDA_2000" selected="False" />
+            <SelectField field="IDHM_RENDA_2010" selected="False" />
+            <SelectField field="IDHM_LONGEVIDADE_1991" selected="False" />
+            <SelectField field="IDHM_LONGEVIDADE_2000" selected="False" />
+            <SelectField field="IDHM_LONGEVIDADE_2010" selected="False" />
+            <SelectField field="IDHM_EDUCACAO_1991" selected="False" />
+            <SelectField field="IDHM_EDUCACAO_2000" selected="False" />
+            <SelectField field="IDHM_EDUCACAO_2010" selected="False" />
+            <SelectField field="TRANSF_ENSINO_SUPERIOR_2016" selected="False" />
+            <SelectField field="TRANSF_DESENV_CIENTIFICO_2016" selected="False" />
+            <SelectField field="TRANSF_ALIMENTAC_NUTRICAO_2016" selected="False" />
+            <SelectField field="TRANSF_ENSINO_PROFISSIONAL_2016" selected="False" />
+            <SelectField field="TRANSF_ADMINIST_ESCOLAR_2016" selected="False" />
+            <SelectField field="TRANSF_EDUCACAO_BASICA_2016" selected="False" />
+            <SelectField field="TRANSF_DESPORTO_COMUNIT_2016" selected="False" />
+            <SelectField field="TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="False" />
+            <SelectField field="TRANSF_EDUCACAO_INFANTIL_2016" selected="False" />
+            <SelectField field="TRANSF_EDUCACAO_2016_PER_CAPITA" selected="False" />
+            <SelectField field="QTD_ALUNOS_REDE_PUBLICA" selected="False" />
+            <SelectField field="TRANSF_EDUCACAO_2016_POR_ALUNO" selected="False" />
+            <SelectField field="SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="False" />
+            <SelectField field="SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="False" />
+            <SelectField field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="False" />
+            <SelectField field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="False" />
+            <SelectField field="PROP_PROF_BACHAREL_1A4_PUBLICA" selected="False" />
+            <SelectField field="PROP_PROF_BACHAREL_5A8_PUBLICA" selected="False" />
+            <SelectField field="AREA" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CAPITAL_UF" selected="False" />
+            <SelectField field="GEO_LOC" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="450" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="SIGLA_UF" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="UF" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ESTADO_ID" selected="False" />
+            <SelectField field="UF" selected="False" />
+            <SelectField field="GEO_LOCALIZACAO" selected="True" type="SpatialObj" size="536870911" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="678" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="306" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([UF] == 'UF', 'RO', [UF])" field="UF" size="2" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[UF = IIF([UF] == 'UF', 'RO', [UF])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||LOCALIZACAO_MUNICIPIOS_D</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <SpatialObjField>GEO_LOCALIZACAO</SpatialObjField>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>True</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=LOCALIZACAO_MUNICIPIOS_D</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258" y="354" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO OUTLIER</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1456_9e97fc9977064de4a8462cb2e0fdb8fe_\Engine_5556_b8013f6c91394186adf11f8b527fc273_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output2" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>LOCALIZACAO_MUNICIPIOS_D</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
