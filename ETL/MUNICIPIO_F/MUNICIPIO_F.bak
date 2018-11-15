@@ -342,21 +342,21 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="T_FREQ0A3" selected="True" rename="PERCENT_FREQ_0_A_3_ANOS_ESCOLA" />
             <SelectField field="T_FREQ11A14" selected="True" rename="PERCENT_FREQ_11_A_14_ANOS_ESCOLA" />
             <SelectField field="T_FREQ25A29" selected="True" rename="PERCENT_FREQ_25_A_29_ANOS_ESCOLA" />
-            <SelectField field="T_FREQ4A5" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_ESCOLA	" />
+            <SelectField field="T_FREQ4A5" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_ESCOLA" />
             <SelectField field="T_FREQ4A6" selected="True" rename="PERCENT_FREQ_4_A_6_ANOS_ESCOLA" />
-            <SelectField field="T_FREQ6" selected="True" rename="PERCENT_FREQ_6_ANOS_ESCOLA	" />
+            <SelectField field="T_FREQ6" selected="True" rename="PERCENT_FREQ_6_ANOS_ESCOLA" />
             <SelectField field="T_FREQ6A17" selected="True" rename="PERCENT_FREQ_6_A_17_ANOS_ESCOLA" />
             <SelectField field="T_FREQFUND1517" selected="True" rename="PERCENT_FREQ_15_A_17_ANOS_FUNDAMENTAL" />
             <SelectField field="T_FREQFUND1824" selected="True" rename="PERCENT_FREQ_18_A_24_ANOS_FUNDAMENTAL" />
-            <SelectField field="T_FREQFUND45" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_FUNDAMENTAL	" />
+            <SelectField field="T_FREQFUND45" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_FUNDAMENTAL" />
             <SelectField field="T_FREQMED1824" selected="True" rename="PERCENT_FREQ_18_A_24_ANOS_MEDIO" />
             <SelectField field="T_FREQMED614" selected="True" rename="PERCENT_FREQ_6_A_14_ANOS_MEDIO" />
             <SelectField field="T_FREQSUPER1517" selected="True" rename="PERCENT_FREQ_15_A_17_ANOS_SUPERIOR" />
-            <SelectField field="T_FUND12A14" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_12_A_14_ANOS	" />
-            <SelectField field="T_FUND16A18" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_16_A_18_ANOS " />
-            <SelectField field="T_MED18A24" selected="True" rename="TAXA_MEDIO_COMPLETO_18_A_24_ANOS " />
-            <SelectField field="T_MED18M" selected="True" rename="TAXA_MEDIO_COMPLETO_18_MAIS_ANOS " />
-            <SelectField field="T_MED19A21" selected="True" rename="TAXA_MEDIO_COMPLETO_19_A_21_ANOS 	" />
+            <SelectField field="T_FUND12A14" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_12_A_14_ANOS" />
+            <SelectField field="T_FUND16A18" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_16_A_18_ANOS" />
+            <SelectField field="T_MED18A24" selected="True" rename="TAXA_MEDIO_COMPLETO_18_A_24_ANOS" />
+            <SelectField field="T_MED18M" selected="True" rename="TAXA_MEDIO_COMPLETO_18_MAIS_ANOS" />
+            <SelectField field="T_MED19A21" selected="True" rename="TAXA_MEDIO_COMPLETO_19_A_21_ANOS" />
             <SelectField field="MORT5" selected="True" rename="MORTALIDADE_ATE_5_ANOS" />
             <SelectField field="SOBRE40" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_40" />
             <SelectField field="SOBRE60" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_60" />
@@ -371,7 +371,7 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="PIND" selected="True" rename="PERCENT_EXTREMAMENTE_POBRES" />
             <SelectField field="PMPOB" selected="True" rename="PERCENTUAL_POBRES" />
             <SelectField field="PMPOBCRI" selected="True" rename="PERCENTUAL_CRIANCAS_POBRES" />
-            <SelectField field="PPOBCRI" selected="True" rename="PERCENT_CRIANCAS_VULNERAVEIS_POBREZA	" />
+            <SelectField field="PPOBCRI" selected="True" rename="PERCENT_CRIANCAS_VULNERAVEIS_POBREZA" />
             <SelectField field="THEILtrab" selected="True" rename="INDICE_THEIL_RENDIMENTOS_TRABALHO" />
             <SelectField field="TRABCC" selected="True" rename="PERCENT_EMPREGADOS_CARTEIRA" />
             <SelectField field="TRABPUB" selected="True" rename="PERCENT_EMPREGADOS_SETOR_PUBLICO" />
@@ -389,7 +389,7 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="T_FUNDIN_TODOS" selected="True" rename="DOMICILIO_NINGUEM_COM_FUNDAMENTAL" />
             <SelectField field="T_NESTUDA_NTRAB_MMEIO" selected="True" rename="PERCENT_CASA_SEM_TRABALHO_NEM_MEDIO" />
             <SelectField field="T_SLUZ" selected="True" rename="PERCENT_DOMICILIOS_SEM_LUZ_ELETRICA" />
-            <SelectField field="HOMEMTOT" selected="True" rename="TOTAL_POPULACAO_MASCULINA	" />
+            <SelectField field="HOMEMTOT" selected="True" rename="TOTAL_POPULACAO_MASCULINA" />
             <SelectField field="MULHERTOT" selected="True" rename="TOTAL_POPULACAO_FEMININA" />
             <SelectField field="PEA" selected="True" rename="POP_ECONOM_ATIVA_MAIS_10" />
             <SelectField field="PEA1014" selected="True" rename="POP_ECONOM_ATIVA_10_A_14" />
@@ -399,7 +399,7 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="pesourb" selected="True" rename="POPULACAO_URBANA" />
             <SelectField field="PIA" selected="True" rename="POPULACAO_10_MAIS_ANOS" />
             <SelectField field="PIA1014" selected="True" rename="POPULACAO_10_14_ANOS" />
-            <SelectField field="PIA1517" selected="True" rename="POPULACAO_15_17_ANOS	" />
+            <SelectField field="PIA1517" selected="True" rename="POPULACAO_15_17_ANOS" />
             <SelectField field="PIA18M" selected="True" rename="POPULACAO_18_MAIS_ANOS" />
             <SelectField field="pesotot" selected="True" rename="POPULACAO_TOTAL" />
             <SelectField field="CORTE1" selected="False" />
@@ -543,6 +543,7 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
         <Configuration>
           <File MaxRecords="" FileFormat="23">aka:EDUDW|||MUNICIPIO_F</File>
           <Passwords />
+          <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
             <TransactionSize>10000</TransactionSize>
@@ -950,7 +951,7 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7860_a3391140ef2140b0a31990caddd697e9_\Engine_5028_9102ad30610b458dbff8be2a6a281d40_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7748_8ae40f6d1a8e42ce939318ddd2bcb43c_\Engine_5028_0b444910dd2b436781029c080b64267d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -978,7 +979,7 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7860_a3391140ef2140b0a31990caddd697e9_\Engine_5028_03567c5dcb63482ca6c5df18bc4be7d0_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7748_8ae40f6d1a8e42ce939318ddd2bcb43c_\Engine_5028_f171562b1b234cc2825756bd554be604_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
