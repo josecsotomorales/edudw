@@ -20,9 +20,6 @@
 Table=`MUN 91-00-10$`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ANO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
@@ -269,7 +266,7 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="150" />
+        <Position x="390" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -277,42 +274,22 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
           <CommaDecimal value="False" />
           <SelectFields>
             <SelectField field="COD_MUN_7" selected="True" rename="CODIGO_MUNICIPIO" />
+            <SelectField field="COD_MUN_6" selected="True" rename="CODIGO_MUNICIPIO_6" />
             <SelectField field="COD_UF" selected="True" rename="CODIGO_UF" />
             <SelectField field="ANO" selected="True" type="Int32" size="4" />
-            <SelectField field="COD_MUN_6" selected="True" rename="CODIGO_MUNICIPIO_6" />
             <SelectField field="NOME_MUNICIPIO" selected="False" />
             <SelectField field="IDHM" selected="True" rename="IDH_GERAL" />
             <SelectField field="IDHM_E" selected="True" rename="IDH_DIMENSAO_EDUCACAO" />
             <SelectField field="IDHM_L" selected="True" rename="IDH_DIMENSAO_LONGEVIDADE" />
             <SelectField field="IDHM_R" selected="True" rename="IDH_DIMENSAO_RENDA" />
-            <SelectField field="I_ESCOLARIDADE" selected="True" rename="INDICE_ESCOLARIDADE_IDHM" />
             <SelectField field="I_FREQ_PROP" selected="True" rename="INDICE_FREQUENCIA_ESCOLAR_IDHM" />
-            <SelectField field="ESPVIDA" selected="True" rename="ESPERANCA_VIDA" />
-            <SelectField field="MORT1" selected="True" rename="MORTALIDADE_INFANTIL" />
-            <SelectField field="POP" selected="True" rename="POP_TOTAL_DOMICILIOS" type="Int64" size="8" />
-            <SelectField field="POPT" selected="True" rename="POPULACAO_TOTAL_DOMICILIOS" type="Int64" size="8" />
-            <SelectField field="PPOB" selected="True" rename="PERCENT_VULNERAVEIS_POBREZA" />
-            <SelectField field="PRENTRAB" selected="True" rename="PERCENT_RENDA_TRABALHO" />
-            <SelectField field="R1040" selected="True" rename="RAZAO_10_RICOS_40_POBRES" />
-            <SelectField field="R2040" selected="True" rename="RAZAO_20_RICOS_40_POBRES" />
-            <SelectField field="RAZDEP" selected="True" rename="RAZAO_DEPENDENCIA_M15_M65" />
             <SelectField field="RDPC" selected="True" rename="RENDA_PER_CAPITA" />
-            <SelectField field="RDPC1" selected="True" rename="RENDA_PER_CAPITA_1QUINTO_POBRE" />
-            <SelectField field="RDPC10" selected="True" rename="RENDA_PER_CAPITA_DECIMO_RICOS" />
-            <SelectField field="RDPC2" selected="True" rename="RENDA_PER_CAPITA_2QUINTO_POBRE" />
-            <SelectField field="RDPC3" selected="True" rename="RENDA_PER_CAPITA_3QUINTO_POBRE" />
-            <SelectField field="RDPC4" selected="True" rename="RENDA_PER_CAPITA_4QUINTO_POBRE" />
-            <SelectField field="RDPC5" selected="True" rename="RENDA_PER_CAPITA_5QUINTO_RICOS" />
-            <SelectField field="RDPCT" selected="True" rename="RENDA_PER_CAPITA_MENOS_NULO" />
-            <SelectField field="RIND" selected="True" rename="RENDA_PER_CAPITA_EXT_POBRES" />
-            <SelectField field="RMPOB" selected="True" rename="RENDA_PER_CAPITA_POBRES" />
-            <SelectField field="RPOB" selected="True" rename="RENDA_PER_CAPITA_VULN_POBRES" />
+            <SelectField field="I_ESCOLARIDADE" selected="True" rename="INDICE_ESCOLARIDADE_IDHM" />
             <SelectField field="T_ANALF15M" selected="True" rename="TAXA_ANALF_MAIORES_15" />
             <SelectField field="T_ANALF18M" selected="True" rename="TAXA_ANALF_MAIORES_18" />
             <SelectField field="T_ANALF25M" selected="True" rename="TAXA_ANALF_MAIORES_25" />
             <SelectField field="T_ATRASO_2_BASICO" selected="True" rename="PERCENT_ATRASO_ENS_BASICO" />
             <SelectField field="T_ATRASO_2_FUND" selected="True" rename="PERCENT_ATRASO_ENS_FUNDAMENTAL" />
-            <SelectField field="T_ENV" selected="True" rename="TAXA_ENVELHECIMENTO" />
             <SelectField field="T_FLBAS" selected="True" rename="TAXA_FREQUENCIA_ENS_BASICO" />
             <SelectField field="T_FLFUND" selected="True" rename="TAXA_FREQUENCIA_ENS_FUNDAMENTAL" />
             <SelectField field="T_FLMED" selected="True" rename="TAXA_FREQUENCIA_ENS_MEDIO" />
@@ -329,12 +306,22 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="T_MED18A20" selected="True" rename="PERCENT_MEDIO_COMPLETO_18_20_ANOS" />
             <SelectField field="T_MED25M" selected="True" rename="PERCENT_MEDIO_COMPLETO_MAIOR_25" />
             <SelectField field="T_SUPER25M" selected="True" rename="PERCENT_SUP_COMPLETO_MAIOR_25" />
+            <SelectField field="PPOB" selected="True" rename="PERCENT_VULNERAVEIS_POBREZA" />
+            <SelectField field="PRENTRAB" selected="True" rename="PERCENT_RENDA_TRABALHO" />
+            <SelectField field="R1040" selected="True" rename="RAZAO_10_RICOS_40_POBRES" />
+            <SelectField field="R2040" selected="True" rename="RAZAO_20_RICOS_40_POBRES" />
+            <SelectField field="RDPC1" selected="True" rename="RENDA_PER_CAPITA_1QUINTO_POBRE" />
+            <SelectField field="RDPC2" selected="True" rename="RENDA_PER_CAPITA_2QUINTO_POBRE" />
+            <SelectField field="RDPC3" selected="True" rename="RENDA_PER_CAPITA_3QUINTO_POBRE" />
+            <SelectField field="RDPC4" selected="True" rename="RENDA_PER_CAPITA_4QUINTO_POBRE" />
+            <SelectField field="RDPC5" selected="True" rename="RENDA_PER_CAPITA_5QUINTO_RICOS" />
+            <SelectField field="RDPC10" selected="True" rename="RENDA_PER_CAPITA_DECIMO_RICOS" />
+            <SelectField field="RDPCT" selected="True" rename="RENDA_PER_CAPITA_MENOS_NULO" />
+            <SelectField field="RIND" selected="True" rename="RENDA_PER_CAPITA_EXT_POBRES" />
+            <SelectField field="RMPOB" selected="True" rename="RENDA_PER_CAPITA_POBRES" />
+            <SelectField field="RPOB" selected="True" rename="RENDA_PER_CAPITA_VULN_POBRES" />
             <SelectField field="THEIL" selected="True" rename="INDICE_THEIL_L" />
             <SelectField field="FECTOT" selected="True" rename="TAXA_FECUNDIDADE_TOTAL" />
-            <SelectField field="MORT5" selected="True" rename="MORTALIDADE_ATE_5_ANOS" />
-            <SelectField field="SOBRE40" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_40" />
-            <SelectField field="SOBRE60" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_60" />
-            <SelectField field="E_ANOSESTUDO" selected="True" rename="EXPECTATIVA_ANOS_ESTUDO" />
             <SelectField field="T_ANALF11A14" selected="True" rename="TAXA_ANALF_11_A_14_ANOS" />
             <SelectField field="T_ANALF15A17" selected="True" rename="TAXA_ANALF_15_A_17_ANOS" />
             <SelectField field="T_ANALF18A24" selected="True" rename="TAXA_ANALF_18_A_24_ANOS" />
@@ -370,17 +357,56 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="T_MED18A24" selected="True" rename="TAXA_MEDIO_COMPLETO_18_A_24_ANOS " />
             <SelectField field="T_MED18M" selected="True" rename="TAXA_MEDIO_COMPLETO_18_MAIS_ANOS " />
             <SelectField field="T_MED19A21" selected="True" rename="TAXA_MEDIO_COMPLETO_19_A_21_ANOS 	" />
-            <SelectField field="CORTE1" selected="False" />
-            <SelectField field="CORTE2" selected="False" />
-            <SelectField field="CORTE3" selected="False" />
-            <SelectField field="CORTE4" selected="False" />
-            <SelectField field="CORTE9" selected="False" />
+            <SelectField field="MORT5" selected="True" rename="MORTALIDADE_ATE_5_ANOS" />
+            <SelectField field="SOBRE40" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_40" />
+            <SelectField field="SOBRE60" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_60" />
+            <SelectField field="E_ANOSESTUDO" selected="True" rename="EXPECTATIVA_ANOS_ESTUDO" />
+            <SelectField field="ESPVIDA" selected="True" rename="ESPERANCA_VIDA" />
+            <SelectField field="MORT1" selected="True" rename="MORTALIDADE_INFANTIL" />
+            <SelectField field="POP" selected="True" rename="POP_TOTAL_DOMICILIOS" type="Int64" size="8" />
+            <SelectField field="POPT" selected="True" rename="POPULACAO_TOTAL_DOMICILIOS" type="Int64" size="8" />
+            <SelectField field="RAZDEP" selected="True" rename="RAZAO_DEPENDENCIA_M15_M65" />
             <SelectField field="GINI" selected="True" rename="INDICE_GINI" />
             <SelectField field="PINDCRI" selected="True" rename="PERCENT_CRIANCAS_EXTREMA_POBREZA" />
             <SelectField field="PIND" selected="True" rename="PERCENT_EXTREMAMENTE_POBRES" />
             <SelectField field="PMPOB" selected="True" rename="PERCENTUAL_POBRES" />
             <SelectField field="PMPOBCRI" selected="True" rename="PERCENTUAL_CRIANCAS_POBRES" />
             <SelectField field="PPOBCRI" selected="True" rename="PERCENT_CRIANCAS_VULNERAVEIS_POBREZA	" />
+            <SelectField field="THEILtrab" selected="True" rename="INDICE_THEIL_RENDIMENTOS_TRABALHO" />
+            <SelectField field="TRABCC" selected="True" rename="PERCENT_EMPREGADOS_CARTEIRA" />
+            <SelectField field="TRABPUB" selected="True" rename="PERCENT_EMPREGADOS_SETOR_PUBLICO" />
+            <SelectField field="TRABSC" selected="True" rename="PERCENT_EMPREGADPS_SEM_CARTEIRA" />
+            <SelectField field="T_AGUA" selected="True" rename="PERCENT_POPULACAO_AGUA_ENCANADA" />
+            <SelectField field="T_BANAGUA" selected="True" rename="PERCENT_POPULACAO_BANHEIRO_AGUA" />
+            <SelectField field="T_ENV" selected="True" rename="TAXA_ENVELHECIMENTO" />
+            <SelectField field="T_DENS" selected="True" rename="PERCENT_DOMICILIO_MAIS_DE_2" />
+            <SelectField field="T_LIXO" selected="True" rename="PERCENT_POPULACAO_COLETA_LIXO" />
+            <SelectField field="T_LUZ" selected="True" rename="PERCENT_POPULAC_ENERGIA_ELETRICA" />
+            <SelectField field="AGUA_ESGOTO" selected="True" rename="PERCENT_POPULAC_AGUA_ESGOTO" />
+            <SelectField field="T_CRIFUNDIN_TODOS" selected="True" rename="DOMICILIOS_CRIANCAS_SEM_FUNDAMENTAL" />
+            <SelectField field="T_FORA4A5" selected="True" rename="CRIANCAS_FORA_ESCOLA_4_A_5_ANOS" />
+            <SelectField field="T_FORA6A14" selected="True" rename="CRIANCAS_FORA_ESCOLA_6_A_14_ANOS" />
+            <SelectField field="T_FUNDIN_TODOS" selected="True" rename="DOMICILIO_NINGUEM_COM_FUNDAMENTAL" />
+            <SelectField field="T_NESTUDA_NTRAB_MMEIO" selected="True" rename="PERCENT_CASA_SEM_TRABALHO_NEM_MEDIO" />
+            <SelectField field="T_SLUZ" selected="True" rename="PERCENT_DOMICILIOS_SEM_LUZ_ELETRICA" />
+            <SelectField field="HOMEMTOT" selected="True" rename="TOTAL_POPULACAO_MASCULINA	" />
+            <SelectField field="MULHERTOT" selected="True" rename="TOTAL_POPULACAO_FEMININA" />
+            <SelectField field="PEA" selected="True" rename="POP_ECONOM_ATIVA_MAIS_10" />
+            <SelectField field="PEA1014" selected="True" rename="POP_ECONOM_ATIVA_10_A_14" />
+            <SelectField field="PEA1517" selected="True" rename="POP_ECONOM_ATIVA_15_A_17" />
+            <SelectField field="PEA18M" selected="True" rename="POP_ECONOM_ATIVA_18_MAIS" />
+            <SelectField field="pesoRUR" selected="True" rename="POPULACAO_RURAL" />
+            <SelectField field="pesourb" selected="True" rename="POPULACAO_URBANA" />
+            <SelectField field="PIA" selected="True" rename="POPULACAO_10_MAIS_ANOS" />
+            <SelectField field="PIA1014" selected="True" rename="POPULACAO_10_14_ANOS" />
+            <SelectField field="PIA1517" selected="True" rename="POPULACAO_15_17_ANOS	" />
+            <SelectField field="PIA18M" selected="True" rename="POPULACAO_18_MAIS_ANOS" />
+            <SelectField field="pesotot" selected="True" rename="POPULACAO_TOTAL" />
+            <SelectField field="CORTE1" selected="False" />
+            <SelectField field="CORTE2" selected="False" />
+            <SelectField field="CORTE3" selected="False" />
+            <SelectField field="CORTE4" selected="False" />
+            <SelectField field="CORTE9" selected="False" />
             <SelectField field="PREN10RICOS" selected="False" />
             <SelectField field="PREN20" selected="False" />
             <SelectField field="PREN20RICOS" selected="False" />
@@ -418,30 +444,14 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="T_DES1824" selected="False" />
             <SelectField field="T_DES18M" selected="False" />
             <SelectField field="T_DES2529" selected="False" />
-            <SelectField field="THEILtrab" selected="True" rename="INDICE_THEIL_RENDIMENTOS_TRABALHO" />
-            <SelectField field="TRABCC" selected="True" rename="PERCENT_EMPREGADOS_CARTEIRA" />
-            <SelectField field="TRABPUB" selected="True" rename="PERCENT_EMPREGADOS_SETOR_PUBLICO" />
-            <SelectField field="TRABSC" selected="True" rename="PERCENT_EMPREGADPS_SEM_CARTEIRA" />
-            <SelectField field="T_AGUA" selected="True" rename="PERCENT_POPULACAO_AGUA_ENCANADA" />
-            <SelectField field="T_BANAGUA" selected="True" rename="PERCENT_POPULACAO_BANHEIRO_AGUA" />
-            <SelectField field="T_DENS" selected="True" rename="PERCENT_DOMICILIO_MAIS_DE_2" />
-            <SelectField field="T_LIXO" selected="True" rename="PERCENT_POPULACAO_COLETA_LIXO" />
-            <SelectField field="T_LUZ" selected="True" rename="PERCENT_POPULAC_ENERGIA_ELETRICA" />
-            <SelectField field="AGUA_ESGOTO" selected="True" rename="PERCENT_POPULAC_AGUA_ESGOTO" />
             <SelectField field="PAREDE" selected="False" />
-            <SelectField field="T_CRIFUNDIN_TODOS" selected="True" rename="DOMICILIOS_CRIANCAS_SEM_FUNDAMENTAL" />
-            <SelectField field="T_FORA4A5" selected="True" rename="CRIANCAS_FORA_ESCOLA_4_A_5_ANOS" />
-            <SelectField field="T_FORA6A14" selected="True" rename="CRIANCAS_FORA_ESCOLA_6_A_14_ANOS" />
-            <SelectField field="T_FUNDIN_TODOS" selected="True" rename="DOMICILIO_NINGUEM_COM_FUNDAMENTAL" />
             <SelectField field="T_FUNDIN_TODOS_MMEIO" selected="False" />
             <SelectField field="T_FUNDIN18MINF" selected="False" />
             <SelectField field="T_M10A14CF" selected="False" />
             <SelectField field="T_M15A17CF" selected="False" />
             <SelectField field="T_MULCHEFEFIF014" selected="False" />
-            <SelectField field="T_NESTUDA_NTRAB_MMEIO" selected="True" rename="PERCENT_CASA_SEM_TRABALHO_NEM_MEDIO" />
             <SelectField field="T_OCUPDESLOC_1" selected="False" />
             <SelectField field="T_RMAXIDOSO" selected="False" />
-            <SelectField field="T_SLUZ" selected="True" rename="PERCENT_DOMICILIOS_SEM_LUZ_ELETRICA" />
             <SelectField field="HOMEM0A4" selected="False" />
             <SelectField field="HOMEM10A14" selected="False" />
             <SelectField field="HOMEM15A19" selected="False" />
@@ -458,7 +468,6 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="HOMEM65A69" selected="False" />
             <SelectField field="HOMEM70A74" selected="False" />
             <SelectField field="HOMEM75A79" selected="False" />
-            <SelectField field="HOMEMTOT" selected="True" rename="TOTAL_POPULACAO_MASCULINA	" />
             <SelectField field="HOMENS80" selected="False" />
             <SelectField field="MULH0A4" selected="False" />
             <SelectField field="MULH10A14" selected="False" />
@@ -477,11 +486,6 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="MULH70A74" selected="False" />
             <SelectField field="MULH75A79" selected="False" />
             <SelectField field="MULHER80" selected="False" />
-            <SelectField field="MULHERTOT" selected="True" rename="TOTAL_POPULACAO_FEMININA" />
-            <SelectField field="PEA" selected="True" rename="POP_ECONOM_ATIVA_MAIS_10" />
-            <SelectField field="PEA1014" selected="True" rename="POP_ECONOM_ATIVA_10_A_14" />
-            <SelectField field="PEA1517" selected="True" rename="POP_ECONOM_ATIVA_15_A_17" />
-            <SelectField field="PEA18M" selected="True" rename="POP_ECONOM_ATIVA_18_MAIS" />
             <SelectField field="peso1" selected="False" />
             <SelectField field="PESO1114" selected="False" />
             <SelectField field="PESO1113" selected="False" />
@@ -506,13 +510,6 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
             <SelectField field="PESOM1517" selected="False" />
             <SelectField field="PESOM15M" selected="False" />
             <SelectField field="PESOM25M" selected="False" />
-            <SelectField field="pesoRUR" selected="True" rename="POPULACAO_RURAL" />
-            <SelectField field="pesourb" selected="True" rename="POPULACAO_URBANA" />
-            <SelectField field="pesotot" selected="True" rename="POPULACAO_TOTAL" />
-            <SelectField field="PIA" selected="True" rename="POPULACAO_10_MAIS_ANOS" />
-            <SelectField field="PIA1014" selected="True" rename="POPULACAO_10_14_ANOS" />
-            <SelectField field="PIA1517" selected="True" rename="POPULACAO_15_17_ANOS	" />
-            <SelectField field="PIA18M" selected="True" rename="POPULACAO_18_MAIS_ANOS" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -564,9 +561,6 @@ Table=`MUN 91-00-10$`</DefaultAnnotationText>
 Table=MUNICIPIO_F</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -952,11 +946,11 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="270" />
+        <Position x="546" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6604_8fecbdfe4a364718ae2c4afc8d8b5f72_\Engine_1516_604e614ceafb4148b41455a65158ba8b_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7860_a3391140ef2140b0a31990caddd697e9_\Engine_5028_9102ad30610b458dbff8be2a6a281d40_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -980,11 +974,11 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="258" y="270" />
+        <Position x="258" y="258" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6604_8fecbdfe4a364718ae2c4afc8d8b5f72_\Engine_1516_271165734d22443a82f077661dd09116_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7860_a3391140ef2140b0a31990caddd697e9_\Engine_5028_03567c5dcb63482ca6c5df18bc4be7d0_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1006,6 +1000,26 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1021,12 +1035,20 @@ Table=MUNICIPIO_F</DefaultAnnotationText>
       <Destination ToolID="24" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="6" Connection="Output2" />
       <Destination ToolID="9" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="14" Connection="Output" />
       <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
