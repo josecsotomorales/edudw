@@ -1,0 +1,1070 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">\\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx
+Table=`MUN 91-00-10$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_UF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_MUN_6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_MUN_7" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="NOME_MUNICIPIO" size="255" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="V_String" />
+            <Field name="ESPVIDA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="FECTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MORT1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MORT5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RAZDEP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="SOBRE40" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="SOBRE60" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ENV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="E_ANOSESTUDO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF11A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF15M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBBAS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBFUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBMED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBPRE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBSUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLBAS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLFUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLMED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLPRE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLSUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ0A3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ11A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ4A5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ4A6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ5A6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND45" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQMED1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQMED614" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQSUPER1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND11A13" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND12A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND16A18" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18A20" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED19A21" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_SUPER25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="GINI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PINDCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PMPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PMPOBCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PPOBCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN10RICOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN20" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN20RICOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN40" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN60" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PRENTRAB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="R1040" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="R2040" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC10" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPCT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RIND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RMPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="THEIL" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CPR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="EMP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_AGRO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_COM" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_CONSTR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_EXTR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_FORMAL" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SERV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SIUP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_TRANSF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN0" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RENOCUP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV2529" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES2529" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="THEILtrab" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABCC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABPUB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABSC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_AGUA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_BANAGUA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DENS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_LIXO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_LUZ" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="AGUA_ESGOTO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PAREDE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_CRIFUNDIN_TODOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FORA4A5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FORA6A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN_TODOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN_TODOS_MMEIO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN18MINF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_M10A14CF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_M15A17CF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MULCHEFEFIF014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_NESTUDA_NTRAB_MMEIO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_OCUPDESLOC_1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_RMAXIDOSO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_SLUZ" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM0A4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM10A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM15A19" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM20A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM30A34" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM35A39" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM40A44" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM45A49" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM50A54" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM55A59" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM5A9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM60A64" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM65A69" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM70A74" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM75A79" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEMTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMENS80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH0A4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH10A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH15A19" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH20A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH30A34" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH35A39" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH40A44" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH45A49" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH50A54" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH55A59" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH5A9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH60A64" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH65A69" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH70A74" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH75A79" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULHER80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULHERTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1114" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1113" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1214" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso13" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO15" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1524" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1618" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO18" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso1820" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso1921" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO25" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO610" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso617" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO65" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM15M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesoRUR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesotot" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesourb" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="POP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="POPT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="I_ESCOLARIDADE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="I_FREQ_PROP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_E" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_L" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_R" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="COD_MUN_7" selected="True" rename="CODIGO_MUNICIPIO" />
+            <SelectField field="COD_UF" selected="True" rename="CODIGO_UF" />
+            <SelectField field="ANO" selected="True" type="Int32" size="4" />
+            <SelectField field="COD_MUN_6" selected="True" rename="CODIGO_MUNICIPIO_6" />
+            <SelectField field="NOME_MUNICIPIO" selected="False" />
+            <SelectField field="IDHM" selected="True" rename="IDH_GERAL" />
+            <SelectField field="IDHM_E" selected="True" rename="IDH_DIMENSAO_EDUCACAO" />
+            <SelectField field="IDHM_L" selected="True" rename="IDH_DIMENSAO_LONGEVIDADE" />
+            <SelectField field="IDHM_R" selected="True" rename="IDH_DIMENSAO_RENDA" />
+            <SelectField field="I_ESCOLARIDADE" selected="True" rename="INDICE_ESCOLARIDADE_IDHM" />
+            <SelectField field="I_FREQ_PROP" selected="True" rename="INDICE_FREQUENCIA_ESCOLAR_IDHM" />
+            <SelectField field="ESPVIDA" selected="True" rename="ESPERANCA_VIDA" />
+            <SelectField field="MORT1" selected="True" rename="MORTALIDADE_INFANTIL" />
+            <SelectField field="POP" selected="True" rename="POP_TOTAL_DOMICILIOS" type="Int64" size="8" />
+            <SelectField field="POPT" selected="True" rename="POPULACAO_TOTAL_DOMICILIOS" type="Int64" size="8" />
+            <SelectField field="PPOB" selected="True" rename="PERCENT_VULNERAVEIS_POBREZA" />
+            <SelectField field="PRENTRAB" selected="True" rename="PERCENT_RENDA_TRABALHO" />
+            <SelectField field="R1040" selected="True" rename="RAZAO_10_RICOS_40_POBRES" />
+            <SelectField field="R2040" selected="True" rename="RAZAO_20_RICOS_40_POBRES" />
+            <SelectField field="RAZDEP" selected="True" rename="RAZAO_DEPENDENCIA_M15_M65" />
+            <SelectField field="RDPC" selected="True" rename="RENDA_PER_CAPITA" />
+            <SelectField field="RDPC1" selected="True" rename="RENDA_PER_CAPITA_1QUINTO_POBRE" />
+            <SelectField field="RDPC10" selected="True" rename="RENDA_PER_CAPITA_DECIMO_RICOS" />
+            <SelectField field="RDPC2" selected="True" rename="RENDA_PER_CAPITA_2QUINTO_POBRE" />
+            <SelectField field="RDPC3" selected="True" rename="RENDA_PER_CAPITA_3QUINTO_POBRE" />
+            <SelectField field="RDPC4" selected="True" rename="RENDA_PER_CAPITA_4QUINTO_POBRE" />
+            <SelectField field="RDPC5" selected="True" rename="RENDA_PER_CAPITA_5QUINTO_RICOS" />
+            <SelectField field="RDPCT" selected="True" rename="RENDA_PER_CAPITA_MENOS_NULO" />
+            <SelectField field="RIND" selected="True" rename="RENDA_PER_CAPITA_EXT_POBRES" />
+            <SelectField field="RMPOB" selected="True" rename="RENDA_PER_CAPITA_POBRES" />
+            <SelectField field="RPOB" selected="True" rename="RENDA_PER_CAPITA_VULN_POBRES" />
+            <SelectField field="T_ANALF15M" selected="True" rename="TAXA_ANALF_MAIORES_15" />
+            <SelectField field="T_ANALF18M" selected="True" rename="TAXA_ANALF_MAIORES_18" />
+            <SelectField field="T_ANALF25M" selected="True" rename="TAXA_ANALF_MAIORES_25" />
+            <SelectField field="T_ATRASO_2_BASICO" selected="True" rename="PERCENT_ATRASO_ENS_BASICO" />
+            <SelectField field="T_ATRASO_2_FUND" selected="True" rename="PERCENT_ATRASO_ENS_FUNDAMENTAL" />
+            <SelectField field="T_ENV" selected="True" rename="TAXA_ENVELHECIMENTO" />
+            <SelectField field="T_FLBAS" selected="True" rename="TAXA_FREQUENCIA_ENS_BASICO" />
+            <SelectField field="T_FLFUND" selected="True" rename="TAXA_FREQUENCIA_ENS_FUNDAMENTAL" />
+            <SelectField field="T_FLMED" selected="True" rename="TAXA_FREQUENCIA_ENS_MEDIO" />
+            <SelectField field="T_FLSUPER" selected="True" rename="TAXA_FREQUENCIA_ENS_SUPERIOR" />
+            <SelectField field="T_FREQ15A17" selected="True" rename="PERCENT_FREQUENCIA_15_17_ANOS" />
+            <SelectField field="T_FREQ18A24" selected="True" rename="PERCENT_FREQUENCIA_18_24_ANOS" />
+            <SelectField field="T_FREQ5A6" selected="True" rename="PERCENT_FREQUENCIA_5_6_ANOS" />
+            <SelectField field="T_FREQ6A14" selected="True" rename="PERCENT_FREQUENCIA_6_14_ANOS" />
+            <SelectField field="T_FUND11A13" selected="True" rename="PERCENT_FUND_COMPLETO_11_13_ANOS" />
+            <SelectField field="T_FUND15A17" selected="True" rename="PERCENT_FUND_COMPLETO_15_17_ANOS" />
+            <SelectField field="T_FUND18A24" selected="True" rename="PERCENT_FUND_COMPLETO_18_24_ANOS" />
+            <SelectField field="T_FUND18M" selected="True" rename="PERCENT_FUND_COMPLETO_MAIOR_18" />
+            <SelectField field="T_FUND25M" selected="True" rename="PERCENT_FUND_COMPLETO_MAIOR_25" />
+            <SelectField field="T_MED18A20" selected="True" rename="PERCENT_MEDIO_COMPLETO_18_20_ANOS" />
+            <SelectField field="T_MED25M" selected="True" rename="PERCENT_MEDIO_COMPLETO_MAIOR_25" />
+            <SelectField field="T_SUPER25M" selected="True" rename="PERCENT_SUP_COMPLETO_MAIOR_25" />
+            <SelectField field="THEIL" selected="True" rename="INDICE_THEIL_L" />
+            <SelectField field="FECTOT" selected="True" rename="TAXA_FECUNDIDADE_TOTAL" />
+            <SelectField field="MORT5" selected="True" rename="MORTALIDADE_ATE_5_ANOS" />
+            <SelectField field="SOBRE40" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_40" />
+            <SelectField field="SOBRE60" selected="True" rename="PROBAB_SUPERVIVENCIA_ATE_60" />
+            <SelectField field="E_ANOSESTUDO" selected="True" rename="EXPECTATIVA_ANOS_ESTUDO" />
+            <SelectField field="T_ANALF11A14" selected="True" rename="TAXA_ANALF_11_A_14_ANOS" />
+            <SelectField field="T_ANALF15A17" selected="True" rename="TAXA_ANALF_15_A_17_ANOS" />
+            <SelectField field="T_ANALF18A24" selected="True" rename="TAXA_ANALF_18_A_24_ANOS" />
+            <SelectField field="T_ANALF25A29" selected="True" rename="TAXA_ANALF_25_A_29_ANOS" />
+            <SelectField field="T_ATRASO_0_BASICO" selected="True" rename="TAXA_SEM_ATRASO_E_BASICO" />
+            <SelectField field="T_ATRASO_0_FUND" selected="True" rename="TAXA_SEM_ATRASO_E_FUNDAMENTAL" />
+            <SelectField field="T_ATRASO_0_MED" selected="True" rename="TAXA_SEM_ATRASO_E_MEDIO" />
+            <SelectField field="T_ATRASO_1_BASICO" selected="True" rename="TAXA_1_ANO_ATRASO_BASICO" />
+            <SelectField field="T_ATRASO_1_FUND" selected="True" rename="TAXA_1_ANO_ATRASO_FUNDAMENTAL" />
+            <SelectField field="T_ATRASO_1_MED" selected="True" rename="TAXA_1_ANO_ATRASO_MEDIO" />
+            <SelectField field="T_ATRASO_2_MED" selected="True" rename="TAXA_2_ANOS_ATRASO_MEDIO" />
+            <SelectField field="T_FBBAS" selected="True" rename="TAXA_FREQUENCIA_BRUTA_BASICO" />
+            <SelectField field="T_FBFUND" selected="True" rename="TAXA_FREQUENCIA_BRUTA_FUNDAMENTAL" />
+            <SelectField field="T_FBMED" selected="True" rename="TAXA_FREQUENCIA_BRUTA_MEDIO" />
+            <SelectField field="T_FBPRE" selected="True" rename="TAXA_FREQUENCIA_BRUTA_PREESCOLA" />
+            <SelectField field="T_FBSUPER" selected="True" rename="TAXA_FREQUENCIA_BRUTA_SUPERIOR" />
+            <SelectField field="T_FLPRE" selected="True" rename="TAXA_FREQUENCIA_LIQUIDA_SUPERIOR" />
+            <SelectField field="T_FREQ0A3" selected="True" rename="PERCENT_FREQ_0_A_3_ANOS_ESCOLA" />
+            <SelectField field="T_FREQ11A14" selected="True" rename="PERCENT_FREQ_11_A_14_ANOS_ESCOLA" />
+            <SelectField field="T_FREQ25A29" selected="True" rename="PERCENT_FREQ_25_A_29_ANOS_ESCOLA" />
+            <SelectField field="T_FREQ4A5" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_ESCOLA	" />
+            <SelectField field="T_FREQ4A6" selected="True" rename="PERCENT_FREQ_4_A_6_ANOS_ESCOLA" />
+            <SelectField field="T_FREQ6" selected="True" rename="PERCENT_FREQ_6_ANOS_ESCOLA	" />
+            <SelectField field="T_FREQ6A17" selected="True" rename="PERCENT_FREQ_6_A_17_ANOS_ESCOLA" />
+            <SelectField field="T_FREQFUND1517" selected="True" rename="PERCENT_FREQ_15_A_17_ANOS_FUNDAMENTAL" />
+            <SelectField field="T_FREQFUND1824" selected="True" rename="PERCENT_FREQ_18_A_24_ANOS_FUNDAMENTAL" />
+            <SelectField field="T_FREQFUND45" selected="True" rename="PERCENT_FREQ_4_A_5_ANOS_FUNDAMENTAL	" />
+            <SelectField field="T_FREQMED1824" selected="True" rename="PERCENT_FREQ_18_A_24_ANOS_MEDIO" />
+            <SelectField field="T_FREQMED614" selected="True" rename="PERCENT_FREQ_6_A_14_ANOS_MEDIO" />
+            <SelectField field="T_FREQSUPER1517" selected="True" rename="PERCENT_FREQ_15_A_17_ANOS_SUPERIOR" />
+            <SelectField field="T_FUND12A14" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_12_A_14_ANOS	" />
+            <SelectField field="T_FUND16A18" selected="True" rename="TAXA_FUNDAMENTAL_COMPLETO_16_A_18_ANOS " />
+            <SelectField field="T_MED18A24" selected="True" rename="TAXA_MEDIO_COMPLETO_18_A_24_ANOS " />
+            <SelectField field="T_MED18M" selected="True" rename="TAXA_MEDIO_COMPLETO_18_MAIS_ANOS " />
+            <SelectField field="T_MED19A21" selected="True" rename="TAXA_MEDIO_COMPLETO_19_A_21_ANOS 	" />
+            <SelectField field="CORTE1" selected="False" />
+            <SelectField field="CORTE2" selected="False" />
+            <SelectField field="CORTE3" selected="False" />
+            <SelectField field="CORTE4" selected="False" />
+            <SelectField field="CORTE9" selected="False" />
+            <SelectField field="GINI" selected="True" rename="INDICE_GINI" />
+            <SelectField field="PINDCRI" selected="True" rename="PERCENT_CRIANCAS_EXTREMA_POBREZA" />
+            <SelectField field="PIND" selected="True" rename="PERCENT_EXTREMAMENTE_POBRES" />
+            <SelectField field="PMPOB" selected="True" rename="PERCENTUAL_POBRES" />
+            <SelectField field="PMPOBCRI" selected="True" rename="PERCENTUAL_CRIANCAS_POBRES" />
+            <SelectField field="PPOBCRI" selected="True" rename="PERCENT_CRIANCAS_VULNERAVEIS_POBREZA	" />
+            <SelectField field="PREN10RICOS" selected="False" />
+            <SelectField field="PREN20" selected="False" />
+            <SelectField field="PREN20RICOS" selected="False" />
+            <SelectField field="PREN40" selected="False" />
+            <SelectField field="PREN60" selected="False" />
+            <SelectField field="PREN80" selected="False" />
+            <SelectField field="CPR" selected="False" />
+            <SelectField field="EMP" selected="False" />
+            <SelectField field="P_AGRO" selected="False" />
+            <SelectField field="P_COM" selected="False" />
+            <SelectField field="P_CONSTR" selected="False" />
+            <SelectField field="P_EXTR" selected="False" />
+            <SelectField field="P_FORMAL" selected="False" />
+            <SelectField field="P_FUND" selected="False" />
+            <SelectField field="P_MED" selected="False" />
+            <SelectField field="P_SERV" selected="False" />
+            <SelectField field="P_SIUP" selected="False" />
+            <SelectField field="P_SUPER" selected="False" />
+            <SelectField field="P_TRANSF" selected="False" />
+            <SelectField field="REN0" selected="False" />
+            <SelectField field="REN1" selected="False" />
+            <SelectField field="REN2" selected="False" />
+            <SelectField field="REN3" selected="False" />
+            <SelectField field="REN5" selected="False" />
+            <SelectField field="RENOCUP" selected="False" />
+            <SelectField field="T_ATIV" selected="False" />
+            <SelectField field="T_ATIV1014" selected="False" />
+            <SelectField field="T_ATIV1517" selected="False" />
+            <SelectField field="T_ATIV1824" selected="False" />
+            <SelectField field="T_ATIV18M" selected="False" />
+            <SelectField field="T_ATIV2529" selected="False" />
+            <SelectField field="T_DES" selected="False" />
+            <SelectField field="T_DES1014" selected="False" />
+            <SelectField field="T_DES1517" selected="False" />
+            <SelectField field="T_DES1824" selected="False" />
+            <SelectField field="T_DES18M" selected="False" />
+            <SelectField field="T_DES2529" selected="False" />
+            <SelectField field="THEILtrab" selected="True" rename="INDICE_THEIL_RENDIMENTOS_TRABALHO" />
+            <SelectField field="TRABCC" selected="True" rename="PERCENT_EMPREGADOS_CARTEIRA" />
+            <SelectField field="TRABPUB" selected="True" rename="PERCENT_EMPREGADOS_SETOR_PUBLICO" />
+            <SelectField field="TRABSC" selected="True" rename="PERCENT_EMPREGADPS_SEM_CARTEIRA" />
+            <SelectField field="T_AGUA" selected="True" rename="PERCENT_POPULACAO_AGUA_ENCANADA" />
+            <SelectField field="T_BANAGUA" selected="True" rename="PERCENT_POPULACAO_BANHEIRO_AGUA" />
+            <SelectField field="T_DENS" selected="True" rename="PERCENT_DOMICILIO_MAIS_DE_2" />
+            <SelectField field="T_LIXO" selected="True" rename="PERCENT_POPULACAO_COLETA_LIXO" />
+            <SelectField field="T_LUZ" selected="True" rename="PERCENT_POPULAC_ENERGIA_ELETRICA" />
+            <SelectField field="AGUA_ESGOTO" selected="True" rename="PERCENT_POPULAC_AGUA_ESGOTO" />
+            <SelectField field="PAREDE" selected="False" />
+            <SelectField field="T_CRIFUNDIN_TODOS" selected="True" rename="DOMICILIOS_CRIANCAS_SEM_FUNDAMENTAL" />
+            <SelectField field="T_FORA4A5" selected="True" rename="CRIANCAS_FORA_ESCOLA_4_A_5_ANOS" />
+            <SelectField field="T_FORA6A14" selected="True" rename="CRIANCAS_FORA_ESCOLA_6_A_14_ANOS" />
+            <SelectField field="T_FUNDIN_TODOS" selected="True" rename="DOMICILIO_NINGUEM_COM_FUNDAMENTAL" />
+            <SelectField field="T_FUNDIN_TODOS_MMEIO" selected="False" />
+            <SelectField field="T_FUNDIN18MINF" selected="False" />
+            <SelectField field="T_M10A14CF" selected="False" />
+            <SelectField field="T_M15A17CF" selected="False" />
+            <SelectField field="T_MULCHEFEFIF014" selected="False" />
+            <SelectField field="T_NESTUDA_NTRAB_MMEIO" selected="True" rename="PERCENT_CASA_SEM_TRABALHO_NEM_MEDIO" />
+            <SelectField field="T_OCUPDESLOC_1" selected="False" />
+            <SelectField field="T_RMAXIDOSO" selected="False" />
+            <SelectField field="T_SLUZ" selected="True" rename="PERCENT_DOMICILIOS_SEM_LUZ_ELETRICA" />
+            <SelectField field="HOMEM0A4" selected="False" />
+            <SelectField field="HOMEM10A14" selected="False" />
+            <SelectField field="HOMEM15A19" selected="False" />
+            <SelectField field="HOMEM20A24" selected="False" />
+            <SelectField field="HOMEM25A29" selected="False" />
+            <SelectField field="HOMEM30A34" selected="False" />
+            <SelectField field="HOMEM35A39" selected="False" />
+            <SelectField field="HOMEM40A44" selected="False" />
+            <SelectField field="HOMEM45A49" selected="False" />
+            <SelectField field="HOMEM50A54" selected="False" />
+            <SelectField field="HOMEM55A59" selected="False" />
+            <SelectField field="HOMEM5A9" selected="False" />
+            <SelectField field="HOMEM60A64" selected="False" />
+            <SelectField field="HOMEM65A69" selected="False" />
+            <SelectField field="HOMEM70A74" selected="False" />
+            <SelectField field="HOMEM75A79" selected="False" />
+            <SelectField field="HOMEMTOT" selected="True" rename="TOTAL_POPULACAO_MASCULINA	" />
+            <SelectField field="HOMENS80" selected="False" />
+            <SelectField field="MULH0A4" selected="False" />
+            <SelectField field="MULH10A14" selected="False" />
+            <SelectField field="MULH15A19" selected="False" />
+            <SelectField field="MULH20A24" selected="False" />
+            <SelectField field="MULH25A29" selected="False" />
+            <SelectField field="MULH30A34" selected="False" />
+            <SelectField field="MULH35A39" selected="False" />
+            <SelectField field="MULH40A44" selected="False" />
+            <SelectField field="MULH45A49" selected="False" />
+            <SelectField field="MULH50A54" selected="False" />
+            <SelectField field="MULH55A59" selected="False" />
+            <SelectField field="MULH5A9" selected="False" />
+            <SelectField field="MULH60A64" selected="False" />
+            <SelectField field="MULH65A69" selected="False" />
+            <SelectField field="MULH70A74" selected="False" />
+            <SelectField field="MULH75A79" selected="False" />
+            <SelectField field="MULHER80" selected="False" />
+            <SelectField field="MULHERTOT" selected="True" rename="TOTAL_POPULACAO_FEMININA" />
+            <SelectField field="PEA" selected="True" rename="POP_ECONOM_ATIVA_MAIS_10" />
+            <SelectField field="PEA1014" selected="True" rename="POP_ECONOM_ATIVA_10_A_14" />
+            <SelectField field="PEA1517" selected="True" rename="POP_ECONOM_ATIVA_15_A_17" />
+            <SelectField field="PEA18M" selected="True" rename="POP_ECONOM_ATIVA_18_MAIS" />
+            <SelectField field="peso1" selected="False" />
+            <SelectField field="PESO1114" selected="False" />
+            <SelectField field="PESO1113" selected="False" />
+            <SelectField field="PESO1214" selected="False" />
+            <SelectField field="peso13" selected="False" />
+            <SelectField field="PESO15" selected="False" />
+            <SelectField field="peso1517" selected="False" />
+            <SelectField field="PESO1524" selected="False" />
+            <SelectField field="PESO1618" selected="False" />
+            <SelectField field="PESO18" selected="False" />
+            <SelectField field="Peso1820" selected="False" />
+            <SelectField field="PESO1824" selected="False" />
+            <SelectField field="Peso1921" selected="False" />
+            <SelectField field="PESO25" selected="False" />
+            <SelectField field="peso4" selected="False" />
+            <SelectField field="peso5" selected="False" />
+            <SelectField field="peso6" selected="False" />
+            <SelectField field="PESO610" selected="False" />
+            <SelectField field="Peso617" selected="False" />
+            <SelectField field="PESO65" selected="False" />
+            <SelectField field="PESOM1014" selected="False" />
+            <SelectField field="PESOM1517" selected="False" />
+            <SelectField field="PESOM15M" selected="False" />
+            <SelectField field="PESOM25M" selected="False" />
+            <SelectField field="pesoRUR" selected="True" rename="POPULACAO_RURAL" />
+            <SelectField field="pesourb" selected="True" rename="POPULACAO_URBANA" />
+            <SelectField field="pesotot" selected="True" rename="POPULACAO_TOTAL" />
+            <SelectField field="PIA" selected="True" rename="POPULACAO_10_MAIS_ANOS" />
+            <SelectField field="PIA1014" selected="True" rename="POPULACAO_10_14_ANOS" />
+            <SelectField field="PIA1517" selected="True" rename="POPULACAO_15_17_ANOS	" />
+            <SelectField field="PIA18M" selected="True" rename="POPULACAO_18_MAIS_ANOS" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="690" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||MUNICIPIO_F</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=MUNICIPIO_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NOME_MUNICIPIO" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_UF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_MUN_6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="COD_MUN_7" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="NOME_MUNICIPIO" size="32" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="V_String" />
+            <Field name="ESPVIDA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="FECTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MORT1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MORT5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RAZDEP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="SOBRE40" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="SOBRE60" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ENV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="E_ANOSESTUDO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF11A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF15M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ANALF25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_0_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_1_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_BASICO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATRASO_2_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBBAS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBFUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBMED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBPRE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FBSUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLBAS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLFUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLMED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLPRE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FLSUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ0A3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ11A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ4A5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ4A6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ5A6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQ6A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQFUND45" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQMED1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQMED614" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FREQSUPER1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND11A13" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND12A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND15A17" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND16A18" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUND25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18A20" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED19A21" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MED25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_SUPER25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CORTE9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="GINI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PINDCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PMPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PMPOBCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PPOBCRI" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN10RICOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN20" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN20RICOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN40" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN60" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PREN80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PRENTRAB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="R1040" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="R2040" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC10" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPC5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RDPCT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RIND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RMPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RPOB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="THEIL" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="CPR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="EMP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_AGRO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_COM" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_CONSTR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_EXTR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_FORMAL" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_FUND" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_MED" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SERV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SIUP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_SUPER" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="P_TRANSF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN0" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN2" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN3" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="REN5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="RENOCUP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_ATIV2529" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DES2529" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="THEILtrab" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABCC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABPUB" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="TRABSC" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_AGUA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_BANAGUA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_DENS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_LIXO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_LUZ" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="AGUA_ESGOTO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PAREDE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_CRIFUNDIN_TODOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FORA4A5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FORA6A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN_TODOS" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN_TODOS_MMEIO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_FUNDIN18MINF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_M10A14CF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_M15A17CF" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_MULCHEFEFIF014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_NESTUDA_NTRAB_MMEIO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_OCUPDESLOC_1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_RMAXIDOSO" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="T_SLUZ" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM0A4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM10A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM15A19" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM20A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM30A34" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM35A39" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM40A44" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM45A49" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM50A54" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM55A59" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM5A9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM60A64" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM65A69" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM70A74" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEM75A79" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMEMTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="HOMENS80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH0A4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH10A14" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH15A19" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH20A24" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH25A29" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH30A34" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH35A39" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH40A44" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH45A49" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH50A54" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH55A59" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH5A9" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH60A64" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH65A69" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH70A74" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULH75A79" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULHER80" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="MULHERTOT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PEA18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso1" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1114" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1113" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1214" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso13" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO15" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1524" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1618" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO18" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso1820" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO1824" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso1921" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO25" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso4" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso5" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="peso6" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO610" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="Peso617" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESO65" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM15M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PESOM25M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesoRUR" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesotot" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="pesourb" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA1014" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA1517" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="PIA18M" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="POP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="POPT" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="I_ESCOLARIDADE" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="I_FREQ_PROP" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_E" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_L" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+            <Field name="IDHM_R" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\ATLAS_MUNICIPIOS_DADOS_BRUTOS.xlsx|||`MUN 91-00-10$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="558" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6604_8fecbdfe4a364718ae2c4afc8d8b5f72_\Engine_1516_604e614ceafb4148b41455a65158ba8b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6604_8fecbdfe4a364718ae2c4afc8d8b5f72_\Engine_1516_271165734d22443a82f077661dd09116_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output2" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>MUNICIPIO_F</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
