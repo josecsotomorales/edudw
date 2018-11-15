@@ -212,7 +212,7 @@ Table=REGIAO_D</DefaultAnnotationText>
           <SelectFields>
             <SelectField field="COD_MUNICIPIO" selected="True" rename="CODIGO_MUNICIPIO" />
             <SelectField field="CODIGO_REGIAO_UF" selected="True" rename="CODIGO_REGIAO" />
-            <SelectField field="REGIAO_UF" selected="True" rename="REGIAO" />
+            <SelectField field="REGIAO_UF" selected="True" rename="NOME_REGIAO" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -230,7 +230,7 @@ Table=REGIAO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8532_7ce7efa48b5e4a68b8c06f17650b20c0_\Engine_1516_344fcd0cb8734ea8bc1584442ba57a8e_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4876_321840aa3d6d4410a93cbf8dad795d22_\Engine_1516_da653c137fc643f3b4201eeb51eb17a8_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -263,7 +263,7 @@ Table=REGIAO_D</DefaultAnnotationText>
         <Configuration>
           <SummarizeFields>
             <SummarizeField field="CODIGO_REGIAO" action="GroupBy" rename="CODIGO_REGIAO" />
-            <SummarizeField field="REGIAO" action="GroupBy" rename="REGIAO" />
+            <SummarizeField field="NOME_REGIAO" action="GroupBy" rename="NOME_REGIAO" />
           </SummarizeFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -360,7 +360,7 @@ Table=REGIAO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8532_7ce7efa48b5e4a68b8c06f17650b20c0_\Engine_1516_7ab957b1d20a4bbd8c9f5bbac8cb321d_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_4876_321840aa3d6d4410a93cbf8dad795d22_\Engine_1516_bfb7e7d48aa74b9888599ca4daa2b5be_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
