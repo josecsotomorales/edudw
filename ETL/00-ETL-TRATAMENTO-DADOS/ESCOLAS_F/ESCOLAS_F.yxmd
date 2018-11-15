@@ -1,0 +1,683 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">\\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>;</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>False</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>escolas.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_2" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_3" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_4" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_5" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_6" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_7" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_8" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_9" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_10" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_11" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_12" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_13" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_14" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_15" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_16" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_17" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_18" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_19" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_20" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_21" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_22" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_23" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_24" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_25" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_26" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_27" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_28" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_29" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_30" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_31" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_32" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_33" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_34" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_35" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_36" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_37" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_38" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_39" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_40" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_41" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_42" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_43" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_44" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_45" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_46" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_47" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_48" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_49" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_50" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_51" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_52" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_53" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_54" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_55" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_56" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_57" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_58" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_59" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_60" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+            <Field name="Field_61" size="254" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_cb32a86346854f0ab6b4a2d75eb1f2c4_\Engine_3976_8cd45e9bab794d2a880c9bb7183739ce_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" rename="COD_ESCOLA" />
+            <SelectField field="Field_2" selected="True" rename="NOME" />
+            <SelectField field="Field_3" selected="True" rename="DESC_REDE" />
+            <SelectField field="Field_4" selected="True" rename="DESC_ESFERA_ADMINISTRATIVA" />
+            <SelectField field="Field_5" selected="True" rename="DESC_CATEGORIA_ESC_PRIVADA" />
+            <SelectField field="Field_6" selected="True" rename="E_CONVENIADA_PODER_PUBLICO" />
+            <SelectField field="Field_7" selected="True" rename="DESC_TIPO_CONVENIO_PODER_PUBL" />
+            <SelectField field="Field_8" selected="True" rename="FINS_LUCRATIVOS" />
+            <SelectField field="Field_9" selected="True" rename="CNPJ" />
+            <SelectField field="Field_10" selected="True" rename="LATITUDE" />
+            <SelectField field="Field_11" selected="True" rename="LONGITUDE" />
+            <SelectField field="Field_12" selected="True" rename="ENDERECO" />
+            <SelectField field="Field_13" selected="True" rename="BAIRRO" />
+            <SelectField field="Field_14" selected="True" rename="CEP" />
+            <SelectField field="Field_15" selected="True" rename="NOME_MUNICIPIO" />
+            <SelectField field="Field_16" selected="True" rename="COD_MUNICIPIO" />
+            <SelectField field="Field_17" selected="True" rename="UF" />
+            <SelectField field="Field_18" selected="True" rename="DESC_SITUACAO_FUNCIONAMENTO" />
+            <SelectField field="Field_19" selected="True" rename="DESC_RURAL_URBANA" />
+            <SelectField field="Field_20" selected="True" rename="TELEFONE" />
+            <SelectField field="Field_21" selected="True" rename="URL_SITE" />
+            <SelectField field="Field_22" selected="True" rename="EMAIL" />
+            <SelectField field="Field_23" selected="True" rename="QUADRA_ESPORTE_COBERTA" />
+            <SelectField field="Field_24" selected="True" rename="QUADRA_ESPORTE_DESCOBERTA" />
+            <SelectField field="Field_25" selected="True" rename="INTERNET" />
+            <SelectField field="Field_26" selected="True" rename="BANDA_LARGA" />
+            <SelectField field="Field_27" selected="True" rename="LABORATORIO_INFORMATICA" />
+            <SelectField field="Field_28" selected="True" rename="LABORATORIO_CIENCIAS" />
+            <SelectField field="Field_29" selected="True" rename="REFEITORIO" />
+            <SelectField field="Field_30" selected="True" rename="AUDITORIO" />
+            <SelectField field="Field_31" selected="True" rename="DESPENSA" />
+            <SelectField field="Field_32" selected="True" rename="ALMOXARIFADO" />
+            <SelectField field="Field_33" selected="True" rename="PATIO_COBERTO" />
+            <SelectField field="Field_34" selected="True" rename="PATIO_DESCOBERTO" />
+            <SelectField field="Field_35" selected="True" rename="PARQUE_INFANTIL" />
+            <SelectField field="Field_36" selected="True" rename="COZINHA" />
+            <SelectField field="Field_37" selected="True" rename="BIBLIOTECA" />
+            <SelectField field="Field_38" selected="True" rename="BERCARIO" />
+            <SelectField field="Field_39" selected="True" rename="SANITARIO_DENTRO_PREDIO" />
+            <SelectField field="Field_40" selected="True" rename="SANITARIO_FORA_PREDIO" />
+            <SelectField field="Field_41" selected="True" rename="BANHEIRO_CHUVEIRO" />
+            <SelectField field="Field_42" selected="True" rename="SALA_LEITURA" />
+            <SelectField field="Field_43" selected="True" rename="AREA_VERDE" />
+            <SelectField field="Field_44" selected="True" rename="NUM_SALAS_EXISTENTES" />
+            <SelectField field="Field_45" selected="True" rename="NUM_SALAS_UTILIZADAS" />
+            <SelectField field="Field_46" selected="True" rename="NUM_FUNCIONARIOS" />
+            <SelectField field="Field_47" selected="True" rename="ALIMENTACAO" />
+            <SelectField field="Field_48" selected="True" rename="NUM_COMPUTADORES" />
+            <SelectField field="Field_49" selected="True" rename="NUM_COMPUTADORES_ALUNOS" />
+            <SelectField field="Field_50" selected="True" rename="AGUA_FILTRADA" />
+            <SelectField field="Field_51" selected="True" rename="NUM_ALUNOS" />
+            <SelectField field="Field_52" selected="True" rename="DEPENDENCIAS_ADEQ_DEFICIENTES" />
+            <SelectField field="Field_53" selected="True" rename="ATEND_EDUCIONAL_ESPECIALIZADO" />
+            <SelectField field="Field_54" selected="True" rename="CRECHE" />
+            <SelectField field="Field_55" selected="True" rename="FUNDAMENTAL" />
+            <SelectField field="Field_56" selected="True" rename="MEDIO" />
+            <SelectField field="Field_57" selected="True" rename="MEDIO_NORMAL" />
+            <SelectField field="Field_58" selected="True" rename="MEDIO_PROFISSIONAL" />
+            <SelectField field="Field_59" selected="True" rename="MEDIO_INTEGRADO" />
+            <SelectField field="Field_60" selected="True" rename="EDUCACAO_JOVENS_ADULTOS" />
+            <SelectField field="Field_61" selected="True" rename="EDUCACAO_INDIGENA" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Field_1" selected="True" />
+            <Field field="Field_2" selected="True" />
+            <Field field="Field_3" selected="True" />
+            <Field field="Field_4" selected="True" />
+            <Field field="Field_5" selected="True" />
+            <Field field="Field_6" selected="True" />
+            <Field field="Field_7" selected="True" />
+            <Field field="Field_8" selected="True" />
+            <Field field="Field_9" selected="True" />
+            <Field field="Field_10" selected="True" />
+            <Field field="Field_11" selected="True" />
+            <Field field="Field_12" selected="True" />
+            <Field field="Field_13" selected="True" />
+            <Field field="Field_14" selected="True" />
+            <Field field="Field_15" selected="True" />
+            <Field field="Field_16" selected="True" />
+            <Field field="Field_17" selected="True" />
+            <Field field="Field_18" selected="True" />
+            <Field field="Field_19" selected="True" />
+            <Field field="Field_20" selected="True" />
+            <Field field="Field_21" selected="True" />
+            <Field field="Field_22" selected="True" />
+            <Field field="Field_23" selected="True" />
+            <Field field="Field_24" selected="True" />
+            <Field field="Field_25" selected="True" />
+            <Field field="Field_26" selected="True" />
+            <Field field="Field_27" selected="True" />
+            <Field field="Field_28" selected="True" />
+            <Field field="Field_29" selected="True" />
+            <Field field="Field_30" selected="True" />
+            <Field field="Field_31" selected="True" />
+            <Field field="Field_32" selected="True" />
+            <Field field="Field_33" selected="True" />
+            <Field field="Field_34" selected="True" />
+            <Field field="Field_35" selected="True" />
+            <Field field="Field_36" selected="True" />
+            <Field field="Field_37" selected="True" />
+            <Field field="Field_38" selected="True" />
+            <Field field="Field_39" selected="True" />
+            <Field field="Field_40" selected="True" />
+            <Field field="Field_41" selected="True" />
+            <Field field="Field_42" selected="True" />
+            <Field field="Field_43" selected="True" />
+            <Field field="Field_44" selected="True" />
+            <Field field="Field_45" selected="True" />
+            <Field field="Field_46" selected="True" />
+            <Field field="Field_47" selected="True" />
+            <Field field="Field_48" selected="True" />
+            <Field field="Field_49" selected="True" />
+            <Field field="Field_50" selected="True" />
+            <Field field="Field_51" selected="True" />
+            <Field field="Field_52" selected="True" />
+            <Field field="Field_53" selected="True" />
+            <Field field="Field_54" selected="True" />
+            <Field field="Field_55" selected="True" />
+            <Field field="Field_56" selected="True" />
+            <Field field="Field_57" selected="True" />
+            <Field field="Field_58" selected="True" />
+            <Field field="Field_59" selected="True" />
+            <Field field="Field_60" selected="True" />
+            <Field field="Field_61" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int32" />
+            <Field name="Field_2" size="100" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_String" />
+            <Field name="Field_3" size="7" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_4" size="9" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_5" size="13" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_6" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_7" size="20" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_8" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_9" size="14" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_10" size="12" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_11" size="12" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_12" size="108" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_String" />
+            <Field name="Field_13" size="50" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_String" />
+            <Field name="Field_14" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_15" size="32" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_String" />
+            <Field name="Field_16" size="7" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_17" size="4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_18" size="12" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_19" size="6" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_20" size="11" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_21" size="4" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_22" size="50" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="V_String" />
+            <Field name="Field_23" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_24" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_25" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_26" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_27" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_28" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_29" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_30" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_31" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_32" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_33" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_34" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_35" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_36" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_37" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_38" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_39" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_40" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_41" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_42" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_43" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_44" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int16" />
+            <Field name="Field_45" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int16" />
+            <Field name="Field_46" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int16" />
+            <Field name="Field_47" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_48" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int16" />
+            <Field name="Field_49" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int16" />
+            <Field name="Field_50" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_51" size="5" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_52" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_53" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_54" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_55" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_56" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_57" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_58" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_59" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_60" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+            <Field name="Field_61" size="1" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="474" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_cb32a86346854f0ab6b4a2d75eb1f2c4_\Engine_3976_52da04bd471f410ea917607362148507_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NOME" selected="False" />
+            <SelectField field="DESC_REDE" selected="False" />
+            <SelectField field="DESC_ESFERA_ADMINISTRATIVA" selected="False" />
+            <SelectField field="DESC_CATEGORIA_ESC_PRIVADA" selected="False" />
+            <SelectField field="E_CONVENIADA_PODER_PUBLICO" selected="False" />
+            <SelectField field="DESC_TIPO_CONVENIO_PODER_PUBL" selected="False" />
+            <SelectField field="FINS_LUCRATIVOS" selected="False" />
+            <SelectField field="CNPJ" selected="False" />
+            <SelectField field="LATITUDE" selected="False" />
+            <SelectField field="LONGITUDE" selected="False" />
+            <SelectField field="ENDERECO" selected="False" />
+            <SelectField field="BAIRRO" selected="False" />
+            <SelectField field="CEP" selected="False" type="Int64" size="8" />
+            <SelectField field="NOME_MUNICIPIO" selected="False" />
+            <SelectField field="COD_MUNICIPIO" selected="False" type="Int64" size="8" />
+            <SelectField field="UF" selected="False" />
+            <SelectField field="DESC_SITUACAO_FUNCIONAMENTO" selected="False" />
+            <SelectField field="DESC_RURAL_URBANA" selected="False" />
+            <SelectField field="TELEFONE" selected="False" />
+            <SelectField field="URL_SITE" selected="False" />
+            <SelectField field="EMAIL" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="678" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_cb32a86346854f0ab6b4a2d75eb1f2c4_\Engine_3976_b77693cb4fb94f5390966c6f5fc44492_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="678" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||ESCOLAS_F</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>5000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=ESCOLAS_F</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output2" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ESCOLAS_F</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
