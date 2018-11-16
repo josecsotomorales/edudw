@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="18" y="138" />
+        <Position x="54" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -16,9 +16,6 @@
           <DefaultAnnotationText>ESCOLAS.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="COD_ESCOLA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\escolas.csv" type="Int32" />
@@ -89,7 +86,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="858" y="150" />
+        <Position x="1086" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -103,7 +100,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="954" y="150" />
+        <Position x="1182" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -128,15 +125,12 @@
 Table=ESCOLA_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="846" y="54" width="168" height="24" />
+        <Position x="1098" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -156,7 +150,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="846" y="90" width="168" height="24" />
+        <Position x="1098" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -176,7 +170,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="126" y="90" width="708" height="24" />
+        <Position x="162" y="90" width="924" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -196,7 +190,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="126" y="54" width="708" height="24" />
+        <Position x="162" y="54" width="924" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -216,7 +210,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="18" y="90" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -236,7 +230,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="18" y="54" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -256,11 +250,11 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="126" y="222" />
+        <Position x="162" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8328_868624b898ac4a63a0c4ca415d315f2b_\Engine_360_b1d51aef0dd5418b8769601034b46823_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_97a98b4a0a3841d3a0ca4c828ef63d1a_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -284,7 +278,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="126" y="138" />
+        <Position x="162" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -340,7 +334,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="18" y="306" />
+        <Position x="54" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -353,9 +347,6 @@ Table=ESCOLA_D</DefaultAnnotationText>
           <DefaultAnnotationText>LOCALIZACAO_MUNICIPIOS.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="COD_MUNICIPIO" source="File: (Multiple Sources)" type="Double" />
@@ -376,7 +367,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
-        <Position x="126" y="306" />
+        <Position x="162" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -395,7 +386,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="246" y="306" />
+        <Position x="282" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -427,11 +418,11 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="390" y="330" />
+        <Position x="426" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8328_868624b898ac4a63a0c4ca415d315f2b_\Engine_360_a6eda58b60ec425d83611217b5fe1663_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_0b2761fa3e1a4070a2586db732e7b2bc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -455,7 +446,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="390" y="150" />
+        <Position x="426" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -488,7 +479,7 @@ Table=ESCOLA_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="222" y="138" />
+        <Position x="258" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -508,7 +499,7 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="498" y="330" />
+        <Position x="534" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -526,7 +517,7 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="510" y="150" />
+        <Position x="546" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -545,11 +536,11 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="654" y="330" />
+        <Position x="690" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8328_868624b898ac4a63a0c4ca415d315f2b_\Engine_360_a11ff96e9cf141228f7d95868c9768f7_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_35c1bb1bf164415e847ce380676b1af9_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -573,7 +564,7 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="642" y="150" />
+        <Position x="654" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -655,11 +646,11 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="738" y="330" />
+        <Position x="774" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8328_868624b898ac4a63a0c4ca415d315f2b_\Engine_360_d83cad956c5343dca7019b74320c10f4_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_f87379c5af8e41ffa5d4fcbb98639139_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -683,7 +674,7 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="750" y="150" />
+        <Position x="774" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -733,11 +724,81 @@ LOCALIZA...</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="858" y="330" />
+        <Position x="894" y="330" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8328_868624b898ac4a63a0c4ca415d315f2b_\Engine_360_9bb99795362745039d8eab41eb8ceef8_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_ce75e7d5e13542a3a28a3d59f6223911_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([LATITUDE], ',', '.')" field="LATITUDE" size="12" type="String" />
+            <FormulaField expression="Replace([LONGITUDE], ',', '.')" field="LONGITUDE" size="12" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LATITUDE = Replace([LATITUDE], ',', '.')
+LONGITUDE = Replace([LONGITUDE], ',', '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="990" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LATITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="LONGITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1086" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1884_b2a1b5f729744f6c89bd807a74e86a2e_\Engine_3556_fc1e98d5b49d4624857ad294c8c6609c_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -827,6 +888,18 @@ LOCALIZA...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
   </Connections>
