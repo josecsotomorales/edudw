@@ -8,11 +8,17 @@ TABLEAU DESKTOP -> https://www.tableau.com/
 
 FONTES MICRODADOS USADOS NO PROJETO: 
 
+http://dados.gov.br/pagina/dados-abertos
+
+http://dados.gov.br/
+
 http://portal.inep.gov.br/microdados
 
 http://atlasbrasil.org.br/2013/
 
-http://dados.gov.br/
+http://geoftp.ibge.gov.br/
+
+
 
 
 
