@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="90" />
+        <Position x="78" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -16,9 +16,6 @@
           <DefaultAnnotationText>LOCALIZACAO_MUNICIPIOS.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="COD_MUNICIPIO" source="File: (Multiple Sources)" type="Double" />
@@ -39,7 +36,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="690" y="102" />
+        <Position x="714" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -53,7 +50,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="822" y="102" />
+        <Position x="846" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -78,15 +75,12 @@
 Table=UF_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="726" y="18" width="168" height="24" />
+        <Position x="750" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,7 +100,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="726" y="54" width="168" height="24" />
+        <Position x="750" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -126,7 +120,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="138" y="54" width="576" height="24" />
+        <Position x="162" y="90" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -146,7 +140,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="138" y="18" width="576" height="24" />
+        <Position x="162" y="54" width="576" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -166,7 +160,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="30" y="54" width="96" height="24" />
+        <Position x="54" y="90" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -186,7 +180,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="30" y="18" width="96" height="24" />
+        <Position x="54" y="54" width="96" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -206,7 +200,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="198" y="90" />
+        <Position x="222" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -234,11 +228,11 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="306" y="162" />
+        <Position x="330" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_8304_6e26ec46d62a4639961181bde6ba0b86_\Engine_1516_75789b9c761345f49f257a612eb8d9e3_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7924_f70c3f73e3004722ba8bb1fbb4cc4a00_\Engine_2212_2af7fca4518946158565edd0c340dd62_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -262,7 +256,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="186" />
+        <Position x="78" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -277,9 +271,6 @@ Table=UF_D</DefaultAnnotationText>
           <DefaultAnnotationText>LOCALIZACAO_UF.kml</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Name" size="65535" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\LOCALIZACAO_UF.kml" type="V_WString" />
@@ -292,7 +283,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="306" />
+        <Position x="78" y="342" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -314,9 +305,6 @@ Table=UF_D</DefaultAnnotationText>
           <DefaultAnnotationText>NOME_ESTADOS.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="NOME_UF" size="254" source="File: \\Mac\Home\Documents\GitHub\EDUDW\DADOS\NOME_ESTADOS.csv" type="V_WString" />
@@ -332,7 +320,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="198" y="234" />
+        <Position x="222" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -364,7 +352,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
-        <Position x="306" y="234" />
+        <Position x="330" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -383,7 +371,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="414" y="234" />
+        <Position x="438" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -412,7 +400,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="546" y="102" />
+        <Position x="570" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -443,7 +431,7 @@ Table=UF_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="402" y="90" />
+        <Position x="426" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -461,6 +449,22 @@ Table=UF_D</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_7924_f70c3f73e3004722ba8bb1fbb4cc4a00_\Engine_2212_e0f78bba17c842e8b4dcd4f98364d7ac_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -503,6 +507,10 @@ Table=UF_D</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="32" Connection="Output" />
       <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="31" Connection="Join" />
