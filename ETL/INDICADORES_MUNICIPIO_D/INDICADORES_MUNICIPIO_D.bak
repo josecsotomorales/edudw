@@ -16,9 +16,6 @@
           <DefaultAnnotationText>INDICADORES_MUNICIPIOS.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="ID" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
@@ -72,7 +69,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
-        <Position x="726" y="138" />
+        <Position x="954" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -86,12 +83,13 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="810" y="138" />
+        <Position x="1050" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <File MaxRecords="" FileFormat="23">aka:EDUDW|||INDICADORES_MUNICIPIO_D</File>
           <Passwords />
+          <CachedCosmeticName />
           <FormatSpecificOptions>
             <SpatialObjSize>8000</SpatialObjSize>
             <TransactionSize>10000</TransactionSize>
@@ -118,7 +116,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="750" y="54" width="168" height="24" />
+        <Position x="918" y="54" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -138,7 +136,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="750" y="90" width="168" height="24" />
+        <Position x="918" y="90" width="168" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -158,11 +156,11 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="162" y="90" width="576" height="24" />
+        <Position x="162" y="90" width="744" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Text>AGREGANDO E TRANSFORMANDO DADOS</Text>
           <Font name="Arial" size="8.25" style="0" />
           <TextColor name="Black" />
           <FillColor name="White" />
@@ -178,7 +176,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="162" y="54" width="576" height="24" />
+        <Position x="162" y="54" width="744" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -238,7 +236,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="282" />
+        <Position x="66" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -251,9 +249,6 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
           <DefaultAnnotationText>SALARIO_MEDIO_PROFESSOR.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="COD_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Int32" />
@@ -270,7 +265,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="198" y="282" />
+        <Position x="174" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -291,11 +286,11 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="450" y="282" />
+        <Position x="450" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2244_eeea440674cd486cac83477442e25c04_\Engine_480_38d46d2e79b54a41a8aa0023ba699982_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_ad7129a280bb418683cd0ca27670ac9e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -319,7 +314,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="210" y="138" />
+        <Position x="174" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -360,11 +355,11 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="342" y="210" />
+        <Position x="282" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2244_eeea440674cd486cac83477442e25c04_\Engine_480_6b442cff94c1456b971c8a9209441920_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_ce208779b49f45bba70dda14b6a0c687_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -388,7 +383,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="342" y="282" />
+        <Position x="330" y="378" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -411,7 +406,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="474" y="150" />
+        <Position x="354" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -432,14 +427,12 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
                 <SelectField field="Left_PIB_PER_CAPITA" selected="True" />
                 <SelectField field="Left_PIB" selected="True" />
                 <SelectField field="Left_QTD_BOLSA_FAMILIA" selected="True" />
-                <SelectField field="Right_SALARIO_MEDIO_PROFESSOR" selected="True" />
-                <SelectField field="Right_QUANTIDADE_PROFESSORES" selected="True" />
-                <SelectField field="Right_PROFESSORES_COM_CURSO_SUPERIOR" selected="True" />
                 <SelectField field="Left_SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" />
                 <SelectField field="Left_SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" />
                 <SelectField field="Left_QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" />
                 <SelectField field="Left_QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" />
                 <SelectField field="Left_QTD_ALUNOS_REDE_PUBLICA" selected="True" />
+                <SelectField field="Right_TOTAL_TRANSFERENCIAS_RECURSOS" selected="True" />
                 <SelectField field="Left_TRANSF_ENSINO_SUPERIOR_2016" selected="True" />
                 <SelectField field="Left_TRANSF_DESENV_CIENTIFICO_2016" selected="True" />
                 <SelectField field="Left_TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" />
@@ -466,7 +459,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="66" y="390" />
+        <Position x="66" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -479,9 +472,6 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
           <DefaultAnnotationText>RECURSOS_FEDERAIS_TRANSF_EDUCACAO_2016.yxdb</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="COD_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="Int32" />
@@ -499,7 +489,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="198" y="390" />
+        <Position x="174" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -518,13 +508,14 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="330" y="390" />
+        <Position x="330" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
+            <SelectField field="Sum_TOTAL_RECEBIDO" selected="True" rename="TOTAL_TRANSFERENCIAS_RECURSOS" />
             <SelectField field="*Unknown" selected="True" />
           </SelectFields>
         </Configuration>
@@ -538,10 +529,24 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="450" y="390" />
+        <Position x="450" y="246" />
       </GuiSettings>
       <Properties>
-        <Configuration />
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_c3b6836913e64b018626d8d18de38f88_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -549,6 +554,220 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="474" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="COD_MUNICIPIO" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="COD_MUNICIPIO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_COD_IBGE" selected="True" />
+                <SelectField field="Left_NOME_MUNICIPIO" selected="True" />
+                <SelectField field="Left_PIB_PER_CAPITA" selected="True" />
+                <SelectField field="Left_PIB" selected="True" />
+                <SelectField field="Left_QTD_BOLSA_FAMILIA" selected="True" />
+                <SelectField field="Right_SALARIO_MEDIO_PROFESSOR" selected="True" />
+                <SelectField field="Right_QUANTIDADE_PROFESSORES" selected="True" />
+                <SelectField field="Right_PROFESSORES_COM_CURSO_SUPERIOR" selected="True" />
+                <SelectField field="Left_TRANSF_ENSINO_SUPERIOR_2016" selected="True" />
+                <SelectField field="Left_TRANSF_DESENV_CIENTIFICO_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ENSINO_PROFISSIONAL_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ADMINIST_ESCOLAR_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_BASICA_2016" selected="True" />
+                <SelectField field="Left_TRANSF_DESPORTO_COMUNIT_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_INFANTIL_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_2016_PER_CAPITA" selected="True" />
+                <SelectField field="Left_QTD_ALUNOS_REDE_PUBLICA" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_2016_POR_ALUNO" selected="True" />
+                <SelectField field="Left_SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" />
+                <SelectField field="Left_SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" />
+                <SelectField field="Left_QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" />
+                <SelectField field="Left_QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" />
+                <SelectField field="Left_COD_MUNICIPIO" selected="True" />
+                <SelectField field="Left_TOTAL_TRANSFERENCIAS_RECURSOS" selected="True" />
+                <SelectField field="Right_COD_MUNICIPIO" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="666" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="COD_MUNICIPIO" selected="True" />
+            <SelectField field="ANO_INDICADORES" selected="True" />
+            <SelectField field="NOME_MUNICIPIO" selected="False" />
+            <SelectField field="PIB_PER_CAPITA" selected="True" />
+            <SelectField field="PIB" selected="True" />
+            <SelectField field="QTD_BOLSA_FAMILIA" selected="True" />
+            <SelectField field="SALARIO_MEDIO_PROFESSOR" selected="True" />
+            <SelectField field="QUANTIDADE_PROFESSORES" selected="True" />
+            <SelectField field="PROFESSORES_COM_CURSO_SUPERIOR" selected="True" />
+            <SelectField field="SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" />
+            <SelectField field="SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" />
+            <SelectField field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" />
+            <SelectField field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" />
+            <SelectField field="TOTAL_TRANSFERENCIAS_RECURSOS" selected="True" />
+            <SelectField field="TRANSF_EDUCACAO_BASICA_2016" selected="True" rename="TRANSF_EDUCACAO_BASICA" />
+            <SelectField field="TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" rename="TRANSF_ALIMENTACAO_NUTRICAO" />
+            <SelectField field="TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="False" rename="TRANSF_EDUC_JOVENS_ADULTOS" />
+            <SelectField field="TRANSF_EDUCACAO_INFANTIL_2016" selected="False" rename="TRANSF_EDUCACAO_INFANTIL" />
+            <SelectField field="TRANSF_EDUCACAO_2016_PER_CAPITA" selected="True" rename="TRANSF_EDUCACAO_PER_CAPITA" />
+            <SelectField field="TRANSF_EDUCACAO_2016_POR_ALUNO" selected="True" rename="TRANSF_EDUCACAO_POR_ALUNO" />
+            <SelectField field="QTD_ALUNOS_REDE_PUBLICA" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="COD_IBGE" selected="False" />
+            <SelectField field="TRANSF_ENSINO_SUPERIOR_2016" selected="False" />
+            <SelectField field="TRANSF_DESENV_CIENTIFICO_2016" selected="False" />
+            <SelectField field="TRANSF_ENSINO_PROFISSIONAL_2016" selected="False" />
+            <SelectField field="TRANSF_ADMINIST_ESCOLAR_2016" selected="False" />
+            <SelectField field="TRANSF_DESPORTO_COMUNIT_2016" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_fe51fe39a6014b3880e1bf34dfd04548_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF(IsNull([COD_MUNICIPIO]),[COD_IBGE] , [COD_MUNICIPIO])" field="COD_MUNICIPIO" size="4" type="Int32" />
+            <FormulaField expression="2016" field="ANO_INDICADORES" size="2" type="Int16" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>COD_MUNICIPIO = IIF(IsNull([COD_MUNICIPIO]),[COD_IBGE] , [COD_MUNICIPIO])
+ANO_IN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="858" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([TOTAL_TRANSFERENCIAS_RECURSOS] == 0, Null(), [TOTAL_TRANSFERENCIAS_RECURSOS])" field="TOTAL_TRANSFERENCIAS_RECURSOS" size="8" type="Double" />
+            <FormulaField expression="IIF([TRANSF_EDUCACAO_PER_CAPITA] == 0, Null(), [TRANSF_EDUCACAO_PER_CAPITA])" field="TRANSF_EDUCACAO_PER_CAPITA" size="8" type="Double" />
+            <FormulaField expression="IIF([TRANSF_EDUCACAO_POR_ALUNO] == 0, Null(), [TRANSF_EDUCACAO_POR_ALUNO])" field="TRANSF_EDUCACAO_POR_ALUNO" size="8" type="Double" />
+            <FormulaField expression="IIF([QTD_PROFESSOR_5A8_SERIE_PUBLICA] == 0, Null(), [QTD_PROFESSOR_5A8_SERIE_PUBLICA])" field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" size="4" type="Int32" />
+            <FormulaField expression="IIF([QTD_PROFESSOR_1A4_SERIE_PUBLICA] == 0, Null(), [QTD_PROFESSOR_1A4_SERIE_PUBLICA])" field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" size="4" type="Int32" />
+            <FormulaField expression="IIF([PROFESSORES_COM_CURSO_SUPERIOR] == 0, Null(), [PROFESSORES_COM_CURSO_SUPERIOR])" field="PROFESSORES_COM_CURSO_SUPERIOR" size="8" type="Int64" />
+            <FormulaField expression="IIF([QUANTIDADE_PROFESSORES] == 0, Null(), [QUANTIDADE_PROFESSORES])" field="QUANTIDADE_PROFESSORES" size="8" type="Int64" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TOTAL_TRANSFERENCIAS_RECURSOS = IIF([TOTAL_TRANSFERENCIAS_RECURSOS] == 0, Null()...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
   </Nodes>
   <Connections>
@@ -577,12 +796,28 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
       <Destination ToolID="26" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="25" Connection="Output" />
+      <Origin ToolID="29" Connection="Output" />
       <Destination ToolID="26" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="25" Connection="Output" />
       <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="26" Connection="Left" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="26" Connection="Join" />
+      <Destination ToolID="31" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="27" Connection="Output" />
@@ -595,6 +830,34 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="29" Connection="Output" />
       <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Left" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
