@@ -1,0 +1,638 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">\\Mac\Home\Documents\GitHub\EDUDW\DADOS\INDICADORES_MUNICIPIOS.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>INDICADORES_MUNICIPIOS.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int16" />
+            <Field name="ESTADO_ID" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="COD_IBGE" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="NOME_MUNICIPIO" size="32" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="V_String" />
+            <Field name="UF" size="2" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="String" />
+            <Field name="POP_ESTIMADA_2012" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="POP_ESTIMADA_2015" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="PIB_PER_CAPITA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="PIB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int64" />
+            <Field name="QTD_BOLSA_FAMILIA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int64" />
+            <Field name="IDHM_1991" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_2000" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_RENDA_1991" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_RENDA_2000" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_RENDA_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_1991" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_2000" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_LONGEVIDADE_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_EDUCACAO_1991" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_EDUCACAO_2000" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="IDHM_EDUCACAO_2010" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="TRANSF_ENSINO_SUPERIOR_2016" source="Formula: Replace([TRANSF_ENSINO_SUPERIOR_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_DESENV_CIENTIFICO_2016" source="Formula: Replace([TRANSF_DESENV_CIENTIFICO_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_ALIMENTAC_NUTRICAO_2016" source="Formula: Replace([TRANSF_ALIMENTAC_NUTRICAO_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_ENSINO_PROFISSIONAL_2016" source="Formula: Replace([TRANSF_ENSINO_PROFISSIONAL_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_ADMINIST_ESCOLAR_2016" source="Formula: Replace([TRANSF_ADMINIST_ESCOLAR_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_EDUCACAO_BASICA_2016" source="Formula: Replace([TRANSF_EDUCACAO_BASICA_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_DESPORTO_COMUNIT_2016" source="Formula: Replace([TRANSF_DESPORTO_COMUNIT_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_EDUC_JOVENS_ADULTOS_2016" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="TRANSF_EDUCACAO_INFANTIL_2016" source="Formula: Replace([TRANSF_EDUCACAO_INFANTIL_2016],&quot;,&quot;,'.')" type="Double" />
+            <Field name="TRANSF_EDUCACAO_2016_PER_CAPITA" source="Formula: Replace([TRANSF_EDUCACAO_2016_PER_CAPITA],&quot;,&quot;,'.')" type="Double" />
+            <Field name="QTD_ALUNOS_REDE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="TRANSF_EDUCACAO_2016_POR_ALUNO" source="Formula: Replace([TRANSF_EDUCACAO_2016_POR_ALUNO],&quot;,&quot;,'.')" type="Double" />
+            <Field name="SALARIO_MEDIO_PROF_1A4_ANO_PUB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="SALARIO_MEDIO_PROF_5A8_ANO_PUB" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Double" />
+            <Field name="QTD_PROFESSOR_1A4_SERIE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="QTD_PROFESSOR_5A8_SERIE_PUBLICA" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\indicadoresMunicipio.csv" type="Int32" />
+            <Field name="PROP_PROF_BACHAREL_1A4_PUBLICA" source="Formula: Replace([PROP_PROF_BACHAREL_1A4_PUBLICA],&quot;,&quot;,'.')" type="Double" />
+            <Field name="PROP_PROF_BACHAREL_5A8_PUBLICA" source="Formula: Replace([PROP_PROF_BACHAREL_5A8_PUBLICA],&quot;,&quot;,'.')" type="Double" />
+            <Field name="LATITUDE" source="Formula: Replace([LATITUDE],&quot;,&quot;,'.')" type="Double" />
+            <Field name="LONGITUDE" source="Formula: Replace([LONGITUDE],&quot;,&quot;,'.')" type="Double" />
+            <Field name="AREA" source="Formula: Replace([AREA],&quot;,&quot;,'.')" type="Double" />
+            <Field name="GEO_LOCALIZACAO" size="2147483647" source="CreatePoints: x=LONGITUDE y=LATITUDE" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="726" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:EDUDW|||INDICADORES_MUNICIPIO_D</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:EDUDW
+Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="54" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="750" y="90" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CARGA DADOS NO EDUDW</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="90" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMANDO NOME DAS COLUNAS E TIPOS DE DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="162" y="54" width="576" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>TRANSFORMACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>INPUT DADOS</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="96" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>EXTRACAO</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">\\Mac\Home\Documents\GitHub\EDUDW\DADOS\SALARIO_MEDIO_PROFESSOR.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SALARIO_MEDIO_PROFESSOR.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="COD_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Int32" />
+            <Field name="CO_CBO_RAIS" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Int16" />
+            <Field name="DESCR_PROFESSOR" size="53" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="V_String" />
+            <Field name="SALARIO_MEDIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Double" />
+            <Field name="QTD_PROFESSORES" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Int32" />
+            <Field name="QTD_PROF_CURSO_SUPERIOR" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="Int32" />
+            <Field name="EMPREGADOR" size="10" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\salarioMedioProfessor.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="198" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="COD_MUNICIPIO" action="GroupBy" rename="COD_MUNICIPIO" />
+            <SummarizeField field="SALARIO_MEDIO" action="Avg" rename="Avg_SALARIO_MEDIO" />
+            <SummarizeField field="QTD_PROFESSORES" action="Sum" rename="Sum_QTD_PROFESSORES" />
+            <SummarizeField field="QTD_PROF_CURSO_SUPERIOR" action="Sum" rename="Sum_QTD_PROF_CURSO_SUPERIOR" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2244_eeea440674cd486cac83477442e25c04_\Engine_480_38d46d2e79b54a41a8aa0023ba699982_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="COD_IBGE" selected="True" />
+            <SelectField field="NOME_MUNICIPIO" selected="True" />
+            <SelectField field="PIB_PER_CAPITA" selected="True" />
+            <SelectField field="PIB" selected="True" />
+            <SelectField field="QTD_BOLSA_FAMILIA" selected="True" />
+            <SelectField field="TRANSF_ENSINO_SUPERIOR_2016" selected="True" />
+            <SelectField field="TRANSF_DESENV_CIENTIFICO_2016" selected="True" />
+            <SelectField field="TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" />
+            <SelectField field="TRANSF_ENSINO_PROFISSIONAL_2016" selected="True" />
+            <SelectField field="TRANSF_ADMINIST_ESCOLAR_2016" selected="True" />
+            <SelectField field="TRANSF_EDUCACAO_BASICA_2016" selected="True" />
+            <SelectField field="TRANSF_DESPORTO_COMUNIT_2016" selected="True" />
+            <SelectField field="TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="True" />
+            <SelectField field="TRANSF_EDUCACAO_INFANTIL_2016" selected="True" />
+            <SelectField field="TRANSF_EDUCACAO_2016_PER_CAPITA" selected="True" />
+            <SelectField field="QTD_ALUNOS_REDE_PUBLICA" selected="True" />
+            <SelectField field="TRANSF_EDUCACAO_2016_POR_ALUNO" selected="True" />
+            <SelectField field="SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" />
+            <SelectField field="SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" />
+            <SelectField field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" />
+            <SelectField field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_2244_eeea440674cd486cac83477442e25c04_\Engine_480_6b442cff94c1456b971c8a9209441920_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Avg_SALARIO_MEDIO" selected="True" rename="SALARIO_MEDIO_PROFESSOR" />
+            <SelectField field="Sum_QTD_PROFESSORES" selected="True" rename="QUANTIDADE_PROFESSORES" />
+            <SelectField field="Sum_QTD_PROF_CURSO_SUPERIOR" selected="True" rename="PROFESSORES_COM_CURSO_SUPERIOR" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="474" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="COD_IBGE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="COD_MUNICIPIO" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_COD_MUNICIPIO" selected="True" />
+                <SelectField field="Left_COD_IBGE" selected="False" />
+                <SelectField field="Left_NOME_MUNICIPIO" selected="True" />
+                <SelectField field="Left_PIB_PER_CAPITA" selected="True" />
+                <SelectField field="Left_PIB" selected="True" />
+                <SelectField field="Left_QTD_BOLSA_FAMILIA" selected="True" />
+                <SelectField field="Right_SALARIO_MEDIO_PROFESSOR" selected="True" />
+                <SelectField field="Right_QUANTIDADE_PROFESSORES" selected="True" />
+                <SelectField field="Right_PROFESSORES_COM_CURSO_SUPERIOR" selected="True" />
+                <SelectField field="Left_SALARIO_MEDIO_PROF_1A4_ANO_PUB" selected="True" />
+                <SelectField field="Left_SALARIO_MEDIO_PROF_5A8_ANO_PUB" selected="True" />
+                <SelectField field="Left_QTD_PROFESSOR_1A4_SERIE_PUBLICA" selected="True" />
+                <SelectField field="Left_QTD_PROFESSOR_5A8_SERIE_PUBLICA" selected="True" />
+                <SelectField field="Left_QTD_ALUNOS_REDE_PUBLICA" selected="True" />
+                <SelectField field="Left_TRANSF_ENSINO_SUPERIOR_2016" selected="True" />
+                <SelectField field="Left_TRANSF_DESENV_CIENTIFICO_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ALIMENTAC_NUTRICAO_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ENSINO_PROFISSIONAL_2016" selected="True" />
+                <SelectField field="Left_TRANSF_ADMINIST_ESCOLAR_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_BASICA_2016" selected="True" />
+                <SelectField field="Left_TRANSF_DESPORTO_COMUNIT_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUC_JOVENS_ADULTOS_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_INFANTIL_2016" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_2016_PER_CAPITA" selected="True" />
+                <SelectField field="Left_TRANSF_EDUCACAO_2016_POR_ALUNO" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">\\Mac\Home\Documents\GitHub\EDUDW\DADOS\RECURSOS_FEDERAIS_TRANSF_EDUCACAO_2016.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RECURSOS_FEDERAIS_TRANSF_EDUCACAO_2016.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="COD_MUNICIPIO" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="Int32" />
+            <Field name="NOME_FUNCAO" size="8" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="String" />
+            <Field name="NOME_SUB_FUNCAO" size="37" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="String" />
+            <Field name="NOME_PROGRAMA" size="73" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="V_String" />
+            <Field name="NOME_ACAO" size="148" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="V_String" />
+            <Field name="CODIGO_FAVORECIDO" size="14" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="String" />
+            <Field name="NOME_FAVORECIDO" size="208" source="File: \\Mac\Home\Desktop\UCB 2018\PROJETO-FINAL\DADOS-ABERTOS-TCU\recursosFederaisTransferidosEducacao2016.csv" type="V_String" />
+            <Field name="TOTAL_RECEBIDO" source="Formula: Replace([TOTAL_RECEBIDO],&quot;,&quot;,'.')" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="198" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="COD_MUNICIPIO" action="GroupBy" rename="COD_MUNICIPIO" />
+            <SummarizeField field="TOTAL_RECEBIDO" action="Sum" rename="Sum_TOTAL_RECEBIDO" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output2" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="26" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>INDICADORES_MUNICIPIO_D</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
