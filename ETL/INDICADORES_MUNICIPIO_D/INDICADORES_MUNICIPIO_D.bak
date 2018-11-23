@@ -83,7 +83,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1050" y="138" />
+        <Position x="1038" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -108,15 +108,12 @@
 Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="918" y="54" width="168" height="24" />
+        <Position x="918" y="54" width="216" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -136,7 +133,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="918" y="90" width="168" height="24" />
+        <Position x="918" y="90" width="216" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -290,7 +287,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_ad7129a280bb418683cd0ca27670ac9e_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1240_871391c90e3b4f3f8219cb2cd0f714b4_\Engine_8720_571e4be5183345b1aa4739980ca515aa_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -359,7 +356,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_ce208779b49f45bba70dda14b6a0c687_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1240_871391c90e3b4f3f8219cb2cd0f714b4_\Engine_8720_ed85ef3b6702436da1813a1efe83f3a9_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -533,7 +530,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_c3b6836913e64b018626d8d18de38f88_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1240_871391c90e3b4f3f8219cb2cd0f714b4_\Engine_8720_f8e5e33cb228415db0ccefd9cabf3f86_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -633,7 +630,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="666" y="282" />
+        <Position x="630" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -703,7 +700,7 @@ Table=INDICADORES_MUNICIPIO_D</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_6192_05895f3a3fc04be7b9873041e7b5149c_\Engine_5568_fe51fe39a6014b3880e1bf34dfd04548_.yxdb</TempFile>
+          <TempFile>C:\Users\JOSECA~1\AppData\Local\Temp\Engine_1240_871391c90e3b4f3f8219cb2cd0f714b4_\Engine_8720_bffa78af5ccc46e9be850405104600fc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -745,29 +742,34 @@ ANO_IN...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="39">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="858" y="138" />
+    <Node ToolID="40">
+      <GuiSettings>
+        <Position x="870" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <FormulaFields>
-            <FormulaField expression="IIF([TOTAL_TRANSFERENCIAS_RECURSOS] == 0, Null(), [TOTAL_TRANSFERENCIAS_RECURSOS])" field="TOTAL_TRANSFERENCIAS_RECURSOS" size="8" type="Double" />
-            <FormulaField expression="IIF([TRANSF_EDUCACAO_PER_CAPITA] == 0, Null(), [TRANSF_EDUCACAO_PER_CAPITA])" field="TRANSF_EDUCACAO_PER_CAPITA" size="8" type="Double" />
-            <FormulaField expression="IIF([TRANSF_EDUCACAO_POR_ALUNO] == 0, Null(), [TRANSF_EDUCACAO_POR_ALUNO])" field="TRANSF_EDUCACAO_POR_ALUNO" size="8" type="Double" />
-            <FormulaField expression="IIF([QTD_PROFESSOR_5A8_SERIE_PUBLICA] == 0, Null(), [QTD_PROFESSOR_5A8_SERIE_PUBLICA])" field="QTD_PROFESSOR_5A8_SERIE_PUBLICA" size="4" type="Int32" />
-            <FormulaField expression="IIF([QTD_PROFESSOR_1A4_SERIE_PUBLICA] == 0, Null(), [QTD_PROFESSOR_1A4_SERIE_PUBLICA])" field="QTD_PROFESSOR_1A4_SERIE_PUBLICA" size="4" type="Int32" />
-            <FormulaField expression="IIF([PROFESSORES_COM_CURSO_SUPERIOR] == 0, Null(), [PROFESSORES_COM_CURSO_SUPERIOR])" field="PROFESSORES_COM_CURSO_SUPERIOR" size="8" type="Int64" />
-            <FormulaField expression="IIF([QUANTIDADE_PROFESSORES] == 0, Null(), [QUANTIDADE_PROFESSORES])" field="QUANTIDADE_PROFESSORES" size="8" type="Int64" />
-          </FormulaFields>
+          <Value name="List Box (11)">"PIB_PER_CAPITA","PIB","QTD_BOLSA_FAMILIA","SALARIO_MEDIO_PROFESSOR","QUANTIDADE_PROFESSORES","PROFESSORES_COM_CURSO_SUPERIOR","SALARIO_MEDIO_PROF_1A4_ANO_PUB","SALARIO_MEDIO_PROF_5A8_ANO_PUB","QTD_PROFESSOR_1A4_SERIE_PUBLICA","QTD_PROFESSOR_5A8_SERIE_PUBLICA","TOTAL_TRANSFERENCIAS_RECURSOS","TRANSF_EDUCACAO_BASICA","TRANSF_ALIMENTACAO_NUTRICAO","TRANSF_EDUCACAO_PER_CAPITA","TRANSF_EDUCACAO_POR_ALUNO","QTD_ALUNOS_REDE_PUBLICA"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>TOTAL_TRANSFERENCIAS_RECURSOS = IIF([TOTAL_TRANSFERENCIAS_RECURSOS] == 0, Null()...</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+      <EngineSettings Macro="Cleanse.yxmc" />
     </Node>
   </Nodes>
   <Connections>
@@ -845,18 +847,18 @@ ANO_IN...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="35" Connection="Output" />
-      <Destination ToolID="39" Connection="Input" />
+      <Destination ToolID="40" Connection="Input2" />
     </Connection>
     <Connection>
       <Origin ToolID="37" Connection="Output" />
       <Destination ToolID="35" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="39" Connection="Output" />
+      <Origin ToolID="40" Connection="Output26" />
       <Destination ToolID="36" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="39" Connection="Output" />
+      <Origin ToolID="40" Connection="Output26" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
   </Connections>
