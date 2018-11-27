@@ -17,63 +17,73 @@
         <relation join='inner' type='join'>
           <clause type='join'>
             <expression op='='>
-              <expression op='[UF_D].[CODIGO_REGIAO]' />
-              <expression op='[REGIAO_D].[CODIGO_REGIAO]' />
+              <expression op='[MUNICIPIO_D].[CODIGO_MUNICIPIO]' />
+              <expression op='[INDICADORES_MUNICIPIO_D].[COD_MUNICIPIO]' />
             </expression>
           </clause>
           <relation join='inner' type='join'>
             <clause type='join'>
               <expression op='='>
-                <expression op='[MUNICIPIO_D].[CODIGO_UF]' />
-                <expression op='[UF_D].[CODIGO_UF]' />
+                <expression op='[UF_D].[CODIGO_REGIAO]' />
+                <expression op='[REGIAO_D].[CODIGO_REGIAO]' />
               </expression>
             </clause>
             <relation join='inner' type='join'>
               <clause type='join'>
                 <expression op='='>
-                  <expression op='[ESCOLA_F].[COD_MUNICIPIO]' />
-                  <expression op='[MUNICIPIO_D].[CODIGO_MUNICIPIO]' />
+                  <expression op='[MUNICIPIO_D].[CODIGO_UF]' />
+                  <expression op='[UF_D].[CODIGO_UF]' />
                 </expression>
               </clause>
               <relation join='inner' type='join'>
                 <clause type='join'>
                   <expression op='='>
-                    <expression op='[ESCOLA_F].[ANO_AVALIACAO]' />
-                    <expression op='[TEMPO_D].[ANO_STRING]' />
+                    <expression op='[ESCOLA_F].[COD_MUNICIPIO]' />
+                    <expression op='[MUNICIPIO_D].[CODIGO_MUNICIPIO]' />
                   </expression>
                 </clause>
                 <relation join='inner' type='join'>
                   <clause type='join'>
                     <expression op='='>
-                      <expression op='[ESCOLA_F].[COD_TIPO_AVALIACAO]' />
-                      <expression op='[AVALIACAO_D].[COD_TIPO_AVALIACAO]' />
+                      <expression op='[ESCOLA_F].[ANO_AVALIACAO]' />
+                      <expression op='[TEMPO_D].[ANO_STRING]' />
                     </expression>
                   </clause>
                   <relation join='inner' type='join'>
                     <clause type='join'>
                       <expression op='='>
-                        <expression op='[ESCOLA_F].[COD_ESCOLA]' />
-                        <expression op='[ESCOLA_D].[COD_ESCOLA]' />
+                        <expression op='[ESCOLA_F].[COD_TIPO_AVALIACAO]' />
+                        <expression op='[AVALIACAO_D].[COD_TIPO_AVALIACAO]' />
                       </expression>
                     </clause>
-                    <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='ESCOLA_F' table='[ESCOLA_F]' type='table' />
-                    <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='ESCOLA_D' table='[ESCOLA_D]' type='table' />
+                    <relation join='inner' type='join'>
+                      <clause type='join'>
+                        <expression op='='>
+                          <expression op='[ESCOLA_F].[COD_ESCOLA]' />
+                          <expression op='[ESCOLA_D].[COD_ESCOLA]' />
+                        </expression>
+                      </clause>
+                      <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='ESCOLA_F' table='[ESCOLA_F]' type='table' />
+                      <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='ESCOLA_D' table='[ESCOLA_D]' type='table' />
+                    </relation>
+                    <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='AVALIACAO_D' table='[AVALIACAO_D]' type='table' />
                   </relation>
-                  <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='AVALIACAO_D' table='[AVALIACAO_D]' type='table' />
+                  <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='TEMPO_D' table='[TEMPO_D]' type='table' />
                 </relation>
-                <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='TEMPO_D' table='[TEMPO_D]' type='table' />
+                <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='MUNICIPIO_D' table='[MUNICIPIO_D]' type='table' />
               </relation>
-              <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='MUNICIPIO_D' table='[MUNICIPIO_D]' type='table' />
+              <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='UF_D' table='[UF_D]' type='table' />
             </relation>
-            <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='UF_D' table='[UF_D]' type='table' />
+            <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='REGIAO_D' table='[REGIAO_D]' type='table' />
           </relation>
-          <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='REGIAO_D' table='[REGIAO_D]' type='table' />
+          <relation connection='mysql.06t37oz1ty5zto0zoxig31aemr5r' name='INDICADORES_MUNICIPIO_D' table='[INDICADORES_MUNICIPIO_D]' type='table' />
         </relation>
         <cols>
           <map key='[AGUA_FILTRADA]' value='[ESCOLA_D].[AGUA_FILTRADA]' />
           <map key='[ALIMENTACAO]' value='[ESCOLA_D].[ALIMENTACAO]' />
           <map key='[ALMOXARIFADO]' value='[ESCOLA_D].[ALMOXARIFADO]' />
           <map key='[ANO_AVALIACAO]' value='[ESCOLA_F].[ANO_AVALIACAO]' />
+          <map key='[ANO_INDICADORES]' value='[INDICADORES_MUNICIPIO_D].[ANO_INDICADORES]' />
           <map key='[ANO_STRING]' value='[TEMPO_D].[ANO_STRING]' />
           <map key='[AREA]' value='[MUNICIPIO_D].[AREA]' />
           <map key='[AREA_VERDE]' value='[ESCOLA_D].[AREA_VERDE]' />
@@ -94,6 +104,7 @@
           <map key='[COD_ESCOLA (ESCOLA_D)]' value='[ESCOLA_D].[COD_ESCOLA]' />
           <map key='[COD_ESCOLA]' value='[ESCOLA_F].[COD_ESCOLA]' />
           <map key='[COD_MUNICIPIO (ESCOLA_D)]' value='[ESCOLA_D].[COD_MUNICIPIO]' />
+          <map key='[COD_MUNICIPIO (INDICADORES_MUNICIPIO_D)]' value='[INDICADORES_MUNICIPIO_D].[COD_MUNICIPIO]' />
           <map key='[COD_MUNICIPIO]' value='[ESCOLA_F].[COD_MUNICIPIO]' />
           <map key='[COD_TIPO_AVALIACAO (AVALIACAO_D)]' value='[AVALIACAO_D].[COD_TIPO_AVALIACAO]' />
           <map key='[COD_TIPO_AVALIACAO]' value='[ESCOLA_F].[COD_TIPO_AVALIACAO]' />
@@ -149,14 +160,30 @@
           <map key='[PARQUE_INFANTIL]' value='[ESCOLA_D].[PARQUE_INFANTIL]' />
           <map key='[PATIO_COBERTO]' value='[ESCOLA_D].[PATIO_COBERTO]' />
           <map key='[PATIO_DESCOBERTO]' value='[ESCOLA_D].[PATIO_DESCOBERTO]' />
+          <map key='[PIB]' value='[INDICADORES_MUNICIPIO_D].[PIB]' />
+          <map key='[PIB_PER_CAPITA]' value='[INDICADORES_MUNICIPIO_D].[PIB_PER_CAPITA]' />
+          <map key='[PROFESSORES_COM_CURSO_SUPERIOR]' value='[INDICADORES_MUNICIPIO_D].[PROFESSORES_COM_CURSO_SUPERIOR]' />
+          <map key='[QTD_ALUNOS_REDE_PUBLICA]' value='[INDICADORES_MUNICIPIO_D].[QTD_ALUNOS_REDE_PUBLICA]' />
+          <map key='[QTD_BOLSA_FAMILIA]' value='[INDICADORES_MUNICIPIO_D].[QTD_BOLSA_FAMILIA]' />
+          <map key='[QTD_PROFESSOR_1A4_SERIE_PUBLICA]' value='[INDICADORES_MUNICIPIO_D].[QTD_PROFESSOR_1A4_SERIE_PUBLICA]' />
+          <map key='[QTD_PROFESSOR_5A8_SERIE_PUBLICA]' value='[INDICADORES_MUNICIPIO_D].[QTD_PROFESSOR_5A8_SERIE_PUBLICA]' />
           <map key='[QUADRA_ESPORTE_COBERTA]' value='[ESCOLA_D].[QUADRA_ESPORTE_COBERTA]' />
           <map key='[QUADRA_ESPORTE_DESCOBERTA]' value='[ESCOLA_D].[QUADRA_ESPORTE_DESCOBERTA]' />
+          <map key='[QUANTIDADE_PROFESSORES]' value='[INDICADORES_MUNICIPIO_D].[QUANTIDADE_PROFESSORES]' />
           <map key='[REFEITORIO]' value='[ESCOLA_D].[REFEITORIO]' />
+          <map key='[SALARIO_MEDIO_PROFESSOR]' value='[INDICADORES_MUNICIPIO_D].[SALARIO_MEDIO_PROFESSOR]' />
+          <map key='[SALARIO_MEDIO_PROF_1A4_ANO_PUB]' value='[INDICADORES_MUNICIPIO_D].[SALARIO_MEDIO_PROF_1A4_ANO_PUB]' />
+          <map key='[SALARIO_MEDIO_PROF_5A8_ANO_PUB]' value='[INDICADORES_MUNICIPIO_D].[SALARIO_MEDIO_PROF_5A8_ANO_PUB]' />
           <map key='[SALA_LEITURA]' value='[ESCOLA_D].[SALA_LEITURA]' />
           <map key='[SANITARIO_DENTRO_PREDIO]' value='[ESCOLA_D].[SANITARIO_DENTRO_PREDIO]' />
           <map key='[SANITARIO_FORA_PREDIO]' value='[ESCOLA_D].[SANITARIO_FORA_PREDIO]' />
           <map key='[SIGLA_UF]' value='[UF_D].[SIGLA_UF]' />
           <map key='[TELEFONE]' value='[ESCOLA_D].[TELEFONE]' />
+          <map key='[TOTAL_TRANSFERENCIAS_RECURSOS]' value='[INDICADORES_MUNICIPIO_D].[TOTAL_TRANSFERENCIAS_RECURSOS]' />
+          <map key='[TRANSF_ALIMENTACAO_NUTRICAO]' value='[INDICADORES_MUNICIPIO_D].[TRANSF_ALIMENTACAO_NUTRICAO]' />
+          <map key='[TRANSF_EDUCACAO_BASICA]' value='[INDICADORES_MUNICIPIO_D].[TRANSF_EDUCACAO_BASICA]' />
+          <map key='[TRANSF_EDUCACAO_PER_CAPITA]' value='[INDICADORES_MUNICIPIO_D].[TRANSF_EDUCACAO_PER_CAPITA]' />
+          <map key='[TRANSF_EDUCACAO_POR_ALUNO]' value='[INDICADORES_MUNICIPIO_D].[TRANSF_EDUCACAO_POR_ALUNO]' />
           <map key='[URL_SITE]' value='[ESCOLA_D].[URL_SITE]' />
           <map key='[VALOR]' value='[ESCOLA_F].[VALOR]' />
         </cols>
@@ -1695,6 +1722,294 @@
               <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
             </attributes>
           </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COD_MUNICIPIO</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[COD_MUNICIPIO (INDICADORES_MUNICIPIO_D)]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>COD_MUNICIPIO</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANO_INDICADORES</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[ANO_INDICADORES]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>ANO_INDICADORES</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>5</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_SMALLINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SSHORT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIB_PER_CAPITA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PIB_PER_CAPITA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>PIB_PER_CAPITA</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PIB</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PIB]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>PIB</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QTD_BOLSA_FAMILIA</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[QTD_BOLSA_FAMILIA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>QTD_BOLSA_FAMILIA</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SALARIO_MEDIO_PROFESSOR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SALARIO_MEDIO_PROFESSOR]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>SALARIO_MEDIO_PROFESSOR</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QUANTIDADE_PROFESSORES</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[QUANTIDADE_PROFESSORES]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>QUANTIDADE_PROFESSORES</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PROFESSORES_COM_CURSO_SUPERIOR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PROFESSORES_COM_CURSO_SUPERIOR]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>PROFESSORES_COM_CURSO_SUPERIOR</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_BIGINT&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SBIGINT&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SALARIO_MEDIO_PROF_1A4_ANO_PUB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SALARIO_MEDIO_PROF_1A4_ANO_PUB]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>SALARIO_MEDIO_PROF_1A4_ANO_PUB</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SALARIO_MEDIO_PROF_5A8_ANO_PUB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SALARIO_MEDIO_PROF_5A8_ANO_PUB]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>SALARIO_MEDIO_PROF_5A8_ANO_PUB</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QTD_PROFESSOR_1A4_SERIE_PUBLICA</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[QTD_PROFESSOR_1A4_SERIE_PUBLICA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>QTD_PROFESSOR_1A4_SERIE_PUBLICA</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QTD_PROFESSOR_5A8_SERIE_PUBLICA</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[QTD_PROFESSOR_5A8_SERIE_PUBLICA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>QTD_PROFESSOR_5A8_SERIE_PUBLICA</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_TRANSFERENCIAS_RECURSOS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_TRANSFERENCIAS_RECURSOS]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>TOTAL_TRANSFERENCIAS_RECURSOS</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSF_EDUCACAO_BASICA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TRANSF_EDUCACAO_BASICA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>TRANSF_EDUCACAO_BASICA</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSF_ALIMENTACAO_NUTRICAO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TRANSF_ALIMENTACAO_NUTRICAO]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>TRANSF_ALIMENTACAO_NUTRICAO</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSF_EDUCACAO_PER_CAPITA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TRANSF_EDUCACAO_PER_CAPITA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>TRANSF_EDUCACAO_PER_CAPITA</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TRANSF_EDUCACAO_POR_ALUNO</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TRANSF_EDUCACAO_POR_ALUNO]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>TRANSF_EDUCACAO_POR_ALUNO</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>53</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>QTD_ALUNOS_REDE_PUBLICA</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[QTD_ALUNOS_REDE_PUBLICA]</local-name>
+            <parent-name>[INDICADORES_MUNICIPIO_D]</parent-name>
+            <remote-alias>QTD_ALUNOS_REDE_PUBLICA</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+          </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
@@ -1702,6 +2017,7 @@
       <column caption='Alimentacao' datatype='string' name='[ALIMENTACAO]' role='dimension' type='nominal' />
       <column caption='Almoxarifado' datatype='string' name='[ALMOXARIFADO]' role='dimension' type='nominal' />
       <column caption='Ano Avaliacao' datatype='integer' name='[ANO_AVALIACAO]' role='dimension' type='quantitative' />
+      <column caption='Ano Indicadores' datatype='integer' name='[ANO_INDICADORES]' role='dimension' type='quantitative' />
       <column caption='Ano String' datatype='string' name='[ANO_STRING]' role='dimension' type='nominal' />
       <column caption='Area' datatype='real' name='[AREA]' role='measure' type='quantitative' />
       <column caption='Area Verde' datatype='string' name='[AREA_VERDE]' role='dimension' type='nominal' />
@@ -1721,6 +2037,7 @@
       <column caption='Cod Escola (Escola D)' datatype='integer' name='[COD_ESCOLA (ESCOLA_D)]' role='measure' type='quantitative' />
       <column caption='Cod Escola' datatype='integer' name='[COD_ESCOLA]' role='measure' type='quantitative' />
       <column caption='Cod Municipio (Escola D)' datatype='integer' name='[COD_MUNICIPIO (ESCOLA_D)]' role='measure' type='quantitative' />
+      <column caption='Cod Municipio (Indicadores Municipio D)' datatype='integer' name='[COD_MUNICIPIO (INDICADORES_MUNICIPIO_D)]' role='measure' type='quantitative' />
       <column caption='Cod Municipio' datatype='integer' name='[COD_MUNICIPIO]' role='measure' type='quantitative' />
       <column caption='Cod Tipo Avaliacao (Avaliacao D)' datatype='integer' name='[COD_TIPO_AVALIACAO (AVALIACAO_D)]' role='measure' type='quantitative' />
       <column caption='Cod Tipo Avaliacao' datatype='integer' name='[COD_TIPO_AVALIACAO]' role='measure' type='quantitative' />
@@ -1779,24 +2096,40 @@
       <column caption='Parque Infantil' datatype='string' name='[PARQUE_INFANTIL]' role='dimension' type='nominal' />
       <column caption='Patio Coberto' datatype='string' name='[PATIO_COBERTO]' role='dimension' type='nominal' />
       <column caption='Patio Descoberto' datatype='string' name='[PATIO_DESCOBERTO]' role='dimension' type='nominal' />
+      <column caption='Pib Per Capita' datatype='real' name='[PIB_PER_CAPITA]' role='measure' type='quantitative' />
+      <column caption='Professores Com Curso Superior' datatype='integer' name='[PROFESSORES_COM_CURSO_SUPERIOR]' role='measure' type='quantitative' />
+      <column caption='Qtd Alunos Rede Publica' datatype='integer' name='[QTD_ALUNOS_REDE_PUBLICA]' role='measure' type='quantitative' />
+      <column caption='Qtd Bolsa Familia' datatype='integer' name='[QTD_BOLSA_FAMILIA]' role='measure' type='quantitative' />
+      <column caption='Qtd Professor 1A4 Serie Publica' datatype='integer' name='[QTD_PROFESSOR_1A4_SERIE_PUBLICA]' role='measure' type='quantitative' />
+      <column caption='Qtd Professor 5A8 Serie Publica' datatype='integer' name='[QTD_PROFESSOR_5A8_SERIE_PUBLICA]' role='measure' type='quantitative' />
       <column caption='Quadra Esporte Coberta' datatype='string' name='[QUADRA_ESPORTE_COBERTA]' role='dimension' type='nominal' />
       <column caption='Quadra Esporte Descoberta' datatype='string' name='[QUADRA_ESPORTE_DESCOBERTA]' role='dimension' type='nominal' />
+      <column caption='Quantidade Professores' datatype='integer' name='[QUANTIDADE_PROFESSORES]' role='measure' type='quantitative' />
       <column caption='Refeitorio' datatype='string' name='[REFEITORIO]' role='dimension' type='nominal' />
+      <column caption='Salario Medio Professor' datatype='real' name='[SALARIO_MEDIO_PROFESSOR]' role='measure' type='quantitative' />
+      <column caption='Salario Medio Prof 1A4 Ano Pub' datatype='real' name='[SALARIO_MEDIO_PROF_1A4_ANO_PUB]' role='measure' type='quantitative' />
+      <column caption='Salario Medio Prof 5A8 Ano Pub' datatype='real' name='[SALARIO_MEDIO_PROF_5A8_ANO_PUB]' role='measure' type='quantitative' />
       <column caption='Sala Leitura' datatype='string' name='[SALA_LEITURA]' role='dimension' type='nominal' />
       <column caption='Sanitario Dentro Predio' datatype='string' name='[SANITARIO_DENTRO_PREDIO]' role='dimension' type='nominal' />
       <column caption='Sanitario Fora Predio' datatype='string' name='[SANITARIO_FORA_PREDIO]' role='dimension' type='nominal' />
       <column caption='Sigla Uf' datatype='string' name='[SIGLA_UF]' role='dimension' type='nominal' />
       <column caption='Telefone' datatype='string' name='[TELEFONE]' role='dimension' type='nominal' />
+      <column caption='Total Transferencias Recursos' datatype='real' name='[TOTAL_TRANSFERENCIAS_RECURSOS]' role='measure' type='quantitative' />
+      <column caption='Transf Alimentacao Nutricao' datatype='real' name='[TRANSF_ALIMENTACAO_NUTRICAO]' role='measure' type='quantitative' />
+      <column caption='Transf Educacao Basica' datatype='real' name='[TRANSF_EDUCACAO_BASICA]' role='measure' type='quantitative' />
+      <column caption='Transf Educacao Per Capita' datatype='real' name='[TRANSF_EDUCACAO_PER_CAPITA]' role='measure' type='quantitative' />
+      <column caption='Transf Educacao Por Aluno' datatype='real' name='[TRANSF_EDUCACAO_POR_ALUNO]' role='measure' type='quantitative' />
       <column caption='Url Site' datatype='string' name='[URL_SITE]' role='dimension' type='nominal' />
       <column caption='Valor' datatype='real' name='[VALOR]' role='measure' type='quantitative' />
       <extract count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='pt_BR' class='hyper' dbname='/Users/gabriel_reynoso/Desktop/EDUDW/OLAP/Fontes/EDUDW_ESCOLA_F.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='11/17/2018 12:00:45 PM' username='tableau_internal_user'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='pt_BR' class='hyper' dbname='/Users/gabriel_reynoso/Desktop/EDUDW/OLAP/Fontes/EDUDW_ESCOLA_F.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='11/27/2018 04:27:58 PM' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
           <cols>
             <map key='[AGUA_FILTRADA]' value='[Extract].[AGUA_FILTRADA]' />
             <map key='[ALIMENTACAO]' value='[Extract].[ALIMENTACAO]' />
             <map key='[ALMOXARIFADO]' value='[Extract].[ALMOXARIFADO]' />
             <map key='[ANO_AVALIACAO]' value='[Extract].[ANO_AVALIACAO]' />
+            <map key='[ANO_INDICADORES]' value='[Extract].[ANO_INDICADORES]' />
             <map key='[ANO_STRING]' value='[Extract].[ANO_STRING]' />
             <map key='[AREA]' value='[Extract].[AREA]' />
             <map key='[AREA_VERDE]' value='[Extract].[AREA_VERDE]' />
@@ -1817,7 +2150,8 @@
             <map key='[COD_ESCOLA (ESCOLA_D)]' value='[Extract].[COD_ESCOLA]' />
             <map key='[COD_ESCOLA]' value='[Extract].[COD_ESCOLA1]' />
             <map key='[COD_MUNICIPIO (ESCOLA_D)]' value='[Extract].[COD_MUNICIPIO]' />
-            <map key='[COD_MUNICIPIO]' value='[Extract].[COD_MUNICIPIO1]' />
+            <map key='[COD_MUNICIPIO (INDICADORES_MUNICIPIO_D)]' value='[Extract].[COD_MUNICIPIO1]' />
+            <map key='[COD_MUNICIPIO]' value='[Extract].[COD_MUNICIPIO2]' />
             <map key='[COD_TIPO_AVALIACAO (AVALIACAO_D)]' value='[Extract].[COD_TIPO_AVALIACAO]' />
             <map key='[COD_TIPO_AVALIACAO]' value='[Extract].[COD_TIPO_AVALIACAO1]' />
             <map key='[COZINHA]' value='[Extract].[COZINHA]' />
@@ -1872,19 +2206,35 @@
             <map key='[PARQUE_INFANTIL]' value='[Extract].[PARQUE_INFANTIL]' />
             <map key='[PATIO_COBERTO]' value='[Extract].[PATIO_COBERTO]' />
             <map key='[PATIO_DESCOBERTO]' value='[Extract].[PATIO_DESCOBERTO]' />
+            <map key='[PIB]' value='[Extract].[PIB]' />
+            <map key='[PIB_PER_CAPITA]' value='[Extract].[PIB_PER_CAPITA]' />
+            <map key='[PROFESSORES_COM_CURSO_SUPERIOR]' value='[Extract].[PROFESSORES_COM_CURSO_SUPERIOR]' />
+            <map key='[QTD_ALUNOS_REDE_PUBLICA]' value='[Extract].[QTD_ALUNOS_REDE_PUBLICA]' />
+            <map key='[QTD_BOLSA_FAMILIA]' value='[Extract].[QTD_BOLSA_FAMILIA]' />
+            <map key='[QTD_PROFESSOR_1A4_SERIE_PUBLICA]' value='[Extract].[QTD_PROFESSOR_1A4_SERIE_PUBLICA]' />
+            <map key='[QTD_PROFESSOR_5A8_SERIE_PUBLICA]' value='[Extract].[QTD_PROFESSOR_5A8_SERIE_PUBLICA]' />
             <map key='[QUADRA_ESPORTE_COBERTA]' value='[Extract].[QUADRA_ESPORTE_COBERTA]' />
             <map key='[QUADRA_ESPORTE_DESCOBERTA]' value='[Extract].[QUADRA_ESPORTE_DESCOBERTA]' />
+            <map key='[QUANTIDADE_PROFESSORES]' value='[Extract].[QUANTIDADE_PROFESSORES]' />
             <map key='[REFEITORIO]' value='[Extract].[REFEITORIO]' />
+            <map key='[SALARIO_MEDIO_PROFESSOR]' value='[Extract].[SALARIO_MEDIO_PROFESSOR]' />
+            <map key='[SALARIO_MEDIO_PROF_1A4_ANO_PUB]' value='[Extract].[SALARIO_MEDIO_PROF_1A4_ANO_PUB]' />
+            <map key='[SALARIO_MEDIO_PROF_5A8_ANO_PUB]' value='[Extract].[SALARIO_MEDIO_PROF_5A8_ANO_PUB]' />
             <map key='[SALA_LEITURA]' value='[Extract].[SALA_LEITURA]' />
             <map key='[SANITARIO_DENTRO_PREDIO]' value='[Extract].[SANITARIO_DENTRO_PREDIO]' />
             <map key='[SANITARIO_FORA_PREDIO]' value='[Extract].[SANITARIO_FORA_PREDIO]' />
             <map key='[SIGLA_UF]' value='[Extract].[SIGLA_UF]' />
             <map key='[TELEFONE]' value='[Extract].[TELEFONE]' />
+            <map key='[TOTAL_TRANSFERENCIAS_RECURSOS]' value='[Extract].[TOTAL_TRANSFERENCIAS_RECURSOS]' />
+            <map key='[TRANSF_ALIMENTACAO_NUTRICAO]' value='[Extract].[TRANSF_ALIMENTACAO_NUTRICAO]' />
+            <map key='[TRANSF_EDUCACAO_BASICA]' value='[Extract].[TRANSF_EDUCACAO_BASICA]' />
+            <map key='[TRANSF_EDUCACAO_PER_CAPITA]' value='[Extract].[TRANSF_EDUCACAO_PER_CAPITA]' />
+            <map key='[TRANSF_EDUCACAO_POR_ALUNO]' value='[Extract].[TRANSF_EDUCACAO_POR_ALUNO]' />
             <map key='[URL_SITE]' value='[Extract].[URL_SITE]' />
             <map key='[VALOR]' value='[Extract].[VALOR]' />
           </cols>
           <refresh>
-            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='757972' timestamp-start='2018-11-17 12:00:45.446' />
+            <refresh-event add-from-file-path='' increment-value='%null%' refresh-type='create' rows-inserted='757944' timestamp-start='2018-11-27 16:27:58.193' />
           </refresh>
           <metadata-records>
             <metadata-record class='column'>
@@ -1897,20 +2247,20 @@
               <family>ESCOLA_F</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>5501</approx-count>
+              <approx-count>4881</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
-              <remote-name>COD_MUNICIPIO1</remote-name>
+              <remote-name>COD_MUNICIPIO2</remote-name>
               <remote-type>20</remote-type>
               <local-name>[COD_MUNICIPIO]</local-name>
               <parent-name>[Extract]</parent-name>
-              <remote-alias>COD_MUNICIPIO1</remote-alias>
+              <remote-alias>COD_MUNICIPIO2</remote-alias>
               <ordinal>1</ordinal>
               <family>ESCOLA_F</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>696</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1949,7 +2299,7 @@
               <family>ESCOLA_F</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>48</approx-count>
+              <approx-count>46</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1962,7 +2312,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>5501</approx-count>
+              <approx-count>4881</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1975,7 +2325,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>696</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -1988,7 +2338,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>5501</approx-count>
+              <approx-count>3782</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2128,7 +2478,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>871</approx-count>
+              <approx-count>824</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2156,7 +2506,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>462</approx-count>
+              <approx-count>397</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2170,7 +2520,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>836</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2183,7 +2533,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>27</approx-count>
+              <approx-count>26</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2196,7 +2546,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>30</approx-count>
+              <approx-count>26</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2209,7 +2559,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>85</approx-count>
+              <approx-count>97</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2222,7 +2572,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>48</approx-count>
+              <approx-count>47</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2235,7 +2585,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
+              <approx-count>40</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2430,7 +2780,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
+              <approx-count>1</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2458,7 +2808,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
+              <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2654,7 +3004,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
+              <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2668,7 +3018,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
+              <approx-count>2</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2710,7 +3060,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>5501</approx-count>
+              <approx-count>4881</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2724,7 +3074,7 @@
               <family>ESCOLA_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>179</approx-count>
+              <approx-count>182</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2738,7 +3088,7 @@
               <family>ESCOLA_D</family>
               <local-type>integer</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>1655</approx-count>
+              <approx-count>2599</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2765,7 +3115,7 @@
               <family>ESCOLA_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>4487</approx-count>
+              <approx-count>3782</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2778,7 +3128,7 @@
               <family>ESCOLA_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>3785</approx-count>
+              <approx-count>3782</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2884,7 +3234,7 @@
               <family>MUNICIPIO_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>696</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2897,7 +3247,7 @@
               <family>MUNICIPIO_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>673</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
               <collation flag='1' name='LEN_RUS_S2' />
             </metadata-record>
@@ -2911,7 +3261,7 @@
               <family>MUNICIPIO_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>23</approx-count>
+              <approx-count>24</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2924,7 +3274,7 @@
               <family>MUNICIPIO_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>696</approx-count>
+              <approx-count>706</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2950,7 +3300,7 @@
               <family>MUNICIPIO_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>696</approx-count>
+              <approx-count>673</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2977,7 +3327,7 @@
               <family>UF_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>23</approx-count>
+              <approx-count>24</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -2990,7 +3340,7 @@
               <family>UF_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>23</approx-count>
+              <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LROOT' />
             </metadata-record>
@@ -3004,7 +3354,7 @@
               <family>UF_D</family>
               <local-type>string</local-type>
               <aggregation>Count</aggregation>
-              <approx-count>23</approx-count>
+              <approx-count>24</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LROOT' />
             </metadata-record>
@@ -3031,7 +3381,7 @@
               <family>UF_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>21</approx-count>
+              <approx-count>22</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -3044,7 +3394,7 @@
               <family>UF_D</family>
               <local-type>real</local-type>
               <aggregation>Sum</aggregation>
-              <approx-count>23</approx-count>
+              <approx-count>24</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
             <metadata-record class='column'>
@@ -3100,10 +3450,244 @@
               <approx-count>5</approx-count>
               <contains-null>true</contains-null>
             </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COD_MUNICIPIO1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[COD_MUNICIPIO (INDICADORES_MUNICIPIO_D)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COD_MUNICIPIO1</remote-alias>
+              <ordinal>89</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ANO_INDICADORES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ANO_INDICADORES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ANO_INDICADORES</remote-alias>
+              <ordinal>90</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PIB_PER_CAPITA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PIB_PER_CAPITA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PIB_PER_CAPITA</remote-alias>
+              <ordinal>91</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PIB</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PIB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PIB</remote-alias>
+              <ordinal>92</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>QTD_BOLSA_FAMILIA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[QTD_BOLSA_FAMILIA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>QTD_BOLSA_FAMILIA</remote-alias>
+              <ordinal>93</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>643</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SALARIO_MEDIO_PROFESSOR</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SALARIO_MEDIO_PROFESSOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SALARIO_MEDIO_PROFESSOR</remote-alias>
+              <ordinal>94</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>385</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>QUANTIDADE_PROFESSORES</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[QUANTIDADE_PROFESSORES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>QUANTIDADE_PROFESSORES</remote-alias>
+              <ordinal>95</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>216</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PROFESSORES_COM_CURSO_SUPERIOR</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[PROFESSORES_COM_CURSO_SUPERIOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PROFESSORES_COM_CURSO_SUPERIOR</remote-alias>
+              <ordinal>96</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>202</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SALARIO_MEDIO_PROF_1A4_ANO_PUB</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SALARIO_MEDIO_PROF_1A4_ANO_PUB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SALARIO_MEDIO_PROF_1A4_ANO_PUB</remote-alias>
+              <ordinal>97</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>147</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SALARIO_MEDIO_PROF_5A8_ANO_PUB</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SALARIO_MEDIO_PROF_5A8_ANO_PUB]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SALARIO_MEDIO_PROF_5A8_ANO_PUB</remote-alias>
+              <ordinal>98</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>63</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>QTD_PROFESSOR_1A4_SERIE_PUBLICA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[QTD_PROFESSOR_1A4_SERIE_PUBLICA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>QTD_PROFESSOR_1A4_SERIE_PUBLICA</remote-alias>
+              <ordinal>99</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>QTD_PROFESSOR_5A8_SERIE_PUBLICA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[QTD_PROFESSOR_5A8_SERIE_PUBLICA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>QTD_PROFESSOR_5A8_SERIE_PUBLICA</remote-alias>
+              <ordinal>100</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TOTAL_TRANSFERENCIAS_RECURSOS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TOTAL_TRANSFERENCIAS_RECURSOS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TOTAL_TRANSFERENCIAS_RECURSOS</remote-alias>
+              <ordinal>101</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSF_EDUCACAO_BASICA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TRANSF_EDUCACAO_BASICA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSF_EDUCACAO_BASICA</remote-alias>
+              <ordinal>102</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSF_ALIMENTACAO_NUTRICAO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TRANSF_ALIMENTACAO_NUTRICAO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSF_ALIMENTACAO_NUTRICAO</remote-alias>
+              <ordinal>103</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>673</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSF_EDUCACAO_PER_CAPITA</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TRANSF_EDUCACAO_PER_CAPITA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSF_EDUCACAO_PER_CAPITA</remote-alias>
+              <ordinal>104</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TRANSF_EDUCACAO_POR_ALUNO</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TRANSF_EDUCACAO_POR_ALUNO]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TRANSF_EDUCACAO_POR_ALUNO</remote-alias>
+              <ordinal>105</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>QTD_ALUNOS_REDE_PUBLICA</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[QTD_ALUNOS_REDE_PUBLICA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>QTD_ALUNOS_REDE_PUBLICA</remote-alias>
+              <ordinal>106</ordinal>
+              <family>INDICADORES_MUNICIPIO_D</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>706</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
           </metadata-records>
         </connection>
       </extract>
-      <layout dim-ordering='alphabetic' dim-percentage='0.885662' measure-ordering='alphabetic' measure-percentage='0.114338' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.609223' measure-ordering='alphabetic' measure-percentage='0.390777' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
       </semantic-values>
